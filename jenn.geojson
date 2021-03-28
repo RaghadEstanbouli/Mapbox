@@ -1,11 +1,11 @@
 {
-    "type": "FeatureCollection",
-    "features": [
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
+"type": "FeatureCollection",
+"features": [
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "LineString",
+            "coordinates": [
           [
             -78.0894862021676,
             45.0443697985743
