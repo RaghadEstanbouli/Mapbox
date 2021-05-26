@@ -241,6 +241,9 @@ if (config.showMarkers) {
     marker.setLngLat(config.chapters[0].location.center).addTo(map);
 }
 
+
+// Set up the scrollama instance and define step enter
+    // and exit callback functions:
 // instantiate the scrollama
 var scroller = scrollama();
 
@@ -285,6 +288,12 @@ map.on("load", function() {
         map.setBearing(followBearing);
         map.setPitch(followPitch);
     }
+    
+    // map.addLayer({
+    //         'id': 'stops',
+    //         'type': 'circle',
+    //         'source': './data/StopsOnly.geojson'
+    // });
    
     map.addSource('lineSource', {
         "type": "geojson",

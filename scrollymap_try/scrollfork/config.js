@@ -1,9 +1,10 @@
+  
 // Number of slides that will drive (more = smoother)
 // If this doesn't match the number of slides named 'drive-slide' in config below you will not complete the full journey
-var driveSlides = 15;
+var driveSlides = 11;
 
 // Number of points on drive route (more = higher quality, but slower to process)
-var driveSmoothness = 180;
+var driveSmoothness = 190;
 
 // Value used to drive
 var driveTime = driveSlides*driveSmoothness;
@@ -13,16 +14,17 @@ var driveTime = driveSlides*driveSmoothness;
 var followPoint = true;
 // ...If so, what zoom, pitch, and bearing should be used to follow?
 var followZoomLevel = 7;
-var followBearing = 19;
+var followBearing = 15;
 var followPitch = 0;
 
 // to add 'driving' slides just make sure to add 'drive to beginning of slide id'
 // you also need to add a running total to the end of each 'drive-slide', (ex. drive-slide-0, drive-slide-1, drive-slide-2, etc.)
 var config = {
     style: 'mapbox://styles/mapbox/outdoors-v11',
-    accessToken: 'pk.eyJ1IjoicmFnaGFkZXN0YW5ib3VsaSIsImEiOiJja21vdmE1cWgyOHYxMnVtZ2EweTlzNW9rIn0.pH1YN5MUUxqb-py-3V6fcg',
+    accessToken: 'pk.eyJ1IjoiaG9semVnZyIsImEiOiJja292eXAzbnUwMHdhMnVsdTM4c2MyOTF3In0.6RiKfls_ZXfiI0k-q7gLDQ',
     showMarkers: true,
-    theme: 'dark',
+    markerColor: '#2f4f4f',
+    theme: 'liberty',
     alignment: 'left',
     title: 'Liberty Project',
     subtitle: 'A descriptive and interesting subtitle to draw in the reader',
@@ -86,18 +88,28 @@ var config = {
         },
         {
             id: 'drive-slide-3',
-            title: 'Second Title',
+            title: 'Stop: WAWA',
             image: './path/to/image/source.png',
             description: 'Copy these sections to add to your story.',
             location: {
-                center: [-84.748093, 47.472679],
+                center: [ -84.84697, 48.04138],
                 zoom: 15.00,
                 pitch: 60.00,
                 bearing: 0.00 
             },
-      
-            onChapterEnter: [],
-            onChapterExit: []
+            // mapAnimation: 'flyTo',
+            onChapterEnter: [ 
+                {
+                layer: 'Places',
+                opacity: 1
+                }
+            ],
+            onChapterExit: [
+                {
+                    layer: 'Places',
+                    opacity: 0
+                }
+            ]
         },
         {
             id: 'drive-slide-4',
@@ -190,42 +202,42 @@ var config = {
                 //     opacity: 0
                 // }
             ]
-        },
-        {
-            id: 'drive-slide-11',
-            title: 'Second Title',
-            image: './path/to/image/source.png',
-            description: 'Copy these sections to add to your story.',
-            location: {},
-            onChapterEnter: [],
-            onChapterExit: []
-        },
-        {
-            id: 'drive-slide-12',
-            title: 'Second Title',
-            image: './path/to/image/source.png',
-            description: 'Copy these sections to add to your story.',
-            location: {},
-            onChapterEnter: [],
-            onChapterExit: []
-        },
-        {
-            id: 'drive-slide-13',
-            title: 'Second Title',
-            image: './path/to/image/source.png',
-            description: 'Copy these sections to add to your story.',
-            location: {},
-            onChapterEnter: [],
-            onChapterExit: []
-        },
-        {
-            id: 'drive-slide-14',
-            title: 'Second Title',
-            image: './path/to/image/source.png',
-            description: 'Copy these sections to add to your story.',
-            location: {},
-            onChapterEnter: [],
-            onChapterExit: []
         }
+        // {
+        //     id: 'drive-slide-11',
+        //     title: 'Second Title',
+        //     image: './path/to/image/source.png',
+        //     description: 'Copy these sections to add to your story.',
+        //     location: {},
+        //     onChapterEnter: [],
+        //     onChapterExit: []
+        // },
+        // {
+        //     id: 'drive-slide-12',
+        //     title: 'Second Title',
+        //     image: './path/to/image/source.png',
+        //     description: 'Copy these sections to add to your story.',
+        //     location: {},
+        //     onChapterEnter: [],
+        //     onChapterExit: []
+        // },
+        // {
+        //     id: 'drive-slide-13',
+        //     title: 'Second Title',
+        //     image: './path/to/image/source.png',
+        //     description: 'Copy these sections to add to your story.',
+        //     location: {},
+        //     onChapterEnter: [],
+        //     onChapterExit: []
+        // },
+        // {
+        //     id: 'drive-slide-14',
+        //     title: 'Second Title',
+        //     image: './path/to/image/source.png',
+        //     description: 'Copy these sections to add to your story.',
+        //     location: {},
+        //     onChapterEnter: [],
+        //     onChapterExit: []
+        // }
     ]
 };
