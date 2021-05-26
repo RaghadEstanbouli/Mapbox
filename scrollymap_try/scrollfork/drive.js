@@ -1,3 +1,4 @@
+
 var routeData = [];
 
 var geojsonPoint = {
@@ -92,7 +93,7 @@ function changeCenter(index) {
     if (followPoint === true) {
       if (index % subsampleIndex == 0) {
         console.log("changeCenter(index) = ", index, center)
-        map.jumpTo({
+        map.flyTo({
   	        center: [centerX, centerY]
   	    });
       }
