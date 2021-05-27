@@ -37,6 +37,7 @@ var config = {
             image: '',
             description: 'The start Location for the Bike fundraiser',
             location: {
+                center: [-89.2477,  48.3809],
                 'camera': {
                 center: [-89.2477,  48.3809],
                 zoom: 12,
