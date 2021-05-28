@@ -1,21 +1,3 @@
-// Number of slides that will drive (more = smoother)
-// If this doesn't match the number of slides named 'drive-slide' in config below you will not complete the full journey
-var driveSlides = 15;
-
-// Number of points on drive route (more = higher quality, but slower to process)
-var driveSmoothness = 180;
-
-// Value used to drive
-var driveTime = driveSlides*driveSmoothness;
-
-// Do you want to follow the point? True = follow
-// True is not that smpooth- working on seeing if can get it to follow more smoothly 
-var followPoint = false;
-// ...If so, what zoom, pitch, and bearing should be used to follow?
-var followZoomLevel = 12;
-var followBearing = 200;
-var followPitch = 60;
-
 // to add 'driving' slides just make sure to add 'drive to beginning of slide id'
 // you also need to add a running total to the end of each 'drive-slide', (ex. drive-slide-0, drive-slide-1, drive-slide-2, etc.)
 var config = {
@@ -38,11 +20,14 @@ var config = {
             description: 'The start Location for the Bike fundraiser',
             location: {
                 center: [-89.2477,  48.3809],
+                zoom: 12,
+                
+                
                 'camera': {
                 center: [-89.2477,  48.3809],
                 zoom: 12,
-                pitch: 0.00,
-                bearing: 0.00}
+                pitch: 80.00,
+                bearing: 200.00}
             },
             mapAnimation: 'flyTo',
             onChapterEnter: [],
@@ -58,8 +43,8 @@ var config = {
                 'camera': {
                 center: [-88.351609,  49.00186],
                 zoom: 12,
-                pitch: 0.00,
-                bearing: 0.00}
+                pitch: 80.00,
+                bearing: 200.00}
             },
             mapAnimation: 'flyTo',
             onChapterEnter: [],
@@ -75,8 +60,8 @@ var config = {
                 'camera': {
                 center: [-87.077195,  48.785168],
                 zoom: 12,
-                pitch: 0.00,
-                bearing: 0.00}
+                pitch: 80.00,
+                bearing: 200.00}
             },
             mapAnimation: 'flyTo',
             onChapterEnter: [],
@@ -92,8 +77,8 @@ var config = {
                 'camera': {
                 center: [-85.550095,  48.647444],
                 zoom: 12,
-                pitch: 0.00,
-                bearing: 0.00}
+                pitch: 80.00,
+                bearing: 200.00}
             },
             mapAnimation: 'flyTo',
             onChapterEnter: [],

@@ -379,7 +379,9 @@ map.on("load", function() {
     .onStepExit(response => {
         var chapter = config.chapters.find(chap => chap.id === response.element.id);
         response.element.classList.remove('active');
-       
+        map.jumpTo({ 'center': chapter.location, 'zoom': 12, bearing: 200, });
+// setup the viewport
+map.setPitch(60);
         if (chapter.onChapterExit.length > 0) {
             chapter.onChapterExit.forEach(setLayerOpacity);
         }
@@ -431,7 +433,7 @@ window.addEventListener('resize', scroller.resize);
 $(document).ready(function (){
     $.ajax({
       // url:"./data/highwaydrive.geojson",
-      url:"./data/fromgoogle.geojson",
+      url:"https://raghadestanbouli.github.io/Mapbox/scrollymap_try/scrollfork/data/fromgoogle.geojson",
       dataType: "json",
       success: function (data) {
         console.log('data', data.features[0]);
