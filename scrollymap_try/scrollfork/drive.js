@@ -101,8 +101,8 @@ function changeCenter(index) {
          // These options control the ending camera position: centered at
          // the target, at zoom level 9, and north up.
          center:  [centerX, centerY],
-         zoom: 10,
-         bearing: -10,
+         zoom: 9,
+         bearing: -104.80,
          //duration: 1000,
           
          // These options control the flight curve, making it move
