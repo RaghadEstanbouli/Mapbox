@@ -228,10 +228,10 @@ const transformRequest = (url) => {
 var map = new mapboxgl.Map({
     container: 'map',
     style: config.style,
-    // center: config.chapters[0].location.center,
-    // zoom: config.chapters[0].location.zoom,
-    // bearing: config.chapters[0].location.bearing,
-    // pitch: config.chapters[0].location.pitch,
+    center: config.chapters[0].location.center,
+    zoom: config.chapters[0].location.zoom,
+    bearing: config.chapters[0].location.bearing,
+    pitch: config.chapters[0].location.pitch,
     scrollZoom: true,
     transformRequest: transformRequest
 });
@@ -338,7 +338,7 @@ map.on("load", function() {
     scroller
     .setup({
         step: '.step',
-        offset: 0.5,
+        offset: 0.1,
         progress: true
     })
     // entering and exiting chapters
@@ -362,7 +362,7 @@ map.on("load", function() {
         response.element.classList.remove('active');
         map.jumpTo({ 'center': chapter.location, 'zoom': 9, bearing: 200, });
         // setup the viewport
-        map.setPitch(60);
+        map.setPitch(80);
         if (chapter.onChapterExit.length > 0) {
             chapter.onChapterExit.forEach(setLayerOpacity);
         }
