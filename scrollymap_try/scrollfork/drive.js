@@ -25,7 +25,7 @@ function createLine() {
     const lineDistance = turf.lineDistance(line);
 
     // how many points you want along the path (more = smoother animation)
-    const rects = driveTime*2;
+    const rects = driveTime*0.9;
 
     // calculate the distance between each point on the path
     const segments = lineDistance / rects;
@@ -101,8 +101,8 @@ function changeCenter(index) {
          // These options control the ending camera position: centered at
          // the target, at zoom level 9, and north up.
          center:  [centerX, centerY],
-         zoom: 12,
-         bearing: 200,
+         zoom: 10,
+         bearing: -10,
          //duration: 1000,
           
          // These options control the flight curve, making it move
