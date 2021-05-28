@@ -232,7 +232,7 @@ var map = new mapboxgl.Map({
     // zoom: config.chapters[0].location.zoom,
     // bearing: config.chapters[0].location.bearing,
     // pitch: config.chapters[0].location.pitch,
-    scrollZoom: true,
+    scrollZoom: false,
     transformRequest: transformRequest
 });
 
@@ -305,6 +305,25 @@ map.on("load", function() {
         "data": geojsonPoint
     });
 
+    // this could be a way of pulling the stops then refferring into the chapters to show or hide the stops on enter/exit/ 
+    // map.addSource('my-data', {
+    //     type: 'geojson',
+    //     url: 'mapbox://ername.tilesetid'
+    //     });
+    // map.addSource('my-data', {
+    //     "type": "geojson",
+    //     "data": {
+    //     "type": "Feature",
+    //     "geometry": {
+    //     "type": "Point",
+    //     "coordinates": [-77.0323, 38.9131]
+    //     },
+    //     "properties": {
+    //     "title": "Mapbox DC",
+    //     "marker-symbol": "monument"
+    //     }
+    //     }
+    //     });
 
     map.addLayer({
       "id": "animatedLine",
@@ -327,7 +346,7 @@ map.on("load", function() {
       'paint': {
             'circle-radius': 5,
             'circle-opacity': 1,
-            'circle-color': '#333'
+            'circle-color': '#808080'
       },
       'layout': {
            // 'visibility': 'none'
@@ -346,7 +365,7 @@ map.on("load", function() {
         var chapter = config.chapters.find(chap => chap.id === response.element.id);
         response.element.classList.add('active');
 //  uncomment first line here to make fly to animation on chapters where there are coordinates listed. 
-        map[chapter.mapAnimation || 'flyTo'](chapter.location);
+        // map[chapter.mapAnimation || 'flyTo'](chapter.location);
         // map.flyTo(chapter.location);
 
         if (config.showMarkers) {
@@ -360,14 +379,7 @@ map.on("load", function() {
     .onStepExit(response => {
         var chapter = config.chapters.find(chap => chap.id === response.element.id);
         response.element.classList.remove('active');
-        // map.jumpTo({ 'center': chapter.location, 'zoom': 9, bearing: 200, });
-        // // setup the viewport
-        // map.setPitch(60);
-
-        map.fitBounds([
-        [-89.2477,  48.3809], // southwestern corner of the bounds
-        chapter.center // northeastern corner of the bounds
-        ]);
+       
         if (chapter.onChapterExit.length > 0) {
             chapter.onChapterExit.forEach(setLayerOpacity);
         }
@@ -380,12 +392,42 @@ map.on("load", function() {
 // setup resize event
 window.addEventListener('resize', scroller.resize);
 
+// On every scroll event, check which element is on screen. If it is on the scrolly chapter listed then it will activate a fly to animation.
+// window.onscroll = function () {
+//     var chapterNames = Object.keys(config);
+//     for (var i = 0; i < chapterNames.length; i++) {
+//         var chapterName = chapterNames[i];
+//         if (isElementOnScreen(chapterName)) {
+//         setActiveChapter(chapterName);
+//         break;
+//         }
+//     }
+// };
+ 
+// var activeChapterName = 'drive-slide-3';
+// function setActiveChapter(chapterName) {
+//     if (chapterName === activeChapterName) return;
+ 
+//     map.flyTo(config[chapterName]);
+    
+//     document.getElementById(chapterName).setAttribute('class', 'active');
+//     document.getElementById(activeChapterName).setAttribute('class', '');
+    
+//     activeChapterName = chapterName;
+// }
+ 
+// function isElementOnScreen(id) {
+//     var element = document.getElementById(id);
+//     var bounds = element.getBoundingClientRect();
+//     return bounds.top < window.innerHeight && bounds.bottom > 0;
+// }
+
 
 // THIS IS WHERE TO LINK TO THE GEOJSON OF THE ROUTE 
 $(document).ready(function (){
     $.ajax({
       // url:"./data/highwaydrive.geojson",
-      url:"https://raghadestanbouli.github.io/Mapbox/scrollymap_try/scrollfork/data/fromgoogle.geojson",
+      url:"./data/fromgoogle.geojson",
       dataType: "json",
       success: function (data) {
         console.log('data', data.features[0]);
@@ -396,7 +438,6 @@ $(document).ready(function (){
       }
     });
 });
-
 
 </script>
 

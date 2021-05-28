@@ -52,7 +52,6 @@ function createLine() {
             // if you want to follow the point...
             if (followPoint === true) {
             	map.setCenter([newX, newY]);
-             
         	}
 
             map.getSource('pointSource').setData(initPoint);
@@ -93,19 +92,9 @@ function changeCenter(index) {
     if (followPoint === true) {
       if (index % subsampleIndex == 0) {
         console.log("changeCenter(index) = ", index, center)
-        map.flyTo({
+        map.jumpTo({
   	        center: [centerX, centerY]
   	    });
-          
       }
     }
 }
-// Number of slides that will drive (more = smoother)
-// If this doesn't match the number of slides named 'drive-slide' in config below you will not complete the full journey
-var driveSlides = 15;
-
-// Number of points on drive route (more = higher quality, but slower to process)
-var driveSmoothness = 180;
-
-// Value used to drive
-var driveTime = driveSlides*driveSmoothness;
