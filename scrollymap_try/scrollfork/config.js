@@ -1,3 +1,13 @@
+// Number of slides that will drive (more = smoother)
+// If this doesn't match the number of slides named 'drive-slide' in config below you will not complete the full journey
+var driveSlides = 15;
+
+// Number of points on drive route (more = higher quality, but slower to process)
+var driveSmoothness = 180;
+
+// Value used to drive
+var driveTime = driveSlides*driveSmoothness;
+
 // Do you want to follow the point? True = follow
 // True is not that smpooth- working on seeing if can get it to follow more smoothly 
 var followPoint = true;

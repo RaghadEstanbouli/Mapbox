@@ -109,6 +109,3 @@ var driveSmoothness = 180;
 
 // Value used to drive
 var driveTime = driveSlides*driveSmoothness;
-
-
-

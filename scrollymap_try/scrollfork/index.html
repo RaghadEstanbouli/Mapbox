@@ -360,13 +360,9 @@ map.on("load", function() {
     .onStepExit(response => {
         var chapter = config.chapters.find(chap => chap.id === response.element.id);
         response.element.classList.remove('active');
-        // map.jumpTo({ 'center': chapter.location, 'zoom': 12, bearing: 200, });
-        // // setup the viewport
-        // map.setPitch(80);
-        map.fitBounds([
-        config['start'].location, // southwestern corner of the bounds
-        chapter.center // northeastern corner of the bounds
-        ]);
+        map.jumpTo({ 'center': chapter.location, 'zoom': 9, bearing: 200, });
+        // setup the viewport
+        map.setPitch(60);
         if (chapter.onChapterExit.length > 0) {
             chapter.onChapterExit.forEach(setLayerOpacity);
         }
@@ -396,7 +392,27 @@ $(document).ready(function (){
     });
 });
 
+
 </script>
 
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- 
+map.fitBounds([
+        config['start'].location, // southwestern corner of the bounds
+        chapter.center // northeastern corner of the bounds
+        ]); -->
