@@ -66,7 +66,7 @@ var config = {
         },
         {
             id: 'drive-slide-1',
-            title: 'Day 2???',
+            title: 'Day 2',
             image: './path/to/image/source.png',
             description: 'Copy these sections to add to your story.',
             location: {
@@ -78,7 +78,7 @@ var config = {
         },
         {
             id: 'drive-slide-2',
-            title: 'Second Title',
+            title: 'Second Title 3',
             image: './path/to/image/source.png',
             description: 'Copy these sections to add to your story.',
             location: {
@@ -89,7 +89,7 @@ var config = {
         },
         {
             id: 'drive-slide-3',
-            title: 'Second Title',
+            title: 'Second Title 4',
             image: './path/to/image/source.png',
             description: 'Copy these sections to add to your story.',
             location: {
@@ -102,7 +102,7 @@ var config = {
         },
         {
             id: 'drive-slide-4',
-            title: 'Second Title',
+            title: 'Second Title 5',
             image: './path/to/image/source.png',
             description: 'Copy these sections to add to your story.',
             location: {
@@ -116,7 +116,7 @@ var config = {
         // You can add a normal slide in between the other slides
         {
             id: 'slide-4',
-            title: 'i AM A STATIONARY cHAPTER. ',
+            title: 'i AM A STATIONARY cHAPTER. 6',
             image: './path/to/image/source.png',
             description: 'Copy these sections to add to your story.',
             location: {
@@ -131,7 +131,7 @@ var config = {
         },
         {
             id: 'drive-slide-5',
-            title: 'Second Title',
+            title: 'Second Title 7',
             image: './path/to/image/source.png',
             description: 'Copy these sections to add to your story.',
             location: {
@@ -143,7 +143,7 @@ var config = {
         },
         {
             id: 'drive-slide-6',
-            title: 'Second Title',
+            title: 'Second Title 8',
             image: './path/to/image/source.png',
             description: 'Copy these sections to add to your story.',
             location: {
@@ -154,7 +154,7 @@ var config = {
         },
         {
             id: 'drive-slide-7',
-            title: 'Second Title',
+            title: 'Second Title 9',
             image: './path/to/image/source.png',
             description: 'Copy these sections to add to your story.',
             location: {
@@ -165,7 +165,7 @@ var config = {
         },
         {
             id: 'drive-slide-8',
-            title: 'Second Title',
+            title: 'Second Title 10',
             image: './path/to/image/source.png',
             description: 'Copy these sections to add to your story.',
             location: {
@@ -176,7 +176,7 @@ var config = {
         },
         {
             id: 'drive-slide-9',
-            title: 'Second Title',
+            title: 'Second Title 11',
             image: './path/to/image/source.png',
             description: 'Copy these sections to add to your story.',
             location: {
