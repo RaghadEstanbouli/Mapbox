@@ -101,7 +101,7 @@ function changeCenter(index) {
          // These options control the ending camera position: centered at
          // the target, at zoom level 9, and north up.
          center:  [centerX, centerY],
-         zoom: 9,
+         zoom: 10,
          bearing: -104.80,
          //duration: 1000,
           
