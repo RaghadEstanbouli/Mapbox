@@ -1,6 +1,6 @@
 // Number of slides that will drive (more = smoother)
 // If this doesn't match the number of slides named 'drive-slide' in config below you will not complete the full journey
-var driveSlides = 13;
+var driveSlides = 14;
 
 // Number of points on drive route (more = higher quality, but slower to process)
 var driveSmoothness = 200;
@@ -14,7 +14,7 @@ var followPoint = true;
 // ...If so, what zoom, pitch, and bearing should be used to follow?
 var followZoomLevel = 13;
 var followBearing = 40;
-var followPitch = 70.00;
+var followPitch = 80.00;
 
 // to add 'driving' slides just make sure to add 'drive to beginning of slide id'
 // you also need to add a running total to the end of each 'drive-slide', (ex. drive-slide-0, drive-slide-1, drive-slide-2, etc.)
@@ -38,7 +38,8 @@ var config = {
             image: '',
             description: 'The start Location for the Bike fundraiser',
             location: {
-                // center: [-89.2477, 48.3809],
+                
+                 center: [-89.21659, 48.43431]
                 // zoom: 9.83,
                 // pitch: 0.00,
                 // bearing: 0.00
@@ -125,7 +126,7 @@ var config = {
             image: './path/to/image/source.png',
             description: 'Copy these sections to add to your story.',
             location: {
-           
+                center: [-88.3516, 49.00186]
                 // location information is from the drive route
             },
             onChapterEnter: [
@@ -190,7 +191,9 @@ var config = {
             title: 'STOP 2',
             image: './path/to/image/source.png',
             description: 'Copy these sections to add to your story.',
-            location: {},
+            location: {
+                center: [ -87.07719, 48.78516]
+            },
             onChapterEnter: [
                 {
                     layer: 'stop-2',
@@ -249,7 +252,8 @@ var config = {
             title: 'Stop 3',
             image: './path/to/image/source.png',
             description: 'Copy these sections to add to your story.',
-            location: {  
+            location: { 
+                center: [ -85.55009, 48.64744] 
             },
             onChapterEnter: [
                 {
@@ -306,7 +310,7 @@ var config = {
             image: './path/to/image/source.png',
             description: 'Copy these sections to add to your story.',
             location: {
-                 center: [ -85.55009, 48.64744],
+                 center: [ -84.84697, 48.04138],
                  zoom: 15.00,
                 // pitch: 60.00,
                 // bearing: 0.00 
@@ -366,7 +370,9 @@ var config = {
             title: 'Stop 5',
             image: './path/to/image/source.png',
             description: 'Copy these sections to add to your story.',
-            location: {},
+            location: {
+                center: [ -84.74809, 47.47267]
+            },
             onChapterEnter: [
                 {
                     layer: 'stop-5',
@@ -415,6 +421,7 @@ var config = {
             image: './path/to/image/source.png',
             description: 'Copy these sections to add to your story.',
             location: {
+                center: [ -84.28666, 46.52109]
                 // center: [-84.748093, 47.472679],
                 // zoom: 9.83,
                 // pitch: 0.00,
@@ -431,7 +438,9 @@ var config = {
             title: 'STOP 6',
             image: './path/to/image/source.png',
             description: 'Copy these sections to add to your story.',
-            location: {},
+            location: {
+                center: [ -84.28666, 46.52109]
+            },
             onChapterEnter: [
                 {
                     layer: 'stop-6',
@@ -473,7 +482,9 @@ var config = {
             title: 'Stop 7',
             image: './path/to/image/source.png',
             description: 'Copy these sections to add to your story.',
-            location: {},
+            location: {
+                center: [ -83.78129, 46.32039]
+            },
             onChapterEnter: [
                 {
                     layer: 'stop-7',
@@ -511,7 +522,9 @@ var config = {
             title: 'STOP 8',
             image: './path/to/image/source.png',
             description: 'Copy these sections to add to your story.',
-            location: {},
+            location: {
+                center: [ -82.95182, 46.18365]
+            },
             onChapterEnter: [
                 {
                     layer: 'stop-8',
@@ -545,7 +558,9 @@ var config = {
             title: 'Stop 9',
             image: './path/to/image/source.png',
             description: 'Copy these sections to add to your story.',
-            location: {},
+            location: {
+                center: [ -81.77629, 46.25966]
+            },
             onChapterEnter: [
                 {
                     layer: 'stop-9',
@@ -575,7 +590,9 @@ var config = {
             title: 'Stop 10',
             image: './path/to/image/source.png',
             description: 'Copy these sections to add to your story.',
-            location: {},
+            location: {
+                center: [-81.05668, 46.47571]
+            },
             onChapterEnter: [
                 {
                 layer: 'stop-10',
@@ -602,6 +619,7 @@ var config = {
             image: './path/to/image/source.png',
             description: 'Copy these sections to add to your story.',
             location: {
+                center: [-80.42497, 45.6563]
                 // center: [-78.31972, 44.30345],
                 // zoom: 15.00,
                 // pitch: 60.00,
@@ -633,7 +651,9 @@ var config = {
             title: 'Stop 12',
             image: './path/to/image/source.png',
             description: 'Copy these sections to add to your story.',
-            location: {},
+            location: {
+                center: [-79.73832, 45.17431]
+            },
             onChapterEnter: [
                 {
                 layer: 'stop-12',
@@ -651,7 +671,9 @@ var config = {
             title: 'Stop 13',
             image: './path/to/image/source.png',
             description: 'Copy these sections to add to your story.',
-            location: {},
+            location: {
+                center: [-78.98027, 44.53569]
+            },
             onChapterEnter: [
                 {
                 layer: 'stop-13',
@@ -665,7 +687,9 @@ var config = {
             title: 'Stop 14',
             image: './path/to/image/source.png',
             description: 'Copy these sections to add to your story.',
-            location: {},
+            location: {
+                center: [-78.31972, 44.30345]
+            },
             onChapterEnter: [],
             onChapterExit: []
         }

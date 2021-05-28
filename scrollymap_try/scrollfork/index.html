@@ -370,7 +370,7 @@ map.on("load", function() {
         map.flyTo({
 // These options control the ending camera position: centered at
 // the target, at zoom level 9, and north up.
-center: chapter.location,
+center:  chapters.location,
 zoom: 9,
 bearing: 300,
  
@@ -414,21 +414,7 @@ essential: true
 // setup resize event
 window.addEventListener('resize', scroller.resize);
 
-// THIS IS WHERE TO LINK TO THE GEOJSON OF THE ROUTE 
-$(document).ready(function (){
-    $.ajax({
-      // url:"./data/highwaydrive.geojson",
-      url:"./data/fromgoogle.geojson",
-      dataType: "json",
-      success: function (data) {
-        console.log('data', data.features[0]);
-        routeData = data;
-      },
-      error: function () {
-        console.log('error loading data');
-      }
-    });
-});
+
 
 
 
