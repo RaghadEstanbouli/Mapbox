@@ -92,9 +92,10 @@ function changeCenter(index) {
     if (followPoint === true) {
       if (index % subsampleIndex == 0) {
         console.log("changeCenter(index) = ", index, center)
-        map.jumpTo({
-  	        center: [centerX, centerY]
+        map.flyTo({
+  	        'center': [centerX, centerY], 'zoom': 14, bearing: 200,
   	    });
+          map.setPitch(80);
       }
     }
 }
