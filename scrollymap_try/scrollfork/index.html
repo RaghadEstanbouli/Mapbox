@@ -379,7 +379,7 @@ map.on("load", function() {
     .onStepExit(response => {
         var chapter = config.chapters.find(chap => chap.id === response.element.id);
         response.element.classList.remove('active');
-        map.jumpTo({ 'center': chapter.location, 'zoom': 12, bearing: 200, });
+        map.jumpTo({ 'center': chapter.location, 'zoom': 21, bearing: 200, });
 // setup the viewport
 map.setPitch(60);
         if (chapter.onChapterExit.length > 0) {
