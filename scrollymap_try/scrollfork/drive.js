@@ -96,6 +96,7 @@ function changeCenter(index) {
         map.flyTo({
   	        center: [centerX, centerY]
   	    });
+          
       }
     }
 }
