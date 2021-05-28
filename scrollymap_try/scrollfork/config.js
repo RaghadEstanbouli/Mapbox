@@ -12,9 +12,9 @@ var driveTime = driveSlides*driveSmoothness;
 // True is not that smpooth- working on seeing if can get it to follow more smoothly 
 var followPoint = true;
 // ...If so, what zoom, pitch, and bearing should be used to follow?
-var followZoomLevel = 15;
-var followBearing = -10;
-var followPitch = 80;
+var followZoomLevel = 13;
+var followBearing = 40;
+var followPitch = 70.00;
 
 // to add 'driving' slides just make sure to add 'drive to beginning of slide id'
 // you also need to add a running total to the end of each 'drive-slide', (ex. drive-slide-0, drive-slide-1, drive-slide-2, etc.)
@@ -306,12 +306,12 @@ var config = {
             image: './path/to/image/source.png',
             description: 'Copy these sections to add to your story.',
             location: {
-                // center: [ -85.55009, 48.64744],
-                // zoom: 15.00,
+                 center: [ -85.55009, 48.64744],
+                 zoom: 15.00,
                 // pitch: 60.00,
                 // bearing: 0.00 
             },
-            // mapAnimation: 'flyTo',
+            mapAnimation: 'flyTo',
             onChapterEnter: [ 
                 {
                     layer: 'stop-4',

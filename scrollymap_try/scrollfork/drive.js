@@ -92,10 +92,35 @@ function changeCenter(index) {
     if (followPoint === true) {
       if (index % subsampleIndex == 0) {
         console.log("changeCenter(index) = ", index, center)
-        map.flyTo({
-  	        'center': [centerX, centerY], 'zoom': 14, bearing: 200,
-  	    });
-          map.setPitch(80);
+        //this mae change
+/*         map.flyTo({
+                    center: [centerX, centerY]
+                });  */
+        
+         map.flyTo({
+         // These options control the ending camera position: centered at
+         // the target, at zoom level 9, and north up.
+         center:  [centerX, centerY],
+         zoom: 12,
+         bearing: 200,
+         //duration: 1000,
+          
+         // These options control the flight curve, making it move
+         // slowly and zoom out almost completely before starting
+         // to pan.
+         speed: 0.2, // make the flying slow
+         curve: 1, // change the speed at which it zooms out
+          
+         // This can be any easing function: it takes a number between
+         // 0 and 1 and returns another number between 0 and 1.
+         easing: function (t) {
+         return t;
+         },
+          
+         // this animation is considered essential with respect to prefers-reduced-motion
+         essential: false
+         }); 
+
       }
     }
 }
