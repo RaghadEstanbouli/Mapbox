@@ -46,7 +46,7 @@ var config = {
             // image: './path/to/image/source.png',
             description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
             location: {
-                center: [-88.351609,  49.00186]
+                center: [-88.351609,49.00186]
             },
             
             onChapterEnter: [],
@@ -58,7 +58,7 @@ var config = {
             image: './path/to/image/source.png',
             description: 'Copy these sections to add to your story.',
             location: {
-                center: [-87.077195,  48.785168]
+                center: [-87.077195,48.785168]
             },
             
             onChapterEnter: [],
@@ -70,7 +70,7 @@ var config = {
             image: './path/to/image/source.png',
             description: 'Copy these sections to add to your story.',
             location: {
-                center: [-85.550095,  48.647444],
+                center: [-85.550095,48.647444],
             },
             mapAnimation: 'flyTo',
             onChapterEnter: [],
@@ -82,7 +82,7 @@ var config = {
             image: './path/to/image/source.png',
             description: 'Copy these sections to add to your story.',
             location: {
-                center: [-84.84697,  48.041381]
+                center: [-84.84697,48.041381]
                         },
             onChapterEnter: [],
             onChapterExit: []
@@ -93,7 +93,7 @@ var config = {
             image: './path/to/image/source.png',
             description: 'Copy these sections to add to your story.',
             location: {
-                center: [-84.748093,  47.472679]
+                center: [-84.748093,47.472679]
             },
             mapAnimation: 'flyTo',
       
@@ -106,7 +106,7 @@ var config = {
             image: './path/to/image/source.png',
             description: 'Copy these sections to add to your story.',
             location: {
-                center: [-81.056687,  46.475716],
+                center: [-84.286667,46.521092],
             },
 
             onChapterEnter: [],
@@ -120,7 +120,7 @@ var config = {
             image: './path/to/image/source.png',
             description: 'Copy these sections to add to your story.',
             location: {
-                center: [-78.980271,  44.535692]
+                center: [-83.781296,46.320395]
             },
 
             // mapAnimation: 'flyTo',
@@ -135,7 +135,7 @@ var config = {
             image: './path/to/image/source.png',
             description: 'Copy these sections to add to your story.',
             location: {
-                center: [-79.738328,  45.17431]
+                center: [-82.951829,46.183651]
             },
             mapAnimation: 'flyTo',
             onChapterEnter: [],
@@ -147,7 +147,7 @@ var config = {
             image: './path/to/image/source.png',
             description: 'Copy these sections to add to your story.',
             location: {
-                center: [-80.424973,  45.656305]
+                center: [-81.776291,46.259662]
             },
             onChapterEnter: [],
             onChapterExit: []
@@ -158,7 +158,7 @@ var config = {
             image: './path/to/image/source.png',
             description: 'Copy these sections to add to your story.',
             location: {
-                center: [-81.776291,  46.259662]
+                center: [-81.056687,46.475716]
             },
             onChapterEnter: [],
             onChapterExit: []
@@ -169,7 +169,7 @@ var config = {
             image: './path/to/image/source.png',
             description: 'Copy these sections to add to your story.',
             location: {
-                center: [-82.951829,  46.183651]
+                center: [-80.424973,45.656305]
             },
             onChapterEnter: [],
             onChapterExit: []
@@ -180,7 +180,7 @@ var config = {
             image: './path/to/image/source.png',
             description: 'Copy these sections to add to your story.',
             location: {
-                center: [-83.781296,  46.320395]
+                center: [-79.738328,45.17431]
             },
             onChapterEnter: [],
             onChapterExit: []
@@ -193,7 +193,7 @@ var config = {
         //     description: 'Copy these sections to add to your story.',
         //     location: {
         //         'camera': {
-        //         center: [-89.2477,  48.3809],
+        //         center: [-78.980271,44.535692],
         //         zoom: 12,
         //         pitch: 0.00,
         //         bearing: 0.00}
