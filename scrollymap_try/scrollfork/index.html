@@ -228,10 +228,10 @@ const transformRequest = (url) => {
 var map = new mapboxgl.Map({
     container: 'map',
     style: config.style,
-    // center: config.chapters[0].location.center,
-    // zoom: config.chapters[0].location.zoom,
-    // bearing: config.chapters[0].location.bearing,
-    // pitch: config.chapters[0].location.pitch,
+    center: config.chapters[0].location.center,
+    zoom: config.chapters[0].location.zoom,
+    bearing: config.chapters[0].location.bearing,
+    pitch: config.chapters[0].location.pitch,
     scrollZoom: false,
     transformRequest: transformRequest
 });
@@ -246,21 +246,22 @@ if (config.showMarkers) {
     // and exit callback functions:
 // instantiate the scrollama
 var scroller = scrollama();
-
+// to read the number of each slide by slice the id and set the Property
 function handleStepProgress(response) {
     let stepProgress;
 
     if (response.element.id.slice(0,5) === 'drive') {
-        let driveSlideNum = parseInt(response.element.id.slice(-2));
-        if (driveSlideNum === 00) {
+        let driveSlideNum = parseInt(response.element.id.slice(-1));
+        if (driveSlideNum === 0) {
             map.setLayoutProperty('animatedLine', 'visibility', 'visible');
             stepProgress = Math.round(response.progress*driveSmoothness);
         } else {
-            stepProgress = Math.round(response.progress*driveSmoothness+driveSmoothness*driveSlideNum*2);
+            stepProgress = Math.round(response.progress*driveSmoothness+driveSmoothness*driveSlideNum*1.2);
         }
         changeCenter(stepProgress);
     }
 }
+// END
 
 map.on("load", function() {
 
@@ -305,25 +306,6 @@ map.on("load", function() {
         "data": geojsonPoint
     });
 
-    // this could be a way of pulling the stops then refferring into the chapters to show or hide the stops on enter/exit/ 
-    // map.addSource('my-data', {
-    //     type: 'geojson',
-    //     url: 'mapbox://ername.tilesetid'
-    //     });
-    // map.addSource('my-data', {
-    //     "type": "geojson",
-    //     "data": {
-    //     "type": "Feature",
-    //     "geometry": {
-    //     "type": "Point",
-    //     "coordinates": [-77.0323, 38.9131]
-    //     },
-    //     "properties": {
-    //     "title": "Mapbox DC",
-    //     "marker-symbol": "monument"
-    //     }
-    //     }
-    //     });
 
     map.addLayer({
       "id": "animatedLine",
