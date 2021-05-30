@@ -39,7 +39,7 @@ function createLine() {
 
         // calculate point location for each segment
         const pointonline = turf.along(line, (segments * i));
-        console.log("point location"+pointonline);
+        //console.log("point location"+pointonline);
 
         // push new x,y
         let newX = pointonline.geometry.coordinates[0];
@@ -101,7 +101,7 @@ function changeCenter(index) {
                     center: [centerX, centerY]
                 });  */
         
-         map.flyTo({
+        /* map.flyTo({
          // These options control the ending camera position: centered at
          // the target, at zoom level 9, and north up.
          center:  [centerX, centerY],
@@ -123,7 +123,7 @@ function changeCenter(index) {
           
          // this animation is considered essential with respect to prefers-reduced-motion
          essential: false
-         }); 
+         }); */
 
       }
     }
