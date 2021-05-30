@@ -98,10 +98,10 @@ function changeCenter(index) {
         console.log("changeCenter(index) = ", index, center)
         //-88.2696920296685,49.018545205676894
         //this mae change
-        if(movingPoint.centerX==-88.2696920296685&&movingPoint.centerY==49.018545205676894){
+        
        map.flyTo({
                     center: [centerX, centerY]
-                });  }
+                });  
         
         /* map.flyTo({
          // These options control the ending camera position: centered at
