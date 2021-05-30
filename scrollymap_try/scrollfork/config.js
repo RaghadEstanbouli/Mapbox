@@ -122,7 +122,7 @@ var config = {
         //     onChapterExit: []
         // },
         {
-            id: 'drive-slide-0',
+            id: 'drive-slide-00',
             title: 'STOP 1?',
             image: './path/to/image/source.png',
             description: 'Copy these sections to add to your story.',
@@ -254,7 +254,7 @@ var config = {
             onChapterExit: []
         },
         {
-            id: 'drive-slide-2',
+            id: 'drive-slide-02',
             title: 'Stop 3',
             image: './path/to/image/source.png',
             description: 'Copy these sections to add to your story.',
@@ -316,7 +316,7 @@ var config = {
             onChapterExit: []
         },
         {
-            id: 'drive-slide-3',
+            id: 'drive-slide-03',
             title: 'Stop 4',
             image: './path/to/image/source.png',
             description: 'Copy these sections to add to your story.',
@@ -377,7 +377,7 @@ var config = {
             ]
         },
         {
-            id: 'drive-slide-4',
+            id: 'drive-slide-04',
             title: 'Stop 5',
             image: './path/to/image/source.png',
             description: 'Copy these sections to add to your story.',
@@ -447,7 +447,7 @@ var config = {
             onChapterExit: []
         },
         {
-            id: 'drive-slide-5',
+            id: 'drive-slide-05',
             title: 'STOP 6',
             image: './path/to/image/source.png',
             description: 'Copy these sections to add to your story.',
@@ -494,7 +494,7 @@ var config = {
             onChapterExit: []
         },
         {
-            id: 'drive-slide-6',
+            id: 'drive-slide-06',
             title: 'Stop 7',
             image: './path/to/image/source.png',
             description: 'Copy these sections to add to your story.',
@@ -537,7 +537,7 @@ var config = {
             onChapterExit: []
         },
         {
-            id: 'drive-slide-7',
+            id: 'drive-slide-07',
             title: 'STOP 8',
             image: './path/to/image/source.png',
             description: 'Copy these sections to add to your story.',
@@ -576,7 +576,7 @@ var config = {
             onChapterExit: []
         },
         {
-            id: 'drive-slide-8',
+            id: 'drive-slide-08',
             title: 'Stop 9',
             image: './path/to/image/source.png',
             description: 'Copy these sections to add to your story.',
@@ -611,7 +611,7 @@ var config = {
             onChapterExit: []
         },
         {
-            id: 'drive-slide-9',
+            id: 'drive-slide-09',
             title: 'Stop 10',
             image: './path/to/image/source.png',
             description: 'Copy these sections to add to your story.',
@@ -642,7 +642,7 @@ var config = {
             onChapterExit: []
         },
         {
-            id: 'drive-slide-91',
+            id: 'drive-slide-10',
             title: 'Stop 11',
             image: './path/to/image/source.png',
             description: 'Copy these sections to add to your story.',
@@ -674,7 +674,7 @@ var config = {
             ]
         },
         {
-            id: 'drive-slide-92',
+            id: 'drive-slide-11',
             title: 'Stop 12',
             image: './path/to/image/source.png',
             description: 'Copy these sections to add to your story.',
@@ -698,7 +698,7 @@ var config = {
             onChapterExit: []
         },
         {
-            id: 'drive-slide-93',
+            id: 'drive-slide-12',
             title: 'Stop 13',
             image: './path/to/image/source.png',
             description: 'Copy these sections to add to your story.',
@@ -717,7 +717,7 @@ var config = {
             onChapterExit: []
         },
         {
-            id: 'drive-slide-94',
+            id: 'drive-slide-13',
             title: 'Stop 14',
             image: './path/to/image/source.png',
             description: 'Copy these sections to add to your story.',
