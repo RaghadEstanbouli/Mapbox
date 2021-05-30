@@ -1,9 +1,9 @@
 // Number of slides that will drive (more = smoother)
 // If this doesn't match the number of slides named 'drive-slide' in config below you will not complete the full journey
-var driveSlides = 12;
+var driveSlides = 13;
 
 // Number of points on drive route (more = higher quality, but slower to process)
-var driveSmoothness = 1000;
+var driveSmoothness = 200;
 
 // Value used to drive
 var driveTime = driveSlides*driveSmoothness;
@@ -22,8 +22,8 @@ var followPitch = 60;//60.00;
 var config = {
     style: 'mapbox://styles/vanritto/ckp6e61p50nwy17o58eyrsnoe',
     accessToken: 'pk.eyJ1IjoidmFucml0dG8iLCJhIjoiY2ttd3MwbmIxMGh2azJubjh5NHpmbWloaSJ9.cHakwI5tJ_9g4G56n5tlFQ',
-    // showMarkers: true,
-    // markerColor: 'green',
+     showMarkers: true,
+    markerColor: 'green',
     theme: 'liberty',
     alignment: 'left',
     title: 'Liberty Project',
@@ -38,6 +38,7 @@ var config = {
             title: 'Start Location',
             image: '',
             description: 'The start Location for the Bike fundraiser',
+
             location: {
                 center: [-89.2477, 48.3809],
                 zoom: 18,
