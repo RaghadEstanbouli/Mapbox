@@ -284,9 +284,9 @@ map.on("load", function() {
             });
         }
     } else {
-        map.setZoom(chapters[0].location.zoom);
-        map.setBearing(chapters[0].location.bearing);
-        map.setPitch(chapters[0].location.pitch);
+        map.setZoom(followZoomLevel);
+        map.setBearing(followBearing);
+        map.setPitch(followPitch);
     }
     
     // map.addLayer({
