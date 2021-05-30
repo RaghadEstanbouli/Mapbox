@@ -20,6 +20,7 @@ function createLine() {
     
     // create a turf linestring based on the line coordinates
     const line = turf.lineString(extentArray);
+    console.log(line);
 
     // calculate the total length of the line
     const lineDistance = turf.lineDistance(line);
