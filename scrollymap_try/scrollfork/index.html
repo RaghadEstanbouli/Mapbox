@@ -370,9 +370,9 @@ map.on("load", function() {
         map.flyTo({
 // These options control the ending camera position: centered at
 // the target, at zoom level 9, and north up.
-center:  chapters.location,
-zoom: 9,
-bearing: 300,
+center:  chapter.location.center,
+zoom: chapter.location.zoom,
+bearing: chapter.location.bearing,
  
 // These options control the flight curve, making it move
 // slowly and zoom out almost completely before starting
