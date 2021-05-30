@@ -6,7 +6,7 @@ var driveSlides = 13;
 var driveSmoothness = 200;
 
 // Value used to drive
-var driveTime = driveSlides*driveSmoothness*10;
+var driveTime = driveSlides*driveSmoothness;
 
 // Do you want to follow the point? True = follow
 // True is not that smpooth- working on seeing if can get it to follow more smoothly 
@@ -40,10 +40,10 @@ var config = {
             description: 'The start Location for the Bike fundraiser',
 
             location: {
-                center: [-89.2477, 48.3809],
-                zoom: 18,
+                center: { lon: -89.26402, lat: 48.40116 },
+                zoom: 6.65,
                 pitch: 0.00,
-                bearing: 0.00
+                bearing: 0.000
             },
             onChapterEnter: [
                 {
@@ -127,10 +127,10 @@ var config = {
             image: './path/to/image/source.png',
             description: 'Copy these sections to add to your story.',
              location: {
-                center: [-88.351609,49.00186],
-                zoom: 18,
-                pitch: 0.00,
-                bearing: 0.00
+                center: { lon: -88.29550, lat: 49.02125 },
+                zoom: 11.67,
+                pitch: 58.00,
+                bearing: -92.80
             },
             onChapterEnter: [
                 {
@@ -195,10 +195,10 @@ var config = {
             image: './path/to/image/source.png',
             description: 'Copy these sections to add to your story.',
             location: {
-                center: [-87.077195,48.785168],
-                zoom: 18,
-                pitch: 0.00,
-                bearing: 0.00
+                center: { lon: -87.87245, lat: 48.93681 },
+                zoom: 14.67,
+                pitch: 60.00,
+                bearing: 144.00
             },
             onChapterEnter: [
                 {
@@ -260,10 +260,10 @@ var config = {
             description: 'Copy these sections to add to your story.',
             
             location: {
-                center: [-85.550095,48.647444],
-                zoom: 18,
-                pitch: 0.00,
-                bearing: 0.00
+                center: { lon: -87.55311, lat: 48.88333 },
+                zoom: 13.36,
+                pitch: 60.00,
+                bearing: -26.33
             },
             
             onChapterEnter: [
@@ -321,10 +321,10 @@ var config = {
             image: './path/to/image/source.png',
             description: 'Copy these sections to add to your story.',
             location: {
-                center: [-84.84697,48.041381],
-                zoom: 15.00,
+                center: { lon: -87.08297, lat: 48.78774 },
+                zoom: 13.94,
                 pitch: 60.00,
-                bearing: 0.00 
+                bearing: -122.33
             },
             // mapAnimation: 'flyTo',
             onChapterEnter: [ 
@@ -382,10 +382,10 @@ var config = {
             image: './path/to/image/source.png',
             description: 'Copy these sections to add to your story.',
              location: {
-                center: [-84.748093,47.472679],
-                zoom: 15.00,
+                center: { lon: -85.56521, lat: 48.65917 },
+                zoom: 12.40,
                 pitch: 60.00,
-                bearing: 0.00 
+                bearing: 157.87
             },
             onChapterEnter: [
                 {
@@ -451,7 +451,12 @@ var config = {
             title: 'STOP 6',
             image: './path/to/image/source.png',
             description: 'Copy these sections to add to your story.',
-            location: {},
+            location: {
+                center: { lon: -84.84331, lat: 48.04251 },
+                zoom: 13.61,
+                pitch: 60.00,
+                bearing: 59.47
+            },
             onChapterEnter: [
                 {
                     layer: 'stop-6',
@@ -494,10 +499,10 @@ var config = {
             image: './path/to/image/source.png',
             description: 'Copy these sections to add to your story.',
             location: {
-                center: [-84.286667,46.521092],
-                zoom: 15.00,
+                center: { lon: -84.75043, lat: 47.47641 },
+                zoom: 12.65,
                 pitch: 60.00,
-                bearing: 0.00 
+                bearing: -16.53
             },
             onChapterEnter: [
                 {
@@ -537,10 +542,10 @@ var config = {
             image: './path/to/image/source.png',
             description: 'Copy these sections to add to your story.',
             location: {
-                center: [-83.781296,46.320395],
-                zoom: 15.00,
+                center: { lon: -84.28982, lat: 46.52451 },
+                zoom: 12.50,
                 pitch: 60.00,
-                bearing: 0.00 
+                bearing: -27.15
             },
             onChapterEnter: [
                 {
@@ -576,10 +581,10 @@ var config = {
             image: './path/to/image/source.png',
             description: 'Copy these sections to add to your story.',
            location: {
-                center: [-82.951829,46.183651],
-                zoom: 15.00,
-                pitch: 60.00,
-                bearing: 0.00 
+            center: { lon: -83.79600, lat: 46.30525 },
+            zoom: 13.65,
+            pitch: 60.00,
+            bearing: -7.15
             },
             onChapterEnter: [
                 {
@@ -611,10 +616,10 @@ var config = {
             image: './path/to/image/source.png',
             description: 'Copy these sections to add to your story.',
             location: {
-                center: [-81.776291,46.259662],
-                zoom: 15.00,
+                center: { lon: -82.96184, lat: 46.18994 },
+                zoom: 13.40,
                 pitch: 60.00,
-                bearing: 0.00 
+                bearing: -73.55
             },
             onChapterEnter: [
                 {
@@ -642,10 +647,10 @@ var config = {
             image: './path/to/image/source.png',
             description: 'Copy these sections to add to your story.',
             location: {
-                center: [-81.056687,46.475716],
-                zoom: 15.00,
+                center: { lon: -81.77651, lat: 46.26548 },
+                zoom: 13.00,
                 pitch: 60.00,
-                bearing: 0.00 
+                bearing: 176.89
             },
             onChapterEnter: [ 
                 {
@@ -674,10 +679,10 @@ var config = {
             image: './path/to/image/source.png',
             description: 'Copy these sections to add to your story.',
             location: {
-                center: [-80.424973,45.656305],
-                zoom: 15.00,
+                center: { lon: -81.05842, lat: 46.47903 },
+                zoom: 13.16,
                 pitch: 60.00,
-                bearing: 0.00 
+                bearing: 54.54
             },
             
             onChapterEnter: [
@@ -698,10 +703,10 @@ var config = {
             image: './path/to/image/source.png',
             description: 'Copy these sections to add to your story.',
              location: {
-                center: [-79.738328,45.17431],
-                zoom: 15.00,
+                center: { lon: -80.42432, lat: 45.66348 },
+                zoom: 12.93,
                 pitch: 60.00,
-                bearing: 0.00 
+                bearing: 144.73
             },
             onChapterEnter: [
                 {
@@ -717,10 +722,10 @@ var config = {
             image: './path/to/image/source.png',
             description: 'Copy these sections to add to your story.',
             location: {
-                center: [-78.980271,44.535692],
-                zoom: 15.00,
-                pitch: 60.00,
-                bearing: 0.00 
+                center: { lon: -79.74440, lat: 45.14376 },
+                zoom: 11.03,
+                pitch: 0.00,
+                bearing: -12.87
             },
             onChapterEnter: [],
             onChapterExit: []
