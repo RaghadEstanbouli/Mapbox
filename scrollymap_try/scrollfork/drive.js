@@ -20,17 +20,17 @@ function createLine() {
     
     // create a turf linestring based on the line coordinates
     const line = turf.lineString(extentArray);
-    console.log(line);
+    console.log("line coordinates"+line);
 
     // calculate the total length of the line
     const lineDistance = turf.lineDistance(line);
-
+    console.log("total length of the line"+lineDistance);
     // how many points you want along the path (more = smoother animation)
     const rects = driveTime;
 
     // calculate the distance between each point on the path
     const segments = lineDistance / rects;
-
+    console.log("distance between each point"+segments);
     // what units do you want to use?
     const units = 'kilometers';
 
@@ -39,6 +39,7 @@ function createLine() {
 
         // calculate point location for each segment
         const pointonline = turf.along(line, (segments * i));
+        console.log("point location"+lpointonlineine);
 
         // push new x,y
         let newX = pointonline.geometry.coordinates[0];
@@ -74,6 +75,7 @@ function changeCenter(index) {
 
     let currentJson = geojsonPoint.features[0].geometry.coordinates.slice(0,index);
     let center = geojsonPoint.features[0].geometry.coordinates[index];
+    console.log("center location"+center);
     let centerX = center[0];
     let centerY = center[1];
     let movingLine = {
