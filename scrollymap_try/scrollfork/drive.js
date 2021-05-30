@@ -53,6 +53,7 @@ function createLine() {
             // if you want to follow the point...
             if (followPoint === true) {
             	map.setCenter([newX, newY]);
+                console.log([newX, newY]);
         	}
 
             map.getSource('pointSource').setData(initPoint);
