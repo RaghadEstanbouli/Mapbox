@@ -22,7 +22,7 @@ var followPitch = 60;//60.00;
 var config = {
     //style: 'mapbox://styles/vanritto/ckp6e61p50nwy17o58eyrsnoe',
     style:'mapbox://styles/raghadestanbouli/ckpbc5x6o053718pcf6oytbu1',
-    accessToken: 'pk.eyJ1IjoidmFucml0dG8iLCJhIjoiY2ttd3MwbmIxMGh2azJubjh5NHpmbWloaSJ9.cHakwI5tJ_9g4G56n5tlFQ',
+    accessToken: 'pk.eyJ1IjoicmFnaGFkZXN0YW5ib3VsaSIsImEiOiJja21vdmE1cWgyOHYxMnVtZ2EweTlzNW9rIn0.pH1YN5MUUxqb-py-3V6fcg',
      showMarkers: true,
     markerColor: '#f3a9cc',
     theme: 'liberty',
