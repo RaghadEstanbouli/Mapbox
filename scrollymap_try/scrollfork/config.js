@@ -42,10 +42,10 @@ var config = {
             description: 'The start Location for the Bike fundraiser',
 
             location: {
-                center: { lon: -89.26402, lat: 48.40116 },
-                zoom: 6.65,
-                pitch: 0.00,
-                bearing: 0.000
+                center: { lon: -85.19922, lat: 45.69835 },
+                zoom: 6.25,
+                pitch: 60.00,
+                bearing: 0.00
             },
             onChapterEnter: [
                 {
