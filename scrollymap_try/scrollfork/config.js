@@ -360,7 +360,7 @@ var config = {
                 center: { lon: -84.66245, lat: 47.95360 },
                 zoom: 9.59,
                 pitch: 60.00,
-                bearing: -88.23
+                bearing: -88.23 
             },
             // mapAnimation: 'flyTo',
             onChapterEnter: [ 
@@ -637,10 +637,10 @@ var config = {
             // zoom: 12.25,
             // pitch: 60.00,
             // bearing: -68.99
-            center: { lon: -81.75867, lat: 46.25789 },
-            zoom: 12.39,
+            center: { lon: -81.74764, lat: 46.27206 },
+            zoom: 12.91,
             pitch: 60.00,
-            bearing: -177.59
+            bearing: -104.23
             },
             onChapterEnter: [
                 {
