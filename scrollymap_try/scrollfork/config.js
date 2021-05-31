@@ -33,6 +33,19 @@ var config = {
     byline: 'By a Digital Storyteller',
     footer: 'Source: source citations, etc.',
     chapters: [
+                {
+            id: 'slide-0',
+            title: 'none',
+            
+            location: { 
+                center: { lon: -85.19922, lat: 45.69835 },
+                zoom: 6.25,
+                pitch: 60.00,
+                bearing: 0.00
+            },
+            onChapterEnter: [],
+            onChapterExit: []
+        },
         {
             id: 'start',
             alignment: 'right',
