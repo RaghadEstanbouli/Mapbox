@@ -701,10 +701,10 @@ var config = {
             image: './path/to/image/source.png',
             description: 'Copy these sections to add to your story.',
             location: {
-                center: { lon: -81.05842, lat: 46.47903 },
-                zoom: 13.16,
+                center: { lon: -80.42061, lat: 45.65670 },
+                zoom: 13.03,
                 pitch: 60.00,
-                bearing: 54.54
+                bearing: -19.40
             },
             
             onChapterEnter: [
@@ -744,10 +744,10 @@ var config = {
             image: './path/to/image/source.png',
             description: 'Copy these sections to add to your story.',
             location: {
-                center: { lon: -79.74440, lat: 45.14376 },
-                zoom: 11.03,
-                pitch: 0.00,
-                bearing: -12.87
+                center: { lon: -79.77637, lat: 45.16116 },
+                zoom: 9.93,
+                pitch: 60.00,
+                bearing: 0.00
             },
             onChapterEnter: [],
             onChapterExit: []
@@ -758,13 +758,14 @@ var config = {
             image: './path/to/image/source.png',
             description: 'Copy these sections to add to your story.',
             location: {
-                center: { lon: -82.49980, lat: 44.81369 },
-                zoom: 7.00,
+                center: { lon: -78.99902, lat: 44.52656 },
+                zoom: 9.87,
                 pitch: 60.00,
-                bearing: -32.80
+                bearing: 0.59
             },
             onChapterEnter: [],
             onChapterExit: []
-        }
+        },
+        
     ]
 };
