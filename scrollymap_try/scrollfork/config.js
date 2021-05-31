@@ -150,7 +150,7 @@ var config = {
             description: 'Copy these sections to add to your story.',
              location: {
                 center: { lon: -88.25617, lat: 49.01905 },
-                zoom: 13.74,
+                zoom: 10,
                 pitch: 60.00,
                 bearing: -105.04
             },
@@ -218,7 +218,7 @@ var config = {
             description: 'Copy these sections to add to your story.',
             location: {
                 center: { lon: -87.87278, lat: 48.93661 },
-                zoom: 13.74,
+                zoom: 9.75,
                 pitch: 60.00,
                 bearing: -65.84
             },
@@ -283,7 +283,7 @@ var config = {
             
             location: {
                 center: { lon: -87.55436, lat: 48.88640 },
-                zoom: 13.74,
+                zoom: 9.5,
                 pitch: 60.00,
                 bearing: -40.24
             },
@@ -343,7 +343,7 @@ var config = {
             image: './path/to/image/source.png',
             description: 'Copy these sections to add to your story.',
             location: {
-                center: { lon: -87.08629, lat: 48.79668 },
+                center: { lon: -86.99387, lat: 48.78338 },
                 zoom: 13.94,
                 pitch: 60.00,
                 bearing: -154.64
@@ -451,23 +451,23 @@ var config = {
         },
 
         // You can add a normal slide in between the other slides
-        {
-            id: 'slide-4',
-            title: 'i AM A STATIONARY cHAPTER. ',
-            image: './path/to/image/source.png',
-            description: 'Copy these sections to add to your story.',
-            location: {
-                // center: [-84.748093, 47.472679],
-                // zoom: 9.83,
-                // pitch: 0.00,
-                // bearing: 0.00 
-            },
-            // mapAnimation: 'flyTo',
-            // rotateAnimation: false,
-            // callback: '',
-            onChapterEnter: [],
-            onChapterExit: []
-        },
+        // {
+        //     id: 'slide-4',
+        //     title: 'i AM A STATIONARY cHAPTER. ',
+        //     image: './path/to/image/source.png',
+        //     description: 'Copy these sections to add to your story.',
+        //     location: {
+        //         // center: [-84.748093, 47.472679],
+        //         // zoom: 9.83,
+        //         // pitch: 0.00,
+        //         // bearing: 0.00 
+        //     },
+        //     // mapAnimation: 'flyTo',
+        //     // rotateAnimation: false,
+        //     // callback: '',
+        //     onChapterEnter: [],
+        //     onChapterExit: []
+        // },
         {
             id: 'drive-slide-05',
             title: 'STOP 6',
