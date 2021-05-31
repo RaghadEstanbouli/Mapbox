@@ -256,7 +256,7 @@ function handleStepProgress(response) {
             map.setLayoutProperty('animatedLine', 'visibility', 'visible');
             stepProgress = Math.round(response.progress*driveSmoothness);
         } else {
-            stepProgress = Math.round(response.progress*driveSmoothness+driveSmoothness*driveSlideNum);
+            stepProgress = Math.round(response.progress*driveSmoothness+driveSmoothness*driveSlideNum*1.5);
         }
         changeCenter(stepProgress);
     }
