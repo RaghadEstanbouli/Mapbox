@@ -3,7 +3,7 @@
 var driveSlides = 13;
 
 // Number of points on drive route (more = higher quality, but slower to process)
-var driveSmoothness = 200;
+var driveSmoothness = 400;
 
 // Value used to drive
 var driveTime = driveSlides*driveSmoothness;
@@ -24,7 +24,7 @@ var config = {
     accessToken:'pk.eyJ1IjoidmFucml0dG8iLCJhIjoiY2ttd3MwbmIxMGh2azJubjh5NHpmbWloaSJ9.cHakwI5tJ_9g4G56n5tlFQ',
     //style:'mapbox://styles/raghadestanbouli/ckpbc5x6o053718pcf6oytbu1',
     //accessToken: 'pk.eyJ1IjoicmFnaGFkZXN0YW5ib3VsaSIsImEiOiJja21vdmE1cWgyOHYxMnVtZ2EweTlzNW9rIn0.pH1YN5MUUxqb-py-3V6fcg',
-     showMarkers: true,
+     showMarkers: false,
     markerColor: '#f3a9cc',
     theme: 'liberty',
     alignment: 'left',
