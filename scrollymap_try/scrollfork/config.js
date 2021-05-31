@@ -669,10 +669,10 @@ var config = {
             image: './path/to/image/source.png',
             description: 'Copy these sections to add to your story.',
             location: {
-                center: [-81.77629,46.25966],
-                zoom: 12.78,
+                center: { lon: -81.75867, lat: 46.25789 },
+                zoom: 12.39,
                 pitch: 60.00,
-                bearing: -61.79
+                bearing: -177.59
             },
             onChapterEnter: [ 
                 {
@@ -701,10 +701,10 @@ var config = {
             image: './path/to/image/source.png',
             description: 'Copy these sections to add to your story.',
             location: {
-                center: { lon: -80.42061, lat: 45.65670 },
-                zoom: 13.03,
+                center: { lon: -81.04895, lat: 46.47691 },
+                zoom: 11.64,
                 pitch: 60.00,
-                bearing: -19.40
+                bearing: -87.19
             },
             
             onChapterEnter: [
@@ -725,10 +725,10 @@ var config = {
             image: './path/to/image/source.png',
             description: 'Copy these sections to add to your story.',
              location: {
-                center: { lon: -80.42432, lat: 45.66348 },
-                zoom: 12.93,
+                center: { lon: -80.44140, lat: 45.66449 },
+                zoom: 10.93,
                 pitch: 60.00,
-                bearing: 144.73
+                bearing: -23.43
             },
             onChapterEnter: [
                 {
@@ -749,23 +749,14 @@ var config = {
                 pitch: 60.00,
                 bearing: 0.00
             },
-            onChapterEnter: [],
+            onChapterEnter: [
+                {
+                    layer: 'stop-14',
+                    opacity: 0
+                }
+            ],
             onChapterExit: []
-        },
-        {
-            id: 'drive-slide-14',
-            title: 'Stop 15',
-            image: './path/to/image/source.png',
-            description: 'Copy these sections to add to your story.',
-            location: {
-                center: { lon: -78.99902, lat: 44.52656 },
-                zoom: 9.87,
-                pitch: 60.00,
-                bearing: 0.59
-            },
-            onChapterEnter: [],
-            onChapterExit: []
-        },
+        }
         
     ]
 };
