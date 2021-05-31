@@ -357,10 +357,10 @@ var config = {
                 // pitch: 60.00,
                 // bearing: -159.41
 
-            center: { lon: -84.79296, lat: 47.99717 },
-            zoom: 11.81,
-            pitch: 60.00,
-            bearing: 15.77
+                center: { lon: -84.66245, lat: 47.95360 },
+                zoom: 9.59,
+                pitch: 60.00,
+                bearing: -88.23
             },
             // mapAnimation: 'flyTo',
             onChapterEnter: [ 

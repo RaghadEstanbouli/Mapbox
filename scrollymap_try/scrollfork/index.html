@@ -349,30 +349,31 @@ map.on("load", function() {
         var chapter = config.chapters.find(chap => chap.id === response.element.id);
         response.element.classList.add('active');
 //  uncomment first line here to make fly to animation on chapters where there are coordinates listed. 
-        // map[chapter.mapAnimation || 'flyTo'](chapter.location);
+        map[chapter.mapAnimation || 'flyTo'](chapter.location);
         // map.flyTo(chapter.location);
-        map.flyTo({
-// These options control the ending camera position: centered at
-// the target, at zoom level 9, and north up.
-center:  chapter.location.center,
-zoom: chapter.location.zoom,
-bearing: chapter.location.bearing,
+//         map.flyTo({
+// // These options control the ending camera position: centered at
+// // the target, at zoom level 9, and north up.
+// center:  chapter.location.center,
+// zoom: chapter.location.zoom,
+// bearing: chapter.location.bearing,
  
-// These options control the flight curve, making it move
-// slowly and zoom out almost completely before starting
-// to pan.
-speed: 0.5, // make the flying slow
-curve: 1, // change the speed at which it zooms out
+// // These options control the flight curve, making it move
+// // slowly and zoom out almost completely before starting
+// // to pan.
+// speed: 0.5, // make the flying slow
+// curve: 1, // change the speed at which it zooms out
  
-// This can be any easing function: it takes a number between
-// 0 and 1 and returns another number between 0 and 1.
-easing: function (t) {
-return t;
-},
+// // This can be any easing function: it takes a number between
+// // 0 and 1 and returns another number between 0 and 1.
+// easing: function (t) {
+// return t;
+// },
  
-// this animation is considered essential with respect to prefers-reduced-motion
-essential: true
-});
+// // this animation is considered essential with respect to prefers-reduced-motion
+// essential: true
+// });
+
 
         if (config.showMarkers) {
             marker.setLngLat(chapter.location.center);
