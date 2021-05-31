@@ -257,9 +257,9 @@ function handleStepProgress(response) {
             map.setLayoutProperty('animatedLine', 'visibility', 'visible');
             stepProgress = Math.round(response.progress*driveSmoothness);
         } else {
-            stepProgress = Math.round(response.progress*driveSmoothness+driveSmoothness*driveSlideNum*1.5);
+            stepProgress = Math.round(response.progress*driveSmoothness+driveSmoothness*driveSlideNum);
         }//}
-        changeCenter(2600);
+        changeCenter(stepProgress);
     }
 }
 // END

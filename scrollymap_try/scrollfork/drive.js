@@ -99,9 +99,9 @@ function changeCenter(index) {
         //-88.2696920296685,49.018545205676894
         //this mae change
         
-    //    map.flyTo({
-    //                 center: [centerX, centerY]
-    //             });  
+      map.flyTo({
+                 center: [centerX, centerY]
+           });  
         
         /* map.flyTo({
          // These options control the ending camera position: centered at
