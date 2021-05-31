@@ -33,19 +33,7 @@ var config = {
     byline: 'By a Digital Storyteller',
     footer: 'Source: source citations, etc.',
     chapters: [
-                {
-            id: 'slide-0',
-            title: 'none',
-            hidden: false,
-            location: { 
-                center: { lon: -85.19922, lat: 45.69835 },
-                zoom: 6.25,
-                pitch: 60.00,
-                bearing: 0.00
-            },
-            onChapterEnter: [],
-            onChapterExit: []
-        },
+               
         {
             id: 'start',
             alignment: 'right',
@@ -126,16 +114,35 @@ var config = {
                 //     }
             ]
         },
-        // {
-        //     id: 'slide-0',
-        //     title: 'Fundraiser',
-        //     // image: './path/to/image/source.png',
-        //     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-        //     location: { 
-        //     },
-        //     onChapterEnter: [],
-        //     onChapterExit: []
-        // },
+        {
+            id: 'slide-0',
+            hidden: false,
+            location: { 
+                center: { lon: -89.03136, lat: 48.51224 },
+                zoom: 9.54,
+                pitch: 60.00,
+                bearing: -114.40
+            },
+        },
+        {
+            id: 'slide-0',
+            hidden: false,
+            location: { 
+                center: { lon: -88.69346, lat: 48.64935 },
+                zoom: 10.00,
+                pitch: 60.00,
+                bearing: -136.80
+            },
+        },
+        {
+            id: 'slide-0',
+            location: {
+                center: { lon: -88.47472, lat: 48.87949 },
+                zoom: 11.04,
+                pitch: 60.00,
+                bearing: -149.60 
+            },
+        },
         {
             id: 'drive-slide-0 ',
             title: 'STOP 1?',
