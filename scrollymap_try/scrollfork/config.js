@@ -1,6 +1,6 @@
 // Number of slides that will drive (more = smoother)
 // If this doesn't match the number of slides named 'drive-slide' in config below you will not complete the full journey
-var driveSlides = 16;
+var driveSlides = 15;
 
 // Number of points on drive route (more = higher quality, but slower to process)
 var driveSmoothness = 200;
@@ -357,10 +357,10 @@ var config = {
                 // pitch: 60.00,
                 // bearing: -159.41
 
-                center: { lon: -84.74236, lat: 47.44431 },
-                zoom: 12.25,
-                pitch: 60.00,
-                bearing: -13.71
+            center: { lon: -84.79296, lat: 47.99717 },
+            zoom: 11.81,
+            pitch: 60.00,
+            bearing: 15.77
             },
             // mapAnimation: 'flyTo',
             onChapterEnter: [ 
