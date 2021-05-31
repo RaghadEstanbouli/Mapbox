@@ -771,10 +771,11 @@ var config = {
                 // zoom: 10.93,
                 // pitch: 60.00,
                 // bearing: -23.43
-                center: { lon: -79.77637, lat: 45.16116 },
-                zoom: 9.93,
+
+                center: { lon: -78.99838, lat: 44.55062 },
+                zoom: 9.29,
                 pitch: 60.00,
-                bearing: 0.00
+                bearing: -21.03
             },
             onChapterEnter: [
                 {
