@@ -228,10 +228,10 @@ const transformRequest = (url) => {
 var map = new mapboxgl.Map({
     container: 'map',
     style: config.style,
-    center: config.chapters[0].location.center,
-    zoom: config.chapters[0].location.zoom,
-    bearing: config.chapters[0].location.bearing,
-    pitch: config.chapters[0].location.pitch,
+    // center: config.chapters[0].location.center,
+    // zoom: config.chapters[0].location.zoom,
+    // bearing: config.chapters[0].location.bearing,
+    // pitch: config.chapters[0].location.pitch,
     scrollZoom: false,
     transformRequest: transformRequest
 });
@@ -246,24 +246,21 @@ if (config.showMarkers) {
     // and exit callback functions:
 // instantiate the scrollama
 var scroller = scrollama();
-// to read the number of each slide by slice the id and set the Property
+
 function handleStepProgress(response) {
     let stepProgress;
 
     if (response.element.id.slice(0,5) === 'drive') {
         let driveSlideNum = parseInt(response.element.id.slice(-1));
-           // if(driveSlideNum == null || driveSlideNum == 0 ){}
         if (driveSlideNum === 0) {
             map.setLayoutProperty('animatedLine', 'visibility', 'visible');
             stepProgress = Math.round(response.progress*driveSmoothness);
         } else {
-            
             stepProgress = Math.round(response.progress*driveSmoothness+driveSmoothness*driveSlideNum);
-        }//
+        }
         changeCenter(stepProgress);
     }
 }
-// END
 
 map.on("load", function() {
 
@@ -308,6 +305,25 @@ map.on("load", function() {
         "data": geojsonPoint
     });
 
+    // this could be a way of pulling the stops then refferring into the chapters to show or hide the stops on enter/exit/ 
+    // map.addSource('my-data', {
+    //     type: 'geojson',
+    //     url: 'mapbox://ername.tilesetid'
+    //     });
+    // map.addSource('my-data', {
+    //     "type": "geojson",
+    //     "data": {
+    //     "type": "Feature",
+    //     "geometry": {
+    //     "type": "Point",
+    //     "coordinates": [-77.0323, 38.9131]
+    //     },
+    //     "properties": {
+    //     "title": "Mapbox DC",
+    //     "marker-symbol": "monument"
+    //     }
+    //     }
+    //     });
 
     map.addLayer({
       "id": "animatedLine",
@@ -321,7 +337,7 @@ map.on("load", function() {
        'layout': {
            'visibility': 'none'
        }
-    }, );
+    });
 
     map.addLayer({
       "id": "animatedPoint",
@@ -349,31 +365,8 @@ map.on("load", function() {
         var chapter = config.chapters.find(chap => chap.id === response.element.id);
         response.element.classList.add('active');
 //  uncomment first line here to make fly to animation on chapters where there are coordinates listed. 
-        map[chapter.mapAnimation || 'flyTo'](chapter.location);
+        // map[chapter.mapAnimation || 'flyTo'](chapter.location);
         // map.flyTo(chapter.location);
-//         map.flyTo({
-// // These options control the ending camera position: centered at
-// // the target, at zoom level 9, and north up.
-// center:  chapter.location.center,
-// zoom: chapter.location.zoom,
-// bearing: chapter.location.bearing,
- 
-// // These options control the flight curve, making it move
-// // slowly and zoom out almost completely before starting
-// // to pan.
-// speed: 0.5, // make the flying slow
-// curve: 1, // change the speed at which it zooms out
- 
-// // This can be any easing function: it takes a number between
-// // 0 and 1 and returns another number between 0 and 1.
-// easing: function (t) {
-// return t;
-// },
- 
-// // this animation is considered essential with respect to prefers-reduced-motion
-// essential: true
-// });
-
 
         if (config.showMarkers) {
             marker.setLngLat(chapter.location.center);
@@ -386,16 +379,7 @@ map.on("load", function() {
     .onStepExit(response => {
         var chapter = config.chapters.find(chap => chap.id === response.element.id);
         response.element.classList.remove('active');
-        map.flyTo({
-        center:  chapter.location.center,
-        zoom: 10,
-        bearing: chapter.location.bearing,
-        speed: 0.5,
-        curve: 1, 
-        easing: function (t) {
-        return t;
-        },essential: true
-    });
+       
         if (chapter.onChapterExit.length > 0) {
             chapter.onChapterExit.forEach(setLayerOpacity);
         }
@@ -408,6 +392,35 @@ map.on("load", function() {
 // setup resize event
 window.addEventListener('resize', scroller.resize);
 
+// On every scroll event, check which element is on screen. If it is on the scrolly chapter listed then it will activate a fly to animation.
+// window.onscroll = function () {
+//     var chapterNames = Object.keys(config);
+//     for (var i = 0; i < chapterNames.length; i++) {
+//         var chapterName = chapterNames[i];
+//         if (isElementOnScreen(chapterName)) {
+//         setActiveChapter(chapterName);
+//         break;
+//         }
+//     }
+// };
+ 
+// var activeChapterName = 'drive-slide-3';
+// function setActiveChapter(chapterName) {
+//     if (chapterName === activeChapterName) return;
+ 
+//     map.flyTo(config[chapterName]);
+    
+//     document.getElementById(chapterName).setAttribute('class', 'active');
+//     document.getElementById(activeChapterName).setAttribute('class', '');
+    
+//     activeChapterName = chapterName;
+// }
+ 
+// function isElementOnScreen(id) {
+//     var element = document.getElementById(id);
+//     var bounds = element.getBoundingClientRect();
+//     return bounds.top < window.innerHeight && bounds.bottom > 0;
+// }
 
 
 

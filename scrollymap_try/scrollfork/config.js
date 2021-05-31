@@ -1,6 +1,6 @@
 // Number of slides that will drive (more = smoother)
 // If this doesn't match the number of slides named 'drive-slide' in config below you will not complete the full journey
-var driveSlides = 15;
+var driveSlides = 13;
 
 // Number of points on drive route (more = higher quality, but slower to process)
 var driveSmoothness = 200;
@@ -10,22 +10,19 @@ var driveTime = driveSlides*driveSmoothness;
 
 // Do you want to follow the point? True = follow
 // True is not that smpooth- working on seeing if can get it to follow more smoothly 
-var followPoint = false;
+var followPoint = true;
 // ...If so, what zoom, pitch, and bearing should be used to follow?
-var followZoomLevel = 5;
-var followBearing = 13.81;
-var followPitch = 60;//60.00;
-
+var followZoomLevel = 7;
+var followBearing = 15;
+var followPitch = 0;
 
 // to add 'driving' slides just make sure to add 'drive to beginning of slide id'
 // you also need to add a running total to the end of each 'drive-slide', (ex. drive-slide-0, drive-slide-1, drive-slide-2, etc.)
 var config = {
     style: 'mapbox://styles/vanritto/ckp6e61p50nwy17o58eyrsnoe',
-    accessToken:'pk.eyJ1IjoidmFucml0dG8iLCJhIjoiY2ttd3MwbmIxMGh2azJubjh5NHpmbWloaSJ9.cHakwI5tJ_9g4G56n5tlFQ',
-    //style:'mapbox://styles/raghadestanbouli/ckpbc5x6o053718pcf6oytbu1',
-    //accessToken: 'pk.eyJ1IjoicmFnaGFkZXN0YW5ib3VsaSIsImEiOiJja21vdmE1cWgyOHYxMnVtZ2EweTlzNW9rIn0.pH1YN5MUUxqb-py-3V6fcg',
-     showMarkers: false,
-    markerColor: '#f3a9cc',
+    accessToken: 'pk.eyJ1IjoidmFucml0dG8iLCJhIjoiY2ttd3MwbmIxMGh2azJubjh5NHpmbWloaSJ9.cHakwI5tJ_9g4G56n5tlFQ',
+    // showMarkers: true,
+    // markerColor: 'green',
     theme: 'liberty',
     alignment: 'left',
     title: 'Liberty Project',
