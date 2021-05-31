@@ -118,29 +118,29 @@ var config = {
             id: 'slide-0',
             hidden: true,
             location: { 
-                center: { lon: -89.03136, lat: 48.51224 },
-                zoom: 9.54,
+                center: { lon: -89.04821, lat: 48.50584 },
+                zoom: 9.08,
                 pitch: 60.00,
-                bearing: -114.40
+                bearing: -115.20
             },
         },
         {
             id: 'slide-0',
             hidden: true,
             location: { 
-                center: { lon: -88.69346, lat: 48.64935 },
-                zoom: 10.00,
+                center: { lon: -88.69127, lat: 48.64896 },
+                zoom: 9.17,
                 pitch: 60.00,
-                bearing: -136.80
+                bearing: -137.32
             },
         },
         {
             id: 'slide-0',
             location: {
-                center: { lon: -88.47472, lat: 48.87949 },
-                zoom: 11.04,
+                center: { lon: -88.33600, lat: 48.95806 },
+                zoom: 9.38,
                 pitch: 60.00,
-                bearing: -149.60 
+                bearing: -177.32
             },
         },
         {

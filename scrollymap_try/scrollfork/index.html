@@ -384,7 +384,16 @@ essential: true
     .onStepExit(response => {
         var chapter = config.chapters.find(chap => chap.id === response.element.id);
         response.element.classList.remove('active');
-        map.setZoom(10);
+        map.flyTo({
+        center:  chapter.location.center,
+        zoom: 10,
+        bearing: chapter.location.bearing,
+        speed: 0.5,
+        curve: 1, 
+        easing: function (t) {
+        return t;
+        },essential: true
+    });
         if (chapter.onChapterExit.length > 0) {
             chapter.onChapterExit.forEach(setLayerOpacity);
         }
