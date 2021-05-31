@@ -111,35 +111,35 @@ var config = {
                 //     }
             ]
         },
-        // {
-        //     id: 'slide-0',
-        //     hidden: true,
-        //     location: { 
-        //         center: { lon: -89.04821, lat: 48.50584 },
-        //         zoom: 9.08,
-        //         pitch: 60.00,
-        //         bearing: -115.20
-        //     },
-        // },
-        // {
-        //     id: 'slide-0',
-        //     hidden: true,
-        //     location: { 
-        //         center: { lon: -88.69127, lat: 48.64896 },
-        //         zoom: 9.17,
-        //         pitch: 60.00,
-        //         bearing: -137.32
-        //     },
-        // },
-        // {
-        //     id: 'slide-0',
-        //     location: {
-        //         center: { lon: -88.33600, lat: 48.95806 },
-        //         zoom: 9.38,
-        //         pitch: 60.00,
-        //         bearing: -177.32
-        //     },
-        // },
+        {
+            id: 'slide-0',
+            hidden: true,
+            location: { 
+                center: { lon: -89.04821, lat: 48.50584 },
+                zoom: 9.08,
+                pitch: 60.00,
+                bearing: -115.20
+            },
+        },
+        {
+            id: 'slide-1',
+            hidden: true,
+            location: { 
+                center: { lon: -88.69127, lat: 48.64896 },
+                zoom: 9.17,
+                pitch: 60.00,
+                bearing: -137.32
+            },
+        },
+        {
+            id: 'slide-2',
+            location: {
+                center: { lon: -88.33600, lat: 48.95806 },
+                zoom: 9.38,
+                pitch: 60.00,
+                bearing: -177.32
+            },
+        },
         {
             id: 'drive-slide-0 ',
             title: 'STOP 1?',
