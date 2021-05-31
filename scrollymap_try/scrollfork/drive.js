@@ -26,7 +26,7 @@ function createLine() {
     const lineDistance = turf.lineDistance(line);
     console.log("total length of the line"+lineDistance);
     // how many points you want along the path (more = smoother animation)
-    const rects = driveTime *3;
+    const rects = driveTime*3;
 
     // calculate the distance between each point on the path
     const segments = lineDistance / rects;
