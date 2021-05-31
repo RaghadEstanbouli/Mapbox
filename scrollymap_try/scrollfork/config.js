@@ -744,7 +744,7 @@ var config = {
             },
             onChapterEnter: [],
             onChapterExit: []
-        }
+        },
         {
             id: 'drive-slide-14',
             title: 'Stop 15',
