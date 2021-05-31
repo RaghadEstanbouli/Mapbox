@@ -343,10 +343,10 @@ var config = {
             image: './path/to/image/source.png',
             description: 'Copy these sections to add to your story.',
             location: {
-                center: { lon: -86.99387, lat: 48.78338 },
-                zoom: 13.94,
+                center: { lon: -87.07819, lat: 48.78017 },
+                zoom: 13.13,
                 pitch: 60.00,
-                bearing: -154.64
+                bearing: -159.41
             },
             // mapAnimation: 'flyTo',
             onChapterEnter: [ 
