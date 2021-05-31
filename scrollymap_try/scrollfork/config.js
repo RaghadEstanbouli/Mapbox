@@ -745,14 +745,19 @@ var config = {
             onChapterEnter: [],
             onChapterExit: []
         }
-        // {
-        //     id: 'drive-slide-14',
-        //     title: 'Stop 15',
-        //     image: './path/to/image/source.png',
-        //     description: 'Copy these sections to add to your story.',
-        //     location: {},
-        //     onChapterEnter: [],
-        //     onChapterExit: []
-        // }
+        {
+            id: 'drive-slide-14',
+            title: 'Stop 15',
+            image: './path/to/image/source.png',
+            description: 'Copy these sections to add to your story.',
+            location: {
+                center: { lon: -82.49980, lat: 44.81369 },
+                zoom: 7.00,
+                pitch: 60.00,
+                bearing: -32.80
+            },
+            onChapterEnter: [],
+            onChapterExit: []
+        }
     ]
 };
