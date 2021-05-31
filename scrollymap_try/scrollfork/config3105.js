@@ -115,29 +115,30 @@ var config = {
             id: 'slide-0',
             hidden: true,
             location: { 
-                center: { lon: -89.04821, lat: 48.50584 },
-                zoom: 9.08,
-                pitch: 60.00,
-                bearing: -115.20
+                center: { lon: -89.16423, lat: 48.48545 },
+                zoom: 10.84,
+                pitch: 52.00,
+                bearing: -106.68
             },
         },
         {
             id: 'slide-1',
             hidden: true,
             location: { 
-                center: { lon: -88.69127, lat: 48.64896 },
-                zoom: 9.17,
-                pitch: 60.00,
-                bearing: -137.32
+                center: { lon: -88.91913, lat: 48.54790 },
+                zoom: 10.84,
+                pitch: 56.00,
+                bearing: -125.08
             },
         },
         {
             id: 'slide-2',
+            hidden: true,
             location: {
-                center: { lon: -88.33600, lat: 48.95806 },
-                zoom: 9.38,
+                center: { lon: -88.63856, lat: 48.68384 },
+                zoom: 10.84,
                 pitch: 60.00,
-                bearing: -177.32
+                bearing: -152.28
             },
         },
         {
