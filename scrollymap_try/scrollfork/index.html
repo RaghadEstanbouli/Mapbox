@@ -252,14 +252,14 @@ function handleStepProgress(response) {
 
     if (response.element.id.slice(0,5) === 'drive') {
         let driveSlideNum = parseInt(response.element.id.slice(-1));
-        //if(driveSlideNum!=null){
+            if(driveSlideNum == null || driveSlideNum == 0 ){continue;}
         if (driveSlideNum === 0) {
-            
+            map.setLayoutProperty('animatedLine', 'visibility', 'visible');
             stepProgress = Math.round(response.progress*driveSmoothness);
         } else {
-            map.setLayoutProperty('animatedLine', 'visibility', 'visible');
+            
             stepProgress = Math.round(response.progress*driveSmoothness+driveSmoothness*driveSlideNum);
-        }//}
+        }//
         changeCenter(stepProgress);
     }
 }
