@@ -111,36 +111,7 @@ var config = {
                 //     }
             ]
         },
-        {
-            id: 'slide-0',
-            hidden: true,
-            location: { 
-                center: { lon: -89.16423, lat: 48.48545 },
-                zoom: 10.84,
-                pitch: 52.00,
-                bearing: -106.68
-            },
-        },
-        {
-            id: 'slide-1',
-            hidden: true,
-            location: { 
-                center: { lon: -88.91913, lat: 48.54790 },
-                zoom: 10.84,
-                pitch: 56.00,
-                bearing: -125.08
-            },
-        },
-        {
-            id: 'slide-2',
-            hidden: true,
-            location: {
-                center: { lon: -88.63856, lat: 48.68384 },
-                zoom: 10.84,
-                pitch: 60.00,
-                bearing: -152.28
-            },
-        },
+
         {
             id: 'drive-slide-0 ',
             title: 'STOP 1?',
