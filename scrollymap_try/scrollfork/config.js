@@ -36,7 +36,7 @@ var config = {
                 {
             id: 'slide-0',
             title: 'none',
-            
+            hidden: false,
             location: { 
                 center: { lon: -85.19922, lat: 45.69835 },
                 zoom: 6.25,
