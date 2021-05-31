@@ -349,7 +349,7 @@ map.on("load", function() {
 //  uncomment first line here to make fly to animation on chapters where there are coordinates listed. 
         // map[chapter.mapAnimation || 'flyTo'](chapter.location);
         // map.flyTo(chapter.location);
-        /*map.flyTo({
+        map.flyTo({
 // These options control the ending camera position: centered at
 // the target, at zoom level 9, and north up.
 center:  chapter.location.center,
@@ -370,7 +370,7 @@ return t;
  
 // this animation is considered essential with respect to prefers-reduced-motion
 essential: true
-});*/
+});
 
         if (config.showMarkers) {
             marker.setLngLat(chapter.location.center);
