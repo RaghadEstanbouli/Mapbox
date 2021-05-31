@@ -116,7 +116,7 @@ var config = {
         },
         {
             id: 'slide-0',
-            hidden: false,
+            hidden: true,
             location: { 
                 center: { lon: -89.03136, lat: 48.51224 },
                 zoom: 9.54,
@@ -126,7 +126,7 @@ var config = {
         },
         {
             id: 'slide-0',
-            hidden: false,
+            hidden: true,
             location: { 
                 center: { lon: -88.69346, lat: 48.64935 },
                 zoom: 10.00,
