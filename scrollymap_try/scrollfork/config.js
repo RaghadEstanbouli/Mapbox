@@ -756,7 +756,7 @@ var config = {
                 },
                 {
                 layer: 'stop-13',
-                opacity: 0
+                opacity: 1
                 }
             ],
             onChapterExit: []
