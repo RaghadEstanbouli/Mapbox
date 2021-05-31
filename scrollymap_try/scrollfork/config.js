@@ -3,10 +3,10 @@
 var driveSlides = 16;
 
 // Number of points on drive route (more = higher quality, but slower to process)
-var driveSmoothness = 1200;
+var driveSmoothness = 400;
 
 // Value used to drive
-var driveTime = driveSlides*driveSmoothness;
+var driveTime = driveSlides*driveSmoothness*2;
 
 // Do you want to follow the point? True = follow
 // True is not that smpooth- working on seeing if can get it to follow more smoothly 
