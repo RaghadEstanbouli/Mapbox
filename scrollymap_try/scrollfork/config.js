@@ -114,6 +114,7 @@ var config = {
         {
             id: 'drive-slide-0',
             hidden: true,
+            alignment: 'left',
             location: { 
                 // center: { lon: -88.25617, lat: 49.01905 },
                 // zoom: 10,
