@@ -228,10 +228,10 @@ const transformRequest = (url) => {
 var map = new mapboxgl.Map({
     container: 'map',
     style: config.style,
-    center: config.chapters[0].location.center,
-    zoom: config.chapters[0].location.zoom,
-    bearing: config.chapters[0].location.bearing,
-    pitch: config.chapters[0].location.pitch,
+    // center: config.chapters[0].location.center,
+    // zoom: config.chapters[0].location.zoom,
+    // bearing: config.chapters[0].location.bearing,
+    // pitch: config.chapters[0].location.pitch,
     scrollZoom: false,
     transformRequest: transformRequest
 });
@@ -256,9 +256,7 @@ function handleStepProgress(response) {
             map.setLayoutProperty('animatedLine', 'visibility', 'visible');
             stepProgress = Math.round(response.progress*driveSmoothness);
         } else {
-            
             stepProgress = Math.round(response.progress*driveSmoothness+driveSmoothness*driveSlideNum);
-            console.log("response: "+response + "/ progress: "+response.progress);
         }
         changeCenter(stepProgress);
     }
@@ -367,7 +365,7 @@ map.on("load", function() {
         var chapter = config.chapters.find(chap => chap.id === response.element.id);
         response.element.classList.add('active');
 //  uncomment first line here to make fly to animation on chapters where there are coordinates listed. 
-         map[chapter.mapAnimation || 'flyTo'](chapter.location);
+        // map[chapter.mapAnimation || 'flyTo'](chapter.location);
         // map.flyTo(chapter.location);
 
         if (config.showMarkers) {
@@ -444,6 +442,7 @@ $(document).ready(function (){
       }
     });
 });
+
 
 </script>
 
