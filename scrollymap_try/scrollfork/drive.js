@@ -29,13 +29,14 @@ function createLine() {
 
     // how many points you want along the path (more = smoother animation)
     // const rects = driveTime;
-    const rects = driveTime*0.9;
+    const rects = driveTime;
     console.log(" how many points you want along the path: "+ rects );
     // calculate the distance between each point on the path
     // const segments = lineDistance / rects;
     // const segments = lineDistance / driveSlides / rects;
     // const segments = lineDistance / driveSlides;
-    const segments =  lineDistance / 1161;
+    //const segments =  lineDistance / 1161;
+    const segments =  lineDistance ;
     console.log(" distance between each point on the path: "+ segments );
 
     // what units do you want to use?
@@ -79,7 +80,7 @@ function changeCenter(index) {
 
     // Set center to a subsample of the line, say every 10th or 25th. This number is for
     //how often the camera recenters along the route. 
-    let subsampleIndex = 60;
+    let subsampleIndex = 25;
 
     let currentJson = geojsonPoint.features[0].geometry.coordinates.slice(0,index);
     let center = geojsonPoint.features[0].geometry.coordinates[index];
