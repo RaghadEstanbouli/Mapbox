@@ -708,23 +708,29 @@ var config = {
 //--------STOP 4----------// 
     {
         id: 'drive-slide-09',
-        title: 'Stop 5: Education',
+        title: 'Stop 4: What areas are we focusing on?',
         image: './Images/TestImage2.png',
-        description: 'In Mozambique over half the girls in primary school drop out by fifth grade and only 11% of those go on to complete secondary level education.. As part of our programming we are educating on basic things such as health issues; to offer women an opportunity to gain knowledge, then share it with their sphere of influence.',
+        description: 'The main areas that the Liberty Project works in is: Education, Health education, vocational training, trauma therapy.',
         location: {
-            // center: { lon: -85.54922, lat: 48.65097 },
-            // zoom: 12.13,
+            // center: { lon: -87.07819, lat: 48.78017 },
+            // zoom: 13.13,
             // pitch: 60.00,
-            // bearing: -73.16
-            center: { lon: -84.74236, lat: 47.44431 },
-            zoom: 12.25,
+            // bearing: -159.41
+
+            center: { lon: -84.66245, lat: 47.95360 },
+            zoom: 9.59,
             pitch: 60.00,
-            bearing: -13.71
+            bearing: -88.23 
         },
-        onChapterEnter: [
+        // mapAnimation: 'flyTo',
+        onChapterEnter: [ 
             {
-                layer: 'stop-5',
+                layer: 'stop-4',
                 opacity: 1
+                },
+                {
+                layer: 'stop-5',
+                opacity: 0
                 },
                 {
                 layer: 'stop-6',
@@ -759,7 +765,12 @@ var config = {
                 opacity: 0
                 }
         ],
-        onChapterExit: []
+        onChapterExit: [
+            // {
+            //     layer: 'stop-3',
+            //     opacity: 0
+            // }
+        ]
     },
 //--------------------------------------------------------------------------
     {
