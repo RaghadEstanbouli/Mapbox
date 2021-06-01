@@ -258,7 +258,7 @@ function handleStepProgress(response) {
         } else {
             
             stepProgress = Math.round(response.progress*driveSmoothness+driveSmoothness*driveSlideNum);
-            console.log("response: "+response + "/ progress: "+response.progress)
+            console.log("response: "+response + "/ progress: "+response.progress);
         }
         changeCenter(stepProgress);
     }
