@@ -18,29 +18,37 @@ function createLine() {
     // get the coordinates of the line you want to highlight
     let extentArray = routeData.features[0].geometry.coordinates;
     
+
     // create a turf linestring based on the line coordinates
     const line = turf.lineString(extentArray);
     console.log("turf linestring based on the line coordinates: "+ line );
     // calculate the total length of the line
     const lineDistance = turf.lineDistance(line);
     console.log(" total length: "+ lineDistance );
+    
 
     // how many points you want along the path (more = smoother animation)
+    // const rects = driveTime;
     const rects = driveTime;
     console.log(" how many points you want along the path: "+ rects );
     // calculate the distance between each point on the path
-    //const segments = lineDistance / rects;
-    const segments = lineDistance / driveSlides / rects;
-    console.log(" distance between each point on the path: "+ rects );
+    // const segments = lineDistance / rects;
+    // const segments = lineDistance / driveSlides / rects;
+    // const segments = lineDistance / driveSlides;
+    const segments =  lineDistance / rects;
+    console.log(" distance between each point on the path: "+ segments );
+
     // what units do you want to use?
     const units = 'kilometers';
 
     // based on the number of points...
+    // for(let i = 0; i <= rects; i++) {
     for(let i = 0; i <= rects; i++) {
 
         // calculate point location for each segment
+        // const pointonline = turf.along(line, (rects * i));
         const pointonline = turf.along(line, (segments * i));
-
+        console.log("calculate point location for each segment: "+ pointonline );
         // push new x,y
         let newX = pointonline.geometry.coordinates[0];
         let newY = pointonline.geometry.coordinates[1];
@@ -62,7 +70,6 @@ function createLine() {
         // once 'i' equals the number of points then we're done building our line 
         if (i == rects) {
             map.getSource('lineSource').setData(geojsonPoint);
-            
         }
     }
 
