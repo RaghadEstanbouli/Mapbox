@@ -113,7 +113,7 @@ var config = {
         },
 
         {
-            id: 'drive-slide-0 ',
+            id: 'drive-slide-0',
             title: 'STOP 1?',
             image: './path/to/image/source.png',
             description: 'Copy these sections to add to your story.',
