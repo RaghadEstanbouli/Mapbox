@@ -3,7 +3,7 @@
 var driveSlides = 13;
 
 // Number of points on drive route (more = higher quality, but slower to process)
-var driveSmoothness = 380;
+var driveSmoothness = 480;
 
 // Value used to drive
 var driveTime = driveSlides*driveSmoothness;
@@ -199,7 +199,7 @@ var config = {
             onChapterExit: []
         },
         {
-            id: 'drive-slide-01',
+            id: 'drive-slide-02',
             hidden: true,
             location: { 
                 center: { lon: -88.25617, lat: 49.01905 },
@@ -214,7 +214,7 @@ var config = {
         },
 
         {
-            id: 'drive-slide-02',
+            id: 'drive-slide-03',
             title: 'STOP 2: Why Mozambique?',
             image: './Images/TestImage2.png',
             description:'We believe prevention is key in equipping women and young girls for safe and bright futures free from exploitation. We work in our communities raising awareness and educating on topics such as: human rights and health. This educates and empowers women to make informed choices and look out for others in their local communities.',
@@ -283,7 +283,7 @@ var config = {
             onChapterExit: []
         },
         {
-            id: 'drive-slide-02',
+            id: 'drive-slide-04',
             title: 'Stop 3: Our Response to the Numbers.',
             image: './Images/TestImage2.png',
             description: 'We believe prevention is key in equipping women and young girls for safe and bright futures free from exploitation. We work in our communities raising awareness and educating on topics such as: human rights and health. This educates and empowers women to make informed choices and look out for others in their local communities.',
@@ -348,7 +348,7 @@ var config = {
             onChapterExit: []
         },
         {
-            id: 'drive-slide-03',
+            id: 'drive-slide-05',
             title: 'Stop 4: What areas are we focusing on?',
             image: './Images/TestImage2.png',
             description: 'The main areas that the Liberty Project works in is: Education, Health education, vocational training, trauma therapy.',
