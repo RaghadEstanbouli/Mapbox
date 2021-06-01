@@ -111,6 +111,7 @@ var config = {
             //     }
         ]
     },
+//--------------------------------------------------------------------------
     {
         id: 'drive-slide-0',
         hidden: true,
@@ -327,7 +328,7 @@ var config = {
         ],
         onChapterExit: []
     },
-//-------------------------------------------------------------------------------
+//--------------------------------------------------------------------------
     {
         id: 'drive-slide-03',
         location: {
@@ -463,22 +464,88 @@ var config = {
         ],
         onChapterExit: []
     },
-//--------------------------------------------------------------------------to here
-{
-    id: 'drive-slide-05',
-    title: 'Stop 3: Our Response to the Numbers.',
-    image: './Images/TestImage2.png',
-    description: 'We believe prevention is key in equipping women and young girls for safe and bright futures free from exploitation. We work in our communities raising awareness and educating on topics such as: human rights and health. This educates and empowers women to make informed choices and look out for others in their local communities.',
-    location: {
-        // center: { lon: -87.55436, lat: 48.88640 },
-        // zoom: 9.5,
-        // pitch: 60.00,
-        // bearing: -40.24
-        center: { lon: -85.54922, lat: 48.65097 },
-        zoom: 12.13,
-        pitch: 60.00,
-        bearing: -73.16
+//--------------------------------------------------------------------------
+    {
+        id: 'drive-slide-05',
+        title: 'Stop 3: Our Response to the Numbers.',
+        image: './Images/TestImage2.png',
+        description: 'We believe prevention is key in equipping women and young girls for safe and bright futures free from exploitation. We work in our communities raising awareness and educating on topics such as: human rights and health. This educates and empowers women to make informed choices and look out for others in their local communities.',
+        location: {
+            // center: { lon: -87.55436, lat: 48.88640 },
+            // zoom: 9.5,
+            // pitch: 60.00,
+            // bearing: -40.24
+            center: { lon: -85.54922, lat: 48.65097 },
+            zoom: 12.13,
+            pitch: 60.00,
+            bearing: -73.16
+        },
+        onChapterEnter: [
+            {
+                layer: 'stop-3',
+                opacity: 0
+                },
+                {
+                layer: 'stop-4',
+                opacity: 0
+                },
+                {
+                layer: 'stop-5',
+                opacity: 0
+                },
+                {
+                layer: 'stop-6',
+                opacity: 0
+                },
+                {
+                layer: 'stop-7',
+                opacity: 0
+                },
+                {
+                layer: 'stop-8',
+                opacity: 0
+                },
+                {
+                layer: 'stop-9',
+                opacity: 0
+                },
+                {
+                layer: 'stop-10',
+                opacity: 0
+                },
+                {
+                layer: 'stop-11',
+                opacity: 0
+                },
+                {
+                layer: 'stop-12',
+                opacity: 0
+                },
+                {
+                layer: 'stop-13',
+                opacity: 0
+                }
+
+        ],
+        onChapterExit: []
     },
+    {
+    id: 'drive-slide-06',
+    title: 'Stop 4: What areas are we focusing on?',
+    image: './Images/TestImage2.png',
+    description: 'The main areas that the Liberty Project works in is: Education, Health education, vocational training, trauma therapy.',
+    location: {
+        // center: { lon: -87.07819, lat: 48.78017 },
+        // zoom: 13.13,
+        // pitch: 60.00,
+        // bearing: -159.41
+
+        center: { lon: -84.66245, lat: 47.95360 },
+        zoom: 9.59,
+        pitch: 60.00,
+        bearing: -88.23 
+    },
+    // mapAnimation: 'flyTo',
     onChapterEnter: [
         {
             layer: 'stop-3',
@@ -526,29 +593,98 @@ var config = {
             }
 
     ],
-    onChapterExit: []
-},
-    {
-    id: 'drive-slide-06',
-    title: 'Stop 4: What areas are we focusing on?',
-    image: './Images/TestImage2.png',
-    description: 'The main areas that the Liberty Project works in is: Education, Health education, vocational training, trauma therapy.',
-    location: {
-        // center: { lon: -87.07819, lat: 48.78017 },
-        // zoom: 13.13,
-        // pitch: 60.00,
-        // bearing: -159.41
-
-        center: { lon: -84.66245, lat: 47.95360 },
-        zoom: 9.59,
-        pitch: 60.00,
-        bearing: -88.23 
+    onChapterExit: [
+        // {
+        //     layer: 'stop-3',
+        //     opacity: 0
+        // }
+    ]
     },
-    // mapAnimation: 'flyTo',
-    onChapterEnter: [ 
+//--------STOP 3----------// 
+    {
+        id: 'drive-slide-07',
+        title: 'Stop 5: Education',
+        image: './Images/TestImage2.png',
+        description: 'In Mozambique over half the girls in primary school drop out by fifth grade and only 11% of those go on to complete secondary level education.. As part of our programming we are educating on basic things such as health issues; to offer women an opportunity to gain knowledge, then share it with their sphere of influence.',
+        location: {
+            center: { lon: -84.74236, lat: 47.44431 },
+            zoom: 12.25,
+            pitch: 60.00,
+            bearing: -13.71
+        },
+        onChapterEnter: [
+            {
+                layer: 'stop-3',
+                opacity: 1
+                },
+                {
+                layer: 'stop-4',
+                opacity: 0
+                },
+                {
+                layer: 'stop-5',
+                opacity: 0
+                },
+                {
+                layer: 'stop-6',
+                opacity: 0
+                },
+                {
+                layer: 'stop-7',
+                opacity: 0
+                },
+                {
+                layer: 'stop-8',
+                opacity: 0
+                },
+                {
+                layer: 'stop-9',
+                opacity: 0
+                },
+                {
+                layer: 'stop-10',
+                opacity: 0
+                },
+                {
+                layer: 'stop-11',
+                opacity: 0
+                },
+                {
+                layer: 'stop-12',
+                opacity: 0
+                },
+                {
+                layer: 'stop-13',
+                opacity: 0
+                }
+    
+        ],
+        onChapterExit: []
+    },
+//--------------------------------------------------------------------------to here
+{
+    id: 'drive-slide-08',
+    title: 'Stop 5: Education',
+    image: './Images/TestImage2.png',
+    description: 'In Mozambique over half the girls in primary school drop out by fifth grade and only 11% of those go on to complete secondary level education.. As part of our programming we are educating on basic things such as health issues; to offer women an opportunity to gain knowledge, then share it with their sphere of influence.',
+    location: {
+        // center: { lon: -85.54922, lat: 48.65097 },
+        // zoom: 12.13,
+        // pitch: 60.00,
+        // bearing: -73.16
+        center: { lon: -84.74236, lat: 47.44431 },
+        zoom: 12.25,
+        pitch: 60.00,
+        bearing: -13.71
+    },
+    onChapterEnter: [
         {
-            layer: 'stop-4',
+            layer: 'stop-3',
             opacity: 1
+            },
+            {
+            layer: 'stop-4',
+            opacity: 0
             },
             {
             layer: 'stop-5',
@@ -586,70 +722,10 @@ var config = {
             layer: 'stop-13',
             opacity: 0
             }
-    ],
-    onChapterExit: [
-        // {
-        //     layer: 'stop-3',
-        //     opacity: 0
-        // }
-    ]
-    },
-    {
-        id: 'drive-slide-07',
-        title: 'Stop 5: Education',
-        image: './Images/TestImage2.png',
-        description: 'In Mozambique over half the girls in primary school drop out by fifth grade and only 11% of those go on to complete secondary level education.. As part of our programming we are educating on basic things such as health issues; to offer women an opportunity to gain knowledge, then share it with their sphere of influence.',
-        location: {
-            // center: { lon: -85.54922, lat: 48.65097 },
-            // zoom: 12.13,
-            // pitch: 60.00,
-            // bearing: -73.16
-            center: { lon: -84.74236, lat: 47.44431 },
-            zoom: 12.25,
-            pitch: 60.00,
-            bearing: -13.71
-        },
-        onChapterEnter: [
-            {
-                layer: 'stop-5',
-                opacity: 1
-                },
-                {
-                layer: 'stop-6',
-                opacity: 0
-                },
-                {
-                layer: 'stop-7',
-                opacity: 0
-                },
-                {
-                layer: 'stop-8',
-                opacity: 0
-                },
-                {
-                layer: 'stop-9',
-                opacity: 0
-                },
-                {
-                layer: 'stop-10',
-                opacity: 0
-                },
-                {
-                layer: 'stop-11',
-                opacity: 0
-                },
-                {
-                layer: 'stop-12',
-                opacity: 0
-                },
-                {
-                layer: 'stop-13',
-                opacity: 0
-                }
-        ],
-        onChapterExit: []
-    },
 
+    ],
+    onChapterExit: []
+},
     {
         id: 'drive-slide-08',
         title: 'STOP 6: Health Education',
