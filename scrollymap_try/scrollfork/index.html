@@ -260,7 +260,7 @@ function handleStepProgress(response) {
         } else {
             stepProgress = Math.round(response.progress*driveSmoothness+driveSmoothness*driveSlideNum);
         }
-        changeCenter(stepProgress*4);
+        changeCenter(stepProgress);
     }
 }
 
