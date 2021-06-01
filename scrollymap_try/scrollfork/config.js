@@ -113,7 +113,8 @@ var config = {
     },
 //--------------------------------------------------------------------------
     {
-        id: 'drive-slide-0',
+        //id: 'drive-slide-0',
+        id: '0',
         hidden: true,
         alignment: 'center',
         location: { 
@@ -185,7 +186,8 @@ var config = {
     },    
 
     {
-        id: 'drive-slide-01',
+        //id: 'drive-slide-01',
+        id: '1',
         hidden: true,
         alignment: 'center',
         location: {
@@ -257,7 +259,7 @@ var config = {
     },
 //--------STOP 1----------//   
     {
-        id: 'drive-slide-02',
+        id: '2',
         title: 'STOP 1: Working in Mozambique.',
         image: './Images/TestImage2.png',
         description: 'The Liberty Project is a Christian faith-based non-profit established in Pemba, Northern Mozambique working with women who have been sexually exploited, abused and culturally oppressed. Our vision is to make disciples through sustainable initiatives lead by Local women. We are an organization empowering women to empower women.',
@@ -330,7 +332,7 @@ var config = {
     },
 //--------------------------------------------------------------------------
     {
-        id: 'drive-slide-03',
+        id: '3',
         alignment: 'center',
         location: {
             // center: { lon: -87.87278, lat: 48.93661 },
@@ -398,7 +400,7 @@ var config = {
     },
 //--------STOP 2----------// 
     {
-        id: 'drive-slide-04',
+        id: '4',
         title: 'STOP 2: Why Mozambique?',
         image: './Images/TestImage2.png',
         description:'We believe prevention is key in equipping women and young girls for safe and bright futures free from exploitation. We work in our communities raising awareness and educating on topics such as: human rights and health. This educates and empowers women to make informed choices and look out for others in their local communities.',
@@ -467,7 +469,7 @@ var config = {
     },
 //--------------------------------------------------------------------------
     {
-        id: 'drive-slide-05',
+        id: '5',
         hidden: true,
         alignment: 'center',
         location: {
@@ -530,7 +532,7 @@ var config = {
         onChapterExit: []
     },
     {
-    id: 'drive-slide-06',
+    id: '6',
     hidden: true,
     alignment: 'center',
     location: {
@@ -595,7 +597,7 @@ var config = {
     },
 //--------STOP 3----------// 
     {
-        id: 'drive-slide-07',
+        id: '7',
         title: 'Stop 3: Our Response to the Numbers.',
         image: './Images/TestImage2.png',
         description: 'We believe prevention is key in equipping women and young girls for safe and bright futures free from exploitation. We work in our communities raising awareness and educating on topics such as: human rights and health. This educates and empowers women to make informed choices and look out for others in their local communities.',        location: {
@@ -655,7 +657,7 @@ var config = {
     },
 //--------------------------------------------------------------------------to here
     {
-        id: 'drive-slide-08',
+        id: '8',
         hidden: true,
         alignment: 'center',
         location: {
@@ -707,7 +709,7 @@ var config = {
     },
 //--------STOP 4----------// 
     {
-        id: 'drive-slide-09',
+        id: '9',
         title: 'Stop 4: What areas are we focusing on?',
         image: './Images/TestImage2.png',
         description: 'The main areas that the Liberty Project works in is: Education, Health education, vocational training, trauma therapy.',
@@ -774,7 +776,7 @@ var config = {
     },
 //--------------------------------------------------------------------------
     {
-        id: 'drive-slide-19',
+        id: '10',
         title: 'STOP 8: Trauma Therapy',
         image: './Images/TestImage2.png',
         description: '70% of Women suffer from PTSD in Mozambique, and with the growing civil unrest and violent conflict we are only seeing increases of this type of severe trauma. This is why we offer holistic care including counselling, so that women can work through things in a peaceful atmosphere. If you want to partner with us and see women restored and transformed, donate today!',
@@ -817,7 +819,7 @@ var config = {
         onChapterExit: []
     },
     {
-        id: 'drive-slide-08',
+        id: '11',
         title: 'Stop 9: Why the Fundraiser?',
         image: './Images/TestImage2.png',
         description: 'Our Board Chair is a cyclist and thought as a challenge it would be great to bike from her current home in Thunder Bay to her old home in Peterborough County. And thus idea was born. Thanks to the Fleming College collaboration project, a student team was able to build this webpage and mapping application to show case the challenge and help people get connected. We are excited to see the world wide reach of this fun fitness challenge and fundraiser.',
@@ -856,7 +858,7 @@ var config = {
         onChapterExit: []
     },
     {
-        id: 'drive-slide-09',
+        id: '12',
         title: 'Stop 10: End Exploitation',
         image: './Images/TestImage2.png',
         description: '95% of women in Mozambique have been sexually abused; and 70% of women suffer from PTSD. This is not okay. Throughout the global shut down for COVID-19 we have seen continual increases of exploitation and trafficking world wide. We are here in Mozambique doing preventative work to empower and educate women to help break the cycles of exploitation and poverty.',
@@ -887,7 +889,7 @@ var config = {
         onChapterExit: []
     },
     {
-        id: 'drive-slide-10',
+        id: '13',
         title: 'Stop 11: Bringing Hope',
         image: './Images/TestImage2.png',
         description: 'This ride has been such fun, even though it took a very different turn because of restrictions. Our Founder and Board Chair want to say a big thank you for everyone who donated, participated in the ride and shared our story with their friends & family!  We are excited to continue our journey in Northern Mozambique helping women to empower one another, & see the end of exploitation of women & children in Mozambique (& around the world).',
@@ -923,7 +925,7 @@ var config = {
         ]
     },
     {
-        id: 'drive-slide-11',
+        id: '14',
         title: 'Stop 12: Moving',
         image: './Images/TestImage2.png',
         description: 'WOMEN! Our ladies are wonderful and are the heart of the project. It is our absolute joy to journey with them as they start to experience true freedom when knowing their identity is found in Jesus’ love and purpose for them!   As our ministry shifts to an entirely different area in Northern Mozambique, please pray that we will continue to reach and support more women. We pray that God will provide us with the resources and strength to educate and empower the vulnerable through sharing the Gospel, teaching health and human rights and equipping women with new artisanal skills.',
@@ -951,7 +953,7 @@ var config = {
         onChapterExit: []
     },
     {
-        id: 'drive-slide-12',
+        id: '15',
         title: 'Stop 13: Partner with Us',
         image: './Images/TestImage2.png',
         description: 'Thank you for following our journey & for giving! This fundraiser will continue helping women be empowered, educated and to build a life free from exploitation.                                                       If you would like to participate in the virtual challenge please follow the link to our eventbrite, you will be emailed the link to the virtual race following your registration.',
@@ -975,7 +977,7 @@ var config = {
         onChapterExit: []
     },
     {
-        id: 'drive-slide-13',
+        id: '16',
         title: 'Stop 14: Working in Mozambique.',
         image: './Images/TestImage2.png',
         description: 'TEST TEXT.  The Liberty Project is a Christian faith-based non-profit established in Pemba, Northern Mozambique working with women who have been sexually exploited, abused and culturally oppressed. Our vision is to make disciples through sustainable initiatives lead by Local women. We are an organization empowering women to empower women.',
