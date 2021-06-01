@@ -811,7 +811,7 @@ var config = {
     },
 //--------STOP 4----------// 
     {
-        id: '9',
+        id: '11',
         title: 'Stop 4: What areas are we focusing on?',
         image: './Images/TestImage2.png',
         description: 'The main areas that the Liberty Project works in is: Education, Health education, vocational training, trauma therapy.',
