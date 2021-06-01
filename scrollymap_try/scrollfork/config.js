@@ -581,7 +581,7 @@ var config = {
 },
 //--------STOP 5----------// 
 {
-    id: '9',
+    id: '6',
     title: 'Stop 5: Education',
     image: './Images/TestImage2.png',
     description: 'In Mozambique over half the girls in primary school drop out by fifth grade and only 11% of those go on to complete secondary level education.. As part of our programming we are educating on basic things such as health issues; to offer women an opportunity to gain knowledge, then share it with their sphere of influence.',
@@ -637,7 +637,7 @@ var config = {
 },
 //--------------------------------------------------------------------------
     {
-        id: '10',
+        id: '7',
         hidden: true,
         alignment: 'center',
         location: {
@@ -688,7 +688,7 @@ var config = {
         onChapterExit: []
     },
     {
-        id: '11',
+        id: '8',
         hidden: true,
         alignment: 'center',
         location: {
@@ -742,7 +742,7 @@ var config = {
 
 //--------------------------------------------------------------------------to here
     {
-        id: '12',
+        id: '9',
         title: 'Stop 10: End Exploitation',
         image: './Images/TestImage2.png',
         description: '95% of women in Mozambique have been sexually abused; and 70% of women suffer from PTSD. This is not okay. Throughout the global shut down for COVID-19 we have seen continual increases of exploitation and trafficking world wide. We are here in Mozambique doing preventative work to empower and educate women to help break the cycles of exploitation and poverty.',
