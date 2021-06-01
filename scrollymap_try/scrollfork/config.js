@@ -596,10 +596,9 @@ var config = {
 //--------STOP 3----------// 
     {
         id: 'drive-slide-07',
-        title: 'Stop 5: Education',
+        title: 'Stop 3: Our Response to the Numbers.',
         image: './Images/TestImage2.png',
-        description: 'In Mozambique over half the girls in primary school drop out by fifth grade and only 11% of those go on to complete secondary level education.. As part of our programming we are educating on basic things such as health issues; to offer women an opportunity to gain knowledge, then share it with their sphere of influence.',
-        location: {
+        description: 'We believe prevention is key in equipping women and young girls for safe and bright futures free from exploitation. We work in our communities raising awareness and educating on topics such as: human rights and health. This educates and empowers women to make informed choices and look out for others in their local communities.',        location: {
             center: { lon: -84.74236, lat: 47.44431 },
             zoom: 12.25,
             pitch: 60.00,
@@ -712,7 +711,7 @@ var config = {
         onChapterExit: []
     },
     {
-        id: 'drive-slide-08',
+        id: 'drive-slide-09',
         title: 'STOP 6: Health Education',
         image: './Images/TestImage2.png',
         description: 'We have partnered with  @couldyoucup to help bring accessible menstrual education & management for women & girls in Northern Mozambique.  “The Could You Cup gives me security and confidence while using during my menstrual cycle. It’s the best way to prevent the shame that we receive from people! I choose Could You Cup!” - Giniquina 14 years. What a powerful testimony from this beautiful one. We are so thankful to be able to help equip girls to manage their periods in a way that ends period shaming and keeps them in school! Thank you @couldyoucup for your partnership, Together we bring freedom and bright futures to precious girls in Northern Mozambqiue! #menstruationmatters #theLibertyProject #Pemba.',
@@ -763,7 +762,7 @@ var config = {
         onChapterExit: []
     },
     {
-        id: 'drive-slide-09',
+        id: 'drive-slide-10',
         title: 'Stop 7: Vocational Training',
         image: './Images/TestImage2.png',
         description: 'In Northern Mozambique 45% of women are unemployed. This  is why vocational training and education are a priority of the Liberty Project. As we are having to move to another province in Mozambique due to the conflict; partner with us to help bring vocational training to the women we work with! You can also support this through the Liberty Market Place as more of their projects are featured.',
@@ -810,7 +809,7 @@ var config = {
         onChapterExit: []
     },
     {
-        id: 'drive-slide-07',
+        id: 'drive-slide-11',
         title: 'STOP 8: Trauma Therapy',
         image: './Images/TestImage2.png',
         description: '70% of Women suffer from PTSD in Mozambique, and with the growing civil unrest and violent conflict we are only seeing increases of this type of severe trauma. This is why we offer holistic care including counselling, so that women can work through things in a peaceful atmosphere. If you want to partner with us and see women restored and transformed, donate today!',
