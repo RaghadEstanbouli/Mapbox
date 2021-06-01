@@ -111,16 +111,7 @@ var config = {
                 //     }
             ]
         },
-        {
-            id: 'slide-0',
-            hidden: true,
-            location: { 
-                center: { lon: -89.04821, lat: 48.50584 },
-                zoom: 9.08,
-                pitch: 60.00,
-                bearing: -115.20
-            },
-        },
+
         {
             id: 'drive-slide-0',
             title: 'STOP 1: Working in Mozambique.',
@@ -189,6 +180,17 @@ var config = {
             ],
             onChapterExit: []
         },
+        {
+            id: 'slide-0',
+            hidden: true,
+            location: { 
+                center: { lon: -89.04821, lat: 48.50584 },
+                zoom: 9.08,
+                pitch: 60.00,
+                bearing: -115.20
+            },
+        },
+
         {
             id: 'drive-slide-01',
             title: 'STOP 2: Why Mozambique?',
