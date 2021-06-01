@@ -1167,51 +1167,6 @@ var config = {
             }
         ],
         onChapterExit: []
-    },
-    {
-        id: '21',
-        title: 'Stop 13: Partner with Us',
-        image: './Images/TestImage2.png',
-        description: 'Thank you for following our journey & for giving! This fundraiser will continue helping women be empowered, educated and to build a life free from exploitation.                                                       If you would like to participate in the virtual challenge please follow the link to our eventbrite, you will be emailed the link to the virtual race following your registration.',
-        location: {
-            // center: { lon: -80.44140, lat: 45.66449 },
-            // zoom: 10.93,
-            // pitch: 60.00,
-            // bearing: -23.43
-
-            center: { lon: -78.99838, lat: 44.55062 },
-            zoom: 9.29,
-            pitch: 60.00,
-            bearing: -21.03
-        },
-        onChapterEnter: [
-            {
-            layer: 'stop-13',
-            opacity: 1
-            }
-        ],
-        onChapterExit: []
-    },
-    {
-        id: '22',
-        title: 'Stop 14: Working in Mozambique.',
-        image: './Images/TestImage2.png',
-        description: 'TEST TEXT.  The Liberty Project is a Christian faith-based non-profit established in Pemba, Northern Mozambique working with women who have been sexually exploited, abused and culturally oppressed. Our vision is to make disciples through sustainable initiatives lead by Local women. We are an organization empowering women to empower women.',
-        location:  {
-            // center: { lon: -79.77637, lat: 45.16116 },
-            // zoom: 9.93,
-            // pitch: 60.00,
-            // bearing: 0.00
-            center: { lon: -78.34254, lat: 44.32538 },
-            zoom: 9.79,
-            pitch: 60.00,
-            bearing: -41.03
-        },
-        onChapterEnter: [
-            {
-                }
-        ],
-        onChapterExit: []
     }
         
     ]
