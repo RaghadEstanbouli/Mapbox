@@ -655,7 +655,7 @@ var config = {
         ],
         onChapterExit: []
     },
-//--------------------------------------------------------------------------to here
+//--------------------------------------------------------------------------
     {
         id: '8',
         hidden: true,
@@ -777,23 +777,26 @@ var config = {
 //--------------------------------------------------------------------------
     {
         id: '10',
-        title: 'STOP 8: Trauma Therapy',
-        image: './Images/TestImage2.png',
-        description: '70% of Women suffer from PTSD in Mozambique, and with the growing civil unrest and violent conflict we are only seeing increases of this type of severe trauma. This is why we offer holistic care including counselling, so that women can work through things in a peaceful atmosphere. If you want to partner with us and see women restored and transformed, donate today!',
+        hidden: true,
+        alignment: 'center',
         location: {
-            // center: { lon: -84.27767, lat: 46.52595 },
-            // zoom: 11.81,
-            // pitch: 60.00,
-            // bearing: -127.31
-            center: { lon: -82.95255, lat: 46.18349 },
-            zoom: 13.14,
-            pitch: 60.00,
-            bearing: -96.19
         },
         onChapterEnter: [
-            {
+                {
+                layer: 'stop-5',
+                opacity: 0
+                },
+                {
+                layer: 'stop-6',
+                opacity: 0
+                },
+                {
+                layer: 'stop-7',
+                opacity: 0
+                },
+                {
                 layer: 'stop-8',
-                opacity: 1
+                opacity: 0
                 },
                 {
                 layer: 'stop-9',
@@ -815,28 +818,46 @@ var config = {
                 layer: 'stop-13',
                 opacity: 0
                 }
+
         ],
         onChapterExit: []
     },
+//--------STOP 5----------// 
     {
         id: '11',
-        title: 'Stop 9: Why the Fundraiser?',
+        title: 'Stop 5: Education',
         image: './Images/TestImage2.png',
-        description: 'Our Board Chair is a cyclist and thought as a challenge it would be great to bike from her current home in Thunder Bay to her old home in Peterborough County. And thus idea was born. Thanks to the Fleming College collaboration project, a student team was able to build this webpage and mapping application to show case the challenge and help people get connected. We are excited to see the world wide reach of this fun fitness challenge and fundraiser.',
+        description: 'In Mozambique over half the girls in primary school drop out by fifth grade and only 11% of those go on to complete secondary level education.. As part of our programming we are educating on basic things such as health issues; to offer women an opportunity to gain knowledge, then share it with their sphere of influence.',
         location: {
-        // center: { lon: -83.77957, lat: 46.31815 },
-        // zoom: 12.25,
-        // pitch: 60.00,
-        // bearing: -68.99
-        center: { lon: -81.74764, lat: 46.27206 },
-        zoom: 12.91,
-        pitch: 60.00,
-        bearing: -104.23
+            // center: { lon: -85.54922, lat: 48.65097 },
+            // zoom: 12.13,
+            // pitch: 60.00,
+            // bearing: -73.16
+            center: { lon: -84.74236, lat: 47.44431 },
+            zoom: 12.25,
+            pitch: 60.00,
+            bearing: -13.71
         },
         onChapterEnter: [
             {
-                layer: 'stop-9',
+                layer: 'stop-5',
                 opacity: 1
+                },
+                {
+                layer: 'stop-6',
+                opacity: 0
+                },
+                {
+                layer: 'stop-7',
+                opacity: 0
+                },
+                {
+                layer: 'stop-8',
+                opacity: 0
+                },
+                {
+                layer: 'stop-9',
+                opacity: 0
                 },
                 {
                 layer: 'stop-10',
@@ -857,6 +878,7 @@ var config = {
         ],
         onChapterExit: []
     },
+//--------------------------------------------------------------------------to here
     {
         id: '12',
         title: 'Stop 10: End Exploitation',
