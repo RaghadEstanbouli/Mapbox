@@ -512,58 +512,74 @@ var config = {
         ],
         onChapterExit: []
     },
-//--------------------------------------------------------------------------
-    {
-        id: '6',
-        hidden: true,
-        alignment: 'center',
-        location: {
-        },
-        onChapterEnter: [
-                {
-                layer: 'stop-4',
-                opacity: 0
-                },
-                {
-                layer: 'stop-5',
-                opacity: 0
-                },
-                {
-                layer: 'stop-6',
-                opacity: 0
-                },
-                {
-                layer: 'stop-7',
-                opacity: 0
-                },
-                {
-                layer: 'stop-8',
-                opacity: 0
-                },
-                {
-                layer: 'stop-9',
-                opacity: 0
-                },
-                {
-                layer: 'stop-10',
-                opacity: 0
-                },
-                {
-                layer: 'stop-11',
-                opacity: 0
-                },
-                {
-                layer: 'stop-12',
-                opacity: 0
-                },
-                {
-                layer: 'stop-13',
-                opacity: 0
-                }
+//--------STOP 4----------// 
+{
+    id: '6',
+    title: 'Stop 4: What areas are we focusing on?',
+    image: './Images/TestImage2.png',
+    description: 'The main areas that the Liberty Project works in is: Education, Health education, vocational training, trauma therapy.',
+    location: {
+        // center: { lon: -87.07819, lat: 48.78017 },
+        // zoom: 13.13,
+        // pitch: 60.00,
+        // bearing: -159.41
 
-        ],
-        onChapterExit: []
+        center: { lon: -84.66245, lat: 47.95360 },
+        zoom: 9.59,
+        pitch: 60.00,
+        bearing: -88.23 
     },
+    // mapAnimation: 'flyTo',
+    onChapterEnter: [ 
+        {
+            layer: 'stop-4',
+            opacity: 1
+            },
+            {
+            layer: 'stop-5',
+            opacity: 0
+            },
+            {
+            layer: 'stop-6',
+            opacity: 0
+            },
+            {
+            layer: 'stop-7',
+            opacity: 0
+            },
+            {
+            layer: 'stop-8',
+            opacity: 0
+            },
+            {
+            layer: 'stop-9',
+            opacity: 0
+            },
+            {
+            layer: 'stop-10',
+            opacity: 0
+            },
+            {
+            layer: 'stop-11',
+            opacity: 0
+            },
+            {
+            layer: 'stop-12',
+            opacity: 0
+            },
+            {
+            layer: 'stop-13',
+            opacity: 0
+            }
+    ],
+    onChapterExit: [
+        // {
+        //     layer: 'stop-3',
+        //     opacity: 0
+        // }
+    ]
+},
+//--------------------------------------------------------------------------
     {
         id: '7',
         hidden: true,
@@ -615,28 +631,16 @@ var config = {
         ],
         onChapterExit: []
     },
-//--------STOP 4----------// 
     {
         id: '8',
-        title: 'Stop 4: What areas are we focusing on?',
-        image: './Images/TestImage2.png',
-        description: 'The main areas that the Liberty Project works in is: Education, Health education, vocational training, trauma therapy.',
+        hidden: true,
+        alignment: 'center',
         location: {
-            // center: { lon: -87.07819, lat: 48.78017 },
-            // zoom: 13.13,
-            // pitch: 60.00,
-            // bearing: -159.41
-
-            center: { lon: -84.66245, lat: 47.95360 },
-            zoom: 9.59,
-            pitch: 60.00,
-            bearing: -88.23 
         },
-        // mapAnimation: 'flyTo',
-        onChapterEnter: [ 
-            {
+        onChapterEnter: [
+                {
                 layer: 'stop-4',
-                opacity: 1
+                opacity: 0
                 },
                 {
                 layer: 'stop-5',
@@ -674,14 +678,11 @@ var config = {
                 layer: 'stop-13',
                 opacity: 0
                 }
+
         ],
-        onChapterExit: [
-            // {
-            //     layer: 'stop-3',
-            //     opacity: 0
-            // }
-        ]
+        onChapterExit: []
     },
+
 //--------STOP 5----------// 
     {
         id: '9',
