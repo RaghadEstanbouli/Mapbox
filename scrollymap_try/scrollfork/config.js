@@ -389,7 +389,7 @@ var config = {
     },
 //--------------------------------------------------------------------------
     {
-    id: '6',
+    id: '4',
     hidden: true,
     alignment: 'center',
     location: {
@@ -453,7 +453,7 @@ var config = {
     ]
     },
     {
-        id: '7',
+        id: '5',
         hidden: true,
         alignment: 'center',
         location: {
