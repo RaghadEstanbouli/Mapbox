@@ -47,8 +47,8 @@ function createLine() {
 
         // calculate point location for each segment
         // const pointonline = turf.along(line, (rects * i));
-        const pointonline = turf.along(line, (segments * i));
-        console.log("calculate point location for each segment: "+ pointonline );
+        const pointonline = turf.along(line, (segments * i),units);
+       // console.log("calculate point location for each segment: "+ pointonline );
         // push new x,y
         let newX = pointonline.geometry.coordinates[0];
         let newY = pointonline.geometry.coordinates[1];
