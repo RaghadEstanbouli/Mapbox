@@ -579,9 +579,65 @@ var config = {
         // }
     ]
 },
+//--------STOP 5----------// 
+{
+    id: '9',
+    title: 'Stop 5: Education',
+    image: './Images/TestImage2.png',
+    description: 'In Mozambique over half the girls in primary school drop out by fifth grade and only 11% of those go on to complete secondary level education.. As part of our programming we are educating on basic things such as health issues; to offer women an opportunity to gain knowledge, then share it with their sphere of influence.',
+    location: {
+        // center: { lon: -85.54922, lat: 48.65097 },
+        // zoom: 12.13,
+        // pitch: 60.00,
+        // bearing: -73.16
+        center: { lon: -84.74236, lat: 47.44431 },
+        zoom: 12.25,
+        pitch: 60.00,
+        bearing: -13.71
+    },
+    onChapterEnter: [
+        {
+            layer: 'stop-5',
+            opacity: 1
+            },
+            {
+            layer: 'stop-6',
+            opacity: 0
+            },
+            {
+            layer: 'stop-7',
+            opacity: 0
+            },
+            {
+            layer: 'stop-8',
+            opacity: 0
+            },
+            {
+            layer: 'stop-9',
+            opacity: 0
+            },
+            {
+            layer: 'stop-10',
+            opacity: 0
+            },
+            {
+            layer: 'stop-11',
+            opacity: 0
+            },
+            {
+            layer: 'stop-12',
+            opacity: 0
+            },
+            {
+            layer: 'stop-13',
+            opacity: 0
+            }
+    ],
+    onChapterExit: []
+},
 //--------------------------------------------------------------------------
     {
-        id: '7',
+        id: '10',
         hidden: true,
         alignment: 'center',
         location: {
@@ -592,115 +648,6 @@ var config = {
                 opacity: 0
                 },
                 {
-                layer: 'stop-5',
-                opacity: 0
-                },
-                {
-                layer: 'stop-6',
-                opacity: 0
-                },
-                {
-                layer: 'stop-7',
-                opacity: 0
-                },
-                {
-                layer: 'stop-8',
-                opacity: 0
-                },
-                {
-                layer: 'stop-9',
-                opacity: 0
-                },
-                {
-                layer: 'stop-10',
-                opacity: 0
-                },
-                {
-                layer: 'stop-11',
-                opacity: 0
-                },
-                {
-                layer: 'stop-12',
-                opacity: 0
-                },
-                {
-                layer: 'stop-13',
-                opacity: 0
-                }
-
-        ],
-        onChapterExit: []
-    },
-    {
-        id: '8',
-        hidden: true,
-        alignment: 'center',
-        location: {
-        },
-        onChapterEnter: [
-                {
-                layer: 'stop-4',
-                opacity: 0
-                },
-                {
-                layer: 'stop-5',
-                opacity: 0
-                },
-                {
-                layer: 'stop-6',
-                opacity: 0
-                },
-                {
-                layer: 'stop-7',
-                opacity: 0
-                },
-                {
-                layer: 'stop-8',
-                opacity: 0
-                },
-                {
-                layer: 'stop-9',
-                opacity: 0
-                },
-                {
-                layer: 'stop-10',
-                opacity: 0
-                },
-                {
-                layer: 'stop-11',
-                opacity: 0
-                },
-                {
-                layer: 'stop-12',
-                opacity: 0
-                },
-                {
-                layer: 'stop-13',
-                opacity: 0
-                }
-
-        ],
-        onChapterExit: []
-    },
-
-//--------STOP 5----------// 
-    {
-        id: '9',
-        title: 'Stop 5: Education',
-        image: './Images/TestImage2.png',
-        description: 'In Mozambique over half the girls in primary school drop out by fifth grade and only 11% of those go on to complete secondary level education.. As part of our programming we are educating on basic things such as health issues; to offer women an opportunity to gain knowledge, then share it with their sphere of influence.',
-        location: {
-            // center: { lon: -85.54922, lat: 48.65097 },
-            // zoom: 12.13,
-            // pitch: 60.00,
-            // bearing: -73.16
-            center: { lon: -84.74236, lat: 47.44431 },
-            zoom: 12.25,
-            pitch: 60.00,
-            bearing: -13.71
-        },
-        onChapterEnter: [
-            {
                 layer: 'stop-5',
                 opacity: 1
                 },
@@ -736,12 +683,66 @@ var config = {
                 layer: 'stop-13',
                 opacity: 0
                 }
+
         ],
         onChapterExit: []
     },
-//--------------------------------------------------------------------------to here
     {
         id: '11',
+        hidden: true,
+        alignment: 'center',
+        location: {
+        },
+        onChapterEnter: [
+                {
+                layer: 'stop-4',
+                opacity: 0
+                },
+                {
+                layer: 'stop-5',
+                opacity: 0
+                },
+                {
+                layer: 'stop-6',
+                opacity: 0
+                },
+                {
+                layer: 'stop-7',
+                opacity: 0
+                },
+                {
+                layer: 'stop-8',
+                opacity: 0
+                },
+                {
+                layer: 'stop-9',
+                opacity: 0
+                },
+                {
+                layer: 'stop-10',
+                opacity: 0
+                },
+                {
+                layer: 'stop-11',
+                opacity: 0
+                },
+                {
+                layer: 'stop-12',
+                opacity: 0
+                },
+                {
+                layer: 'stop-13',
+                opacity: 0
+                }
+
+        ],
+        onChapterExit: []
+    },
+
+
+//--------------------------------------------------------------------------to here
+    {
+        id: '12',
         title: 'Stop 10: End Exploitation',
         image: './Images/TestImage2.png',
         description: '95% of women in Mozambique have been sexually abused; and 70% of women suffer from PTSD. This is not okay. Throughout the global shut down for COVID-19 we have seen continual increases of exploitation and trafficking world wide. We are here in Mozambique doing preventative work to empower and educate women to help break the cycles of exploitation and poverty.',
