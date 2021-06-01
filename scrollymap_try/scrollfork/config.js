@@ -774,57 +774,9 @@ var config = {
             // }
         ]
     },
-//--------------------------------------------------------------------------
-    {
-        id: '10',
-        hidden: true,
-        alignment: 'center',
-        location: {
-        },
-        onChapterEnter: [
-                {
-                layer: 'stop-5',
-                opacity: 0
-                },
-                {
-                layer: 'stop-6',
-                opacity: 0
-                },
-                {
-                layer: 'stop-7',
-                opacity: 0
-                },
-                {
-                layer: 'stop-8',
-                opacity: 0
-                },
-                {
-                layer: 'stop-9',
-                opacity: 0
-                },
-                {
-                layer: 'stop-10',
-                opacity: 0
-                },
-                {
-                layer: 'stop-11',
-                opacity: 0
-                },
-                {
-                layer: 'stop-12',
-                opacity: 0
-                },
-                {
-                layer: 'stop-13',
-                opacity: 0
-                }
-
-        ],
-        onChapterExit: []
-    },
 //--------STOP 5----------// 
     {
-        id: '11',
+        id: '10',
         title: 'Stop 5: Education',
         image: './Images/TestImage2.png',
         description: 'In Mozambique over half the girls in primary school drop out by fifth grade and only 11% of those go on to complete secondary level education.. As part of our programming we are educating on basic things such as health issues; to offer women an opportunity to gain knowledge, then share it with their sphere of influence.',
@@ -880,7 +832,7 @@ var config = {
     },
 //--------------------------------------------------------------------------to here
     {
-        id: '12',
+        id: '11',
         title: 'Stop 10: End Exploitation',
         image: './Images/TestImage2.png',
         description: '95% of women in Mozambique have been sexually abused; and 70% of women suffer from PTSD. This is not okay. Throughout the global shut down for COVID-19 we have seen continual increases of exploitation and trafficking world wide. We are here in Mozambique doing preventative work to empower and educate women to help break the cycles of exploitation and poverty.',
@@ -911,7 +863,7 @@ var config = {
         onChapterExit: []
     },
     {
-        id: '13',
+        id: '12',
         title: 'Stop 11: Bringing Hope',
         image: './Images/TestImage2.png',
         description: 'This ride has been such fun, even though it took a very different turn because of restrictions. Our Founder and Board Chair want to say a big thank you for everyone who donated, participated in the ride and shared our story with their friends & family!  We are excited to continue our journey in Northern Mozambique helping women to empower one another, & see the end of exploitation of women & children in Mozambique (& around the world).',
@@ -947,7 +899,7 @@ var config = {
         ]
     },
     {
-        id: '14',
+        id: '13',
         title: 'Stop 12: Moving',
         image: './Images/TestImage2.png',
         description: 'WOMEN! Our ladies are wonderful and are the heart of the project. It is our absolute joy to journey with them as they start to experience true freedom when knowing their identity is found in Jesus’ love and purpose for them!   As our ministry shifts to an entirely different area in Northern Mozambique, please pray that we will continue to reach and support more women. We pray that God will provide us with the resources and strength to educate and empower the vulnerable through sharing the Gospel, teaching health and human rights and equipping women with new artisanal skills.',
@@ -975,7 +927,7 @@ var config = {
         onChapterExit: []
     },
     {
-        id: '15',
+        id: '14',
         title: 'Stop 13: Partner with Us',
         image: './Images/TestImage2.png',
         description: 'Thank you for following our journey & for giving! This fundraiser will continue helping women be empowered, educated and to build a life free from exploitation.                                                       If you would like to participate in the virtual challenge please follow the link to our eventbrite, you will be emailed the link to the virtual race following your registration.',
@@ -999,7 +951,7 @@ var config = {
         onChapterExit: []
     },
     {
-        id: '16',
+        id: '15',
         title: 'Stop 14: Working in Mozambique.',
         image: './Images/TestImage2.png',
         description: 'TEST TEXT.  The Liberty Project is a Christian faith-based non-profit established in Pemba, Northern Mozambique working with women who have been sexually exploited, abused and culturally oppressed. Our vision is to make disciples through sustainable initiatives lead by Local women. We are an organization empowering women to empower women.',
