@@ -398,21 +398,74 @@ var config = {
         ],
         onChapterExit: []
     },
-//--------STOP 2----------// 
     {
         id: '4',
+        hidden: true,
+        alignment: 'center',
+        location: {
+
+        },
+        onChapterEnter: [
+            {
+                layer: 'stop-2',
+                opacity: 0
+                },
+            {
+                layer: 'stop-3',
+                opacity: 0
+                },
+                {
+                layer: 'stop-4',
+                opacity: 0
+                },
+                {
+                layer: 'stop-5',
+                opacity: 0
+                },
+                {
+                layer: 'stop-6',
+                opacity: 0
+                },
+                {
+                layer: 'stop-7',
+                opacity: 0
+                },
+                {
+                layer: 'stop-8',
+                opacity: 0
+                },
+                {
+                layer: 'stop-9',
+                opacity: 0
+                },
+                {
+                layer: 'stop-10',
+                opacity: 0
+                },
+                {
+                layer: 'stop-11',
+                opacity: 0
+                },
+                {
+                layer: 'stop-12',
+                opacity: 0
+                },
+                {
+                layer: 'stop-13',
+                opacity: 0
+                }
+
+        ],
+        onChapterExit: []
+    },
+//--------STOP 2----------// 
+    {
+        id: '5',
         title: 'STOP 2: Why Mozambique?',
         image: './Images/TestImage2.png',
         description:'We believe prevention is key in equipping women and young girls for safe and bright futures free from exploitation. We work in our communities raising awareness and educating on topics such as: human rights and health. This educates and empowers women to make informed choices and look out for others in their local communities.',
         location: {
-            // center: { lon: -87.55436, lat: 48.88640 },
-            // zoom: 9.5,
-            // pitch: 60.00,
-            // bearing: -40.24
-            center: { lon: -85.54922, lat: 48.65097 },
-            zoom: 12.13,
-            pitch: 60.00,
-            bearing: -73.16
+
         },
         onChapterEnter: [
             {
@@ -468,69 +521,6 @@ var config = {
         onChapterExit: []
     },
 //--------------------------------------------------------------------------
-    {
-        id: '5',
-        hidden: true,
-        alignment: 'center',
-        location: {
-            // center: { lon: -87.55436, lat: 48.88640 },
-            // zoom: 9.5,
-            // pitch: 60.00,
-            // bearing: -40.24
-            center: { lon: -85.54922, lat: 48.65097 },
-            zoom: 12.13,
-            pitch: 60.00,
-            bearing: -73.16
-        },
-        onChapterEnter: [
-            {
-                layer: 'stop-3',
-                opacity: 0
-                },
-                {
-                layer: 'stop-4',
-                opacity: 0
-                },
-                {
-                layer: 'stop-5',
-                opacity: 0
-                },
-                {
-                layer: 'stop-6',
-                opacity: 0
-                },
-                {
-                layer: 'stop-7',
-                opacity: 0
-                },
-                {
-                layer: 'stop-8',
-                opacity: 0
-                },
-                {
-                layer: 'stop-9',
-                opacity: 0
-                },
-                {
-                layer: 'stop-10',
-                opacity: 0
-                },
-                {
-                layer: 'stop-11',
-                opacity: 0
-                },
-                {
-                layer: 'stop-12',
-                opacity: 0
-                },
-                {
-                layer: 'stop-13',
-                opacity: 0
-                }
-
-        ],
-        onChapterExit: []
-    },
     {
     id: '6',
     hidden: true,
@@ -595,9 +585,70 @@ var config = {
         // }
     ]
     },
-//--------STOP 3----------// 
     {
         id: '7',
+        hidden: true,
+        alignment: 'center',
+        location: {
+
+        },
+        onChapterEnter: [
+            {
+                layer: 'stop-3',
+                opacity: 0
+                },
+                {
+                layer: 'stop-4',
+                opacity: 0
+                },
+                {
+                layer: 'stop-5',
+                opacity: 0
+                },
+                {
+                layer: 'stop-6',
+                opacity: 0
+                },
+                {
+                layer: 'stop-7',
+                opacity: 0
+                },
+                {
+                layer: 'stop-8',
+                opacity: 0
+                },
+                {
+                layer: 'stop-9',
+                opacity: 0
+                },
+                {
+                layer: 'stop-10',
+                opacity: 0
+                },
+                {
+                layer: 'stop-11',
+                opacity: 0
+                },
+                {
+                layer: 'stop-12',
+                opacity: 0
+                },
+                {
+                layer: 'stop-13',
+                opacity: 0
+                }
+    
+        ],
+        onChapterExit: [
+            // {
+            //     layer: 'stop-3',
+            //     opacity: 0
+            // }
+        ]
+    },
+//--------STOP 3----------// 
+    {
+        id: '8',
         title: 'Stop 3: Our Response to the Numbers.',
         image: './Images/TestImage2.png',
         description: 'We believe prevention is key in equipping women and young girls for safe and bright futures free from exploitation. We work in our communities raising awareness and educating on topics such as: human rights and health. This educates and empowers women to make informed choices and look out for others in their local communities.',        location: {
@@ -657,7 +708,58 @@ var config = {
     },
 //--------------------------------------------------------------------------
     {
-        id: '8',
+        id: '9',
+        hidden: true,
+        alignment: 'center',
+        location: {
+        },
+        onChapterEnter: [
+                {
+                layer: 'stop-4',
+                opacity: 0
+                },
+                {
+                layer: 'stop-5',
+                opacity: 0
+                },
+                {
+                layer: 'stop-6',
+                opacity: 0
+                },
+                {
+                layer: 'stop-7',
+                opacity: 0
+                },
+                {
+                layer: 'stop-8',
+                opacity: 0
+                },
+                {
+                layer: 'stop-9',
+                opacity: 0
+                },
+                {
+                layer: 'stop-10',
+                opacity: 0
+                },
+                {
+                layer: 'stop-11',
+                opacity: 0
+                },
+                {
+                layer: 'stop-12',
+                opacity: 0
+                },
+                {
+                layer: 'stop-13',
+                opacity: 0
+                }
+
+        ],
+        onChapterExit: []
+    },
+    {
+        id: '10',
         hidden: true,
         alignment: 'center',
         location: {
