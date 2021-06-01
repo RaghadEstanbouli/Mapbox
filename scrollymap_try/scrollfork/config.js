@@ -132,15 +132,6 @@ var config = {
             },
         },
         {
-            id: 'slide-2',
-            location: {
-                center: { lon: -88.33600, lat: 48.95806 },
-                zoom: 9.38,
-                pitch: 60.00,
-                bearing: -177.32
-            },
-        },
-        {
             id: 'drive-slide-0',
             title: 'STOP 1: Working in Mozambique.',
             image: './Images/TestImage2.png',
