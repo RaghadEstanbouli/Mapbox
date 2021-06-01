@@ -184,82 +184,9 @@ var config = {
         ],
         onChapterExit: []
     },    
-
-    {
-        //id: 'drive-slide-01',
-        id: '1',
-        hidden: true,
-        alignment: 'center',
-        location: {
-            center: { lon: -88.25617, lat: 49.01905 },
-            zoom: 10,
-            pitch: 60.00,
-            bearing: -105.04
-            // center: { lon: -89.04821, lat: 48.50584 },
-            // zoom: 9.08,
-            // pitch: 60.00,
-            // bearing: -115.20
-        },
-        onChapterEnter: [
-            {
-                layer: 'stop-1',
-                opacity: 0
-                },
-                {
-                layer: 'stop-2',
-                opacity: 0
-                },
-                {
-                layer: 'stop-3',
-                opacity: 0
-                },
-                {
-                layer: 'stop-4',
-                opacity: 0
-                },
-                {
-                layer: 'stop-5',
-                opacity: 0
-                },
-                {
-                layer: 'stop-6',
-                opacity: 0
-                },
-                {
-                layer: 'stop-7',
-                opacity: 0
-                },
-                {
-                layer: 'stop-8',
-                opacity: 0
-                },
-                {
-                layer: 'stop-9',
-                opacity: 0
-                },
-                {
-                layer: 'stop-10',
-                opacity: 0
-                },
-                {
-                layer: 'stop-11',
-                opacity: 0
-                },
-                {
-                layer: 'stop-12',
-                opacity: 0
-                },
-                {
-                layer: 'stop-13',
-                opacity: 0
-                }
-
-        ],
-        onChapterExit: []
-    },
 //--------STOP 1----------//   
     {
-        id: '2',
+        id: '1',
         title: 'STOP 1: Working in Mozambique.',
         image: './Images/TestImage2.png',
         description: 'The Liberty Project is a Christian faith-based non-profit established in Pemba, Northern Mozambique working with women who have been sexually exploited, abused and culturally oppressed. Our vision is to make disciples through sustainable initiatives lead by Local women. We are an organization empowering women to empower women.',
@@ -332,7 +259,7 @@ var config = {
     },
 //--------------------------------------------------------------------------
     {
-        id: '3',
+        id: '2',
         alignment: 'center',
         location: {
             // center: { lon: -87.87278, lat: 48.93661 },
@@ -398,69 +325,9 @@ var config = {
         ],
         onChapterExit: []
     },
-    {
-        id: '4',
-        hidden: true,
-        alignment: 'center',
-        location: {
-
-        },
-        onChapterEnter: [
-            {
-                layer: 'stop-2',
-                opacity: 0
-                },
-            {
-                layer: 'stop-3',
-                opacity: 0
-                },
-                {
-                layer: 'stop-4',
-                opacity: 0
-                },
-                {
-                layer: 'stop-5',
-                opacity: 0
-                },
-                {
-                layer: 'stop-6',
-                opacity: 0
-                },
-                {
-                layer: 'stop-7',
-                opacity: 0
-                },
-                {
-                layer: 'stop-8',
-                opacity: 0
-                },
-                {
-                layer: 'stop-9',
-                opacity: 0
-                },
-                {
-                layer: 'stop-10',
-                opacity: 0
-                },
-                {
-                layer: 'stop-11',
-                opacity: 0
-                },
-                {
-                layer: 'stop-12',
-                opacity: 0
-                },
-                {
-                layer: 'stop-13',
-                opacity: 0
-                }
-
-        ],
-        onChapterExit: []
-    },
 //--------STOP 2----------// 
     {
-        id: '5',
+        id: '3',
         title: 'STOP 2: Why Mozambique?',
         image: './Images/TestImage2.png',
         description:'We believe prevention is key in equipping women and young girls for safe and bright futures free from exploitation. We work in our communities raising awareness and educating on topics such as: human rights and health. This educates and empowers women to make informed choices and look out for others in their local communities.',
@@ -1167,7 +1034,70 @@ var config = {
             }
         ],
         onChapterExit: []
-    }
+    },
+    {
+        id: '19',
+        title: 'Stop 11: Bringing Hope',
+        image: './Images/TestImage2.png',
+        description: 'This ride has been such fun, even though it took a very different turn because of restrictions. Our Founder and Board Chair want to say a big thank you for everyone who donated, participated in the ride and shared our story with their friends & family!  We are excited to continue our journey in Northern Mozambique helping women to empower one another, & see the end of exploitation of women & children in Mozambique (& around the world).',
+        location: {
+            // center: { lon: -81.75867, lat: 46.25789 },
+            // zoom: 12.39,
+            // pitch: 60.00,
+            // bearing: -177.59
+            center: { lon: -80.44140, lat: 45.66449 },
+            zoom: 10.93,
+            pitch: 60.00,
+            bearing: -23.43
+        },
+        onChapterEnter: [ 
+            {
+            layer: 'stop-11',
+            opacity: 1
+            },
+            {
+            layer: 'stop-12',
+            opacity: 0
+            },
+            {
+            layer: 'stop-13',
+            opacity: 0
+            }
+        ],
+        onChapterExit: [
+            // {
+            //     layer: 'stops',
+            //     opacity: 0
+            // }
+        ]
+    },
+    {
+        id: '20',
+        title: 'Stop 12: Moving',
+        image: './Images/TestImage2.png',
+        description: 'WOMEN! Our ladies are wonderful and are the heart of the project. It is our absolute joy to journey with them as they start to experience true freedom when knowing their identity is found in Jesus’ love and purpose for them!   As our ministry shifts to an entirely different area in Northern Mozambique, please pray that we will continue to reach and support more women. We pray that God will provide us with the resources and strength to educate and empower the vulnerable through sharing the Gospel, teaching health and human rights and equipping women with new artisanal skills.',
+        location: {
+            // center: { lon: -81.04895, lat: 46.47691 },
+            // zoom: 11.64,
+            // pitch: 60.00,
+            // bearing: -87.19
+            center: { lon: -79.77637, lat: 45.16116 },
+            zoom: 9.93,
+            pitch: 60.00,
+            bearing: 0.00
+        },
         
+        onChapterEnter: [
+            {
+            layer: 'stop-12',
+            opacity: 1
+            },
+            {
+            layer: 'stop-13',
+            opacity: 0
+            }
+        ],
+        onChapterExit: []
+    }        
     ]
 };
