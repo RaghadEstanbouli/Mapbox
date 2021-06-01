@@ -111,6 +111,20 @@ var config = {
                 //     }
             ]
         },
+        {
+            id: 'drive-slide-01',
+            hidden: true,
+            location: { 
+                center: { lon: -88.25617, lat: 49.01905 },
+                zoom: 10,
+                pitch: 60.00,
+                bearing: -105.04
+                // center: { lon: -89.04821, lat: 48.50584 },
+                // zoom: 9.08,
+                // pitch: 60.00,
+                // bearing: -115.20
+            },
+        },
 
         {
             id: 'drive-slide-0',
@@ -118,10 +132,14 @@ var config = {
             image: './Images/TestImage2.png',
             description: 'The Liberty Project is a Christian faith-based non-profit established in Pemba, Northern Mozambique working with women who have been sexually exploited, abused and culturally oppressed. Our vision is to make disciples through sustainable initiatives lead by Local women. We are an organization empowering women to empower women.',
             location: {
-                center: { lon: -88.25617, lat: 49.01905 },
-                zoom: 10,
+                // center: { lon: -88.25617, lat: 49.01905 },
+                // zoom: 10,
+                // pitch: 60.00,
+                // bearing: -105.04
+                center: { lon: -89.04821, lat: 48.50584 },
+                zoom: 9.08,
                 pitch: 60.00,
-                bearing: -105.04
+                bearing: -115.20
             },
             onChapterEnter: [
                 {
@@ -180,16 +198,7 @@ var config = {
             ],
             onChapterExit: []
         },
-        {
-            id: 'drive-slide-01',
-            hidden: true,
-            location: { 
-                center: { lon: -89.04821, lat: 48.50584 },
-                zoom: 9.08,
-                pitch: 60.00,
-                bearing: -115.20
-            },
-        },
+
 
         {
             id: 'drive-slide-02',
