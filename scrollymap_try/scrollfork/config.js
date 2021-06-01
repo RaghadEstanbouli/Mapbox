@@ -797,12 +797,8 @@ var config = {
     },
     onChapterEnter: [
             {
-            layer: 'stop-7',
-            opacity: 1
-            },
-            {
             layer: 'stop-8',
-            opacity: 0
+            opacity: 1
             },
             {
             layer: 'stop-9',
