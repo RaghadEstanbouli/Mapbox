@@ -2629,19 +2629,7 @@ onChapterEnter: [
 ],
     onChapterExit: []
 },
-    
-    onChapterEnter: [
-        {
-        layer: 'stop-12',
-        opacity: 1
-        },
-        {
-        layer: 'stop-13',
-        opacity: 0
-        }
-    ],
-    onChapterExit: []
-},
+
 {
     id: '44',
     title: 'Stop 12: Moving',
