@@ -308,7 +308,19 @@ map.on("load", function() {
         "type": "geojson",
         "data": geojsonPoint
     });
-
+    map.addLayer({
+      "id": "animatedPoint",
+      "type": "circle",
+      "source": "pointSource",
+      'paint': {
+            'circle-radius': 5,
+            'circle-opacity': 1,
+            'circle-color': '#808080'
+      },
+      'layout': {
+           // 'visibility': 'none'
+       }
+    });
 
     map.addLayer({
       "id": "animatedLine",
@@ -324,19 +336,7 @@ map.on("load", function() {
        }
     });
 
-    map.addLayer({
-      "id": "animatedPoint",
-      "type": "circle",
-      "source": "pointSource",
-      'paint': {
-            'circle-radius': 5,
-            'circle-opacity': 1,
-            'circle-color': '#808080'
-      },
-      'layout': {
-           // 'visibility': 'none'
-       }
-    });
+    map.moveLayer('animatedPoint', 'start');
 
     // setup the instance, pass callback functions
     scroller
