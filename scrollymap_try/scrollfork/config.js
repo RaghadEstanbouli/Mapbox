@@ -118,14 +118,7 @@ var config = {
         hidden: true,
         alignment: 'center',
         location: { 
-            // center: { lon: -88.25617, lat: 49.01905 },
-            // zoom: 10,
-            // pitch: 60.00,
-            // bearing: -105.04
-            center: { lon: -89.04821, lat: 48.50584 },
-            zoom: 9.08,
-            pitch: 60.00,
-            bearing: -115.20
+
         },
         onChapterEnter: [
             {
@@ -195,10 +188,6 @@ var config = {
             zoom: 10,
             pitch: 60.00,
             bearing: -105.04
-            // center: { lon: -89.04821, lat: 48.50584 },
-            // zoom: 9.08,
-            // pitch: 60.00,
-            // bearing: -115.20
         },
         onChapterEnter: [
             {
@@ -332,7 +321,10 @@ var config = {
         image: './Images/TestImage2.png',
         description:'We believe prevention is key in equipping women and young girls for safe and bright futures free from exploitation. We work in our communities raising awareness and educating on topics such as: human rights and health. This educates and empowers women to make informed choices and look out for others in their local communities.',
         location: {
-
+            center: { lon: -87.07819, lat: 48.78017 },
+            zoom: 13.13,
+            pitch: 60.00,
+            bearing: -159.41
         },
         onChapterEnter: [
             {
@@ -457,11 +449,12 @@ var config = {
         id: '5',
         title: 'Stop 3: Our Response to the Numbers.',
         image: './Images/TestImage2.png',
-        description: 'We believe prevention is key in equipping women and young girls for safe and bright futures free from exploitation. We work in our communities raising awareness and educating on topics such as: human rights and health. This educates and empowers women to make informed choices and look out for others in their local communities.',        location: {
-            center: { lon: -84.74236, lat: 47.44431 },
-            zoom: 12.25,
+        description: 'We believe prevention is key in equipping women and young girls for safe and bright futures free from exploitation. We work in our communities raising awareness and educating on topics such as: human rights and health. This educates and empowers women to make informed choices and look out for others in their local communities.',
+        location: {
+            center: { lon: -85.54922, lat: 48.65097 },
+            zoom: 12.13,
             pitch: 60.00,
-            bearing: -13.71
+            bearing: -73.16
         },
         onChapterEnter: [
             {
@@ -519,17 +512,12 @@ var config = {
     image: './Images/TestImage2.png',
     description: 'The main areas that the Liberty Project works in is: Education, Health education, vocational training, trauma therapy.',
     location: {
-        // center: { lon: -87.07819, lat: 48.78017 },
-        // zoom: 13.13,
-        // pitch: 60.00,
-        // bearing: -159.41
-
         center: { lon: -84.66245, lat: 47.95360 },
         zoom: 9.59,
         pitch: 60.00,
         bearing: -88.23 
     },
-    // mapAnimation: 'flyTo',
+     mapAnimation: 'flyTo',
     onChapterEnter: [ 
         {
             layer: 'stop-4',
@@ -573,10 +561,7 @@ var config = {
             }
     ],
     onChapterExit: [
-        // {
-        //     layer: 'stop-3',
-        //     opacity: 0
-        // }
+
     ]
 },
 //--------STOP 5----------// 
@@ -586,10 +571,6 @@ var config = {
     image: './Images/TestImage2.png',
     description: 'In Mozambique over half the girls in primary school drop out by fifth grade and only 11% of those go on to complete secondary level education.. As part of our programming we are educating on basic things such as health issues; to offer women an opportunity to gain knowledge, then share it with their sphere of influence.',
     location: {
-        // center: { lon: -85.54922, lat: 48.65097 },
-        // zoom: 12.13,
-        // pitch: 60.00,
-        // bearing: -73.16
         center: { lon: -84.74236, lat: 47.44431 },
         zoom: 12.25,
         pitch: 60.00,
@@ -686,14 +667,10 @@ var config = {
     image: './Images/TestImage2.png',
     description: 'In Mozambique over half the girls in primary school drop out by fifth grade and only 11% of those go on to complete secondary level education.. As part of our programming we are educating on basic things such as health issues; to offer women an opportunity to gain knowledge, then share it with their sphere of influence.',
     location: {
-        // center: { lon: -85.54922, lat: 48.65097 },
-        // zoom: 12.13,
-        // pitch: 60.00,
-        // bearing: -73.16
-        center: { lon: -84.74236, lat: 47.44431 },
-        zoom: 12.25,
+        center: { lon: -84.27767, lat: 46.52595 },
+        zoom: 11.81,
         pitch: 60.00,
-        bearing: -13.71
+        bearing: -127.31
     },
     onChapterEnter: [
     {
@@ -742,10 +719,10 @@ var config = {
         // zoom: 12.13,
         // pitch: 60.00,
         // bearing: -73.16
-        center: { lon: -84.74236, lat: 47.44431 },
+        center: { lon: -83.77957, lat: 46.31815 },
         zoom: 12.25,
         pitch: 60.00,
-        bearing: -13.71
+        bearing: -68.99
     },
     onChapterEnter: [
             {
@@ -786,14 +763,10 @@ var config = {
     image: './Images/TestImage2.png',
     description: 'In Mozambique over half the girls in primary school drop out by fifth grade and only 11% of those go on to complete secondary level education.. As part of our programming we are educating on basic things such as health issues; to offer women an opportunity to gain knowledge, then share it with their sphere of influence.',
     location: {
-        // center: { lon: -85.54922, lat: 48.65097 },
-        // zoom: 12.13,
-        // pitch: 60.00,
-        // bearing: -73.16
-        center: { lon: -84.74236, lat: 47.44431 },
-        zoom: 12.25,
+        center: { lon: -82.95255, lat: 46.18349 },
+        zoom: 13.14,
         pitch: 60.00,
-        bearing: -13.71
+        bearing: -96.19
     },
     onChapterEnter: [
             {
