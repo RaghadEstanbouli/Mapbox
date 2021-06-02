@@ -115,7 +115,7 @@ var config = {
 //0
     {
         //id: 'drive-slide-0',
-        id: '0',
+        id: 'SlideNum_0',
         hidden: true,
         alignment: 'center',
         location: { 
@@ -180,7 +180,7 @@ var config = {
     },
 //1    
     {
-        id: '1',
+        id: 'SlideNum_1',
         hidden: true,
         alignment: 'center',
         location: { 
@@ -245,7 +245,7 @@ var config = {
     },
 //2
     {
-        id: '2',
+        id: 'SlideNum_2',
         hidden: true,
         alignment: 'center',
         location: { 
@@ -310,7 +310,7 @@ var config = {
     },
 //3
     {
-        id: '3',
+        id: 'SlideNum_3',
         hidden: true,
         alignment: 'center',
         location: { 
@@ -440,7 +440,7 @@ onChapterEnter: [
     },
 //5--------STOP 1----------// 
     {
-    id: '5',
+    id: 'SlideNum_5',
     image: './Images/TestImage2.png',
     description: 'In Mozambique over half the girls in primary school drop out by fifth grade and only 11% of those go on to complete secondary level education.. As part of our programming we are educating on basic things such as health issues; to offer women an opportunity to gain knowledge, then share it with their sphere of influence.',
     location: {
@@ -513,7 +513,7 @@ onChapterEnter: [
     },
 //6
     {
-        id: '6',
+        id: 'SlideNum_6',
         hidden: true,
         alignment: 'center',
         location: { 
@@ -579,7 +579,7 @@ onChapterEnter: [
     },
 //7
     {
-        id: '7',
+        id: 'SlideNum_7',
         hidden: true,
         alignment: 'center',
         location: { 
@@ -645,7 +645,7 @@ onChapterEnter: [
     },
 //8
     {
-        id: '8',
+        id: 'SlideNum_8',
         hidden: true,
         alignment: 'center',
         location: { 
@@ -706,7 +706,7 @@ onChapterEnter: [
     },
 //9
     {
-        id: '9',
+        id: 'SlideNum_9',
         hidden: true,
         alignment: 'center',
         location: { 
@@ -767,7 +767,7 @@ onChapterEnter: [
     },
 //10
     {
-        id: '10',
+        id: 'SlideNum_10',
         hidden: true,
         alignment: 'center',
         location: { 
@@ -828,7 +828,7 @@ onChapterEnter: [
     },
 //11 --------STOP 2----------// 
 {
-    id: '11',
+    id: 'SlideNum_11',
     title: 'Stop 2: Our Response to the Numbers.',
     image: './Images/TestImage2.png',
     description: 'We believe prevention is key in equipping women and young girls for safe and bright futures free from exploitation. We work in our communities raising awareness and educating on topics such as: human rights and health. This educates and empowers women to make informed choices and look out for others in their local communities.',
@@ -893,7 +893,7 @@ onChapterEnter: [
 },
 //12
 {
-    id: '12',
+    id: 'SlideNum_12',
     hidden: true,
     alignment: 'center',
     location: { 
@@ -955,7 +955,7 @@ onChapterEnter: [
 },
 //13
 {
-    id: '13',
+    id: 'SlideNum_13',
     hidden: true,
     alignment: 'center',
     location: { 
@@ -1012,7 +1012,7 @@ onChapterEnter: [
 },
 //14
 {
-    id: '14',
+    id: 'SlideNum_14',
     hidden: true,
     alignment: 'center',
     location: { 
@@ -1074,7 +1074,7 @@ onChapterEnter: [
 },
 //15
 {
-    id: '15',
+    id: 'SlideNum_15',
     hidden: true,
     alignment: 'center',
     location: { 
@@ -1131,7 +1131,7 @@ onChapterEnter: [
 }, 
 //16
 {
-    id: '16',
+    id: 'SlideNum_16',
     hidden: true,
     alignment: 'center',
     location: { 
@@ -1188,7 +1188,7 @@ onChapterEnter: [
 },
 //17
 {
-    id: '17',
+    id: 'SlideNum_17',
     hidden: true,
     alignment: 'center',
     location: { 
@@ -1250,7 +1250,7 @@ onChapterEnter: [
 },
 //18
 {
-    id: '18',
+    id: 'SlideNum_18',
     hidden: true,
     alignment: 'center',
     location: { 
@@ -1307,7 +1307,7 @@ onChapterEnter: [
 },
 //--------STOP 3----------// 
 {
-    id: '19',
+    id: 'SlideNum_19',
     title: 'Stop 3: What areas are we focusing on?',
     image: './Images/TestImage2.png',
     description: 'The main areas that the Liberty Project works in is: Education, Health education, vocational training, trauma therapy.',
