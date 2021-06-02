@@ -2385,51 +2385,9 @@ onChapterEnter: [
 
     ]
 },
-//41
+//41--------STOP 7----------// 
 {
     id: '41',
-    hidden: true,
-    alignment: 'center',
-    location: {
-    },
-    onChapterEnter: [
-            {
-            layer: 'stop-7',
-            opacity: 0
-            },
-            {
-            layer: 'stop-8',
-            opacity: 0
-            },
-            {
-            layer: 'stop-9',
-            opacity: 0
-            },
-            {
-            layer: 'stop-10',
-            opacity: 0
-            },
-            {
-            layer: 'stop-11',
-            opacity: 0
-            },
-            {
-            layer: 'stop-12',
-            opacity: 0
-            },
-            {
-            layer: 'stop-13',
-            opacity: 0
-            }
-
-    ],
-    onChapterExit: [
-
-    ]
-},
-//42--------STOP 7----------// 
-{
-    id: '42',
     title: 'Stop 7: Education',
     image: './Images/TestImage2.png',
     description: 'In Mozambique over half the girls in primary school drop out by fifth grade and only 11% of those go on to complete secondary level education.. As part of our programming we are educating on basic things such as health issues; to offer women an opportunity to gain knowledge, then share it with their sphere of influence.',
@@ -2472,9 +2430,9 @@ onChapterEnter: [
 ],
     onChapterExit: []
 },
-//43    
+//42    
     {
-        id: '43',
+        id: '42',
         hidden: true,
         alignment: 'center',
         location: {
@@ -2510,6 +2468,44 @@ onChapterEnter: [
     
         ]
     },
+//43
+{
+    id: '43',
+    hidden: true,
+    alignment: 'center',
+    location: {
+    },
+    onChapterEnter: [
+            {
+            layer: 'stop-8',
+            opacity: 0
+            },
+            {
+            layer: 'stop-9',
+            opacity: 0
+            },
+            {
+            layer: 'stop-10',
+            opacity: 0
+            },
+            {
+            layer: 'stop-11',
+            opacity: 0
+            },
+            {
+            layer: 'stop-12',
+            opacity: 0
+            },
+            {
+            layer: 'stop-13',
+            opacity: 0
+            }
+
+    ],
+    onChapterExit: [
+
+    ]
+},
 //44
 {
     id: '44',
@@ -2548,47 +2544,9 @@ onChapterEnter: [
 
     ]
 },
-//45
+//45--------STOP 8----------// 
 {
     id: '45',
-    hidden: true,
-    alignment: 'center',
-    location: {
-    },
-    onChapterEnter: [
-            {
-            layer: 'stop-8',
-            opacity: 0
-            },
-            {
-            layer: 'stop-9',
-            opacity: 0
-            },
-            {
-            layer: 'stop-10',
-            opacity: 0
-            },
-            {
-            layer: 'stop-11',
-            opacity: 0
-            },
-            {
-            layer: 'stop-12',
-            opacity: 0
-            },
-            {
-            layer: 'stop-13',
-            opacity: 0
-            }
-
-    ],
-    onChapterExit: [
-
-    ]
-},
-//46--------STOP 8----------// 
-{
-    id: '46',
     title: 'Stop 8: Education',
     image: './Images/TestImage2.png',
     description: 'In Mozambique over half the girls in primary school drop out by fifth grade and only 11% of those go on to complete secondary level education.. As part of our programming we are educating on basic things such as health issues; to offer women an opportunity to gain knowledge, then share it with their sphere of influence.',
@@ -2633,7 +2591,34 @@ onChapterEnter: [
 
 
 
-
+{
+    id: '44',
+    title: 'Stop 12: Moving',
+    image: './Images/TestImage2.png',
+    description: 'WOMEN! Our ladies are wonderful and are the heart of the project. It is our absolute joy to journey with them as they start to experience true freedom when knowing their identity is found in Jesus’ love and purpose for them!   As our ministry shifts to an entirely different area in Northern Mozambique, please pray that we will continue to reach and support more women. We pray that God will provide us with the resources and strength to educate and empower the vulnerable through sharing the Gospel, teaching health and human rights and equipping women with new artisanal skills.',
+    location: {
+        // center: { lon: -81.04895, lat: 46.47691 },
+        // zoom: 11.64,
+        // pitch: 60.00,
+        // bearing: -87.19
+        center: { lon: -79.77637, lat: 45.16116 },
+        zoom: 9.93,
+        pitch: 60.00,
+        bearing: 0.00
+    },
+    
+    onChapterEnter: [
+        {
+        layer: 'stop-12',
+        opacity: 1
+        },
+        {
+        layer: 'stop-13',
+        opacity: 0
+        }
+    ],
+    onChapterExit: []
+},
 {
     id: '44',
     title: 'Stop 12: Moving',
