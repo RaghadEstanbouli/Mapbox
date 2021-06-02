@@ -2592,20 +2592,43 @@ onChapterEnter: [
 
 
 {
-    id: '44',
-    title: 'Stop 12: Moving',
-    image: './Images/TestImage2.png',
-    description: 'WOMEN! Our ladies are wonderful and are the heart of the project. It is our absolute joy to journey with them as they start to experience true freedom when knowing their identity is found in Jesus’ love and purpose for them!   As our ministry shifts to an entirely different area in Northern Mozambique, please pray that we will continue to reach and support more women. We pray that God will provide us with the resources and strength to educate and empower the vulnerable through sharing the Gospel, teaching health and human rights and equipping women with new artisanal skills.',
+    id: '45',
+    hidden: true,
     location: {
-        // center: { lon: -81.04895, lat: 46.47691 },
-        // zoom: 11.64,
-        // pitch: 60.00,
-        // bearing: -87.19
-        center: { lon: -79.77637, lat: 45.16116 },
-        zoom: 9.93,
+        center: { lon: -82.95255, lat: 46.18349 },
+        zoom: 13.14,
         pitch: 60.00,
-        bearing: 0.00
+        bearing: -96.19
     },
+    onChapterEnter: [
+        {
+        layer: 'stop-8',
+        opacity: 1
+        },
+        {
+        layer: 'stop-9',
+        opacity: 0
+        },
+        {
+        layer: 'stop-10',
+        opacity: 0
+        },
+        {
+        layer: 'stop-11',
+        opacity: 0
+        },
+        {
+        layer: 'stop-12',
+        opacity: 0
+        },
+        {
+        layer: 'stop-13',
+        opacity: 0
+        }
+
+],
+    onChapterExit: []
+},
     
     onChapterEnter: [
         {
