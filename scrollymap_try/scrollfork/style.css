@@ -86,7 +86,44 @@ a, a:hover, a:visited {
 }
 
 
+
+
+
+/* slide in between the main slides*/
+
 #SlideNum_0 {
+
+    visibility: hidden;
+}
+#SlideNum_1 {
+
+    visibility: hidden;
+}
+#SlideNum_2 {
+
+    visibility: hidden;
+}
+#SlideNum_3 {
+
+    visibility: hidden;
+}
+#SlideNum_4 {
+
+    visibility: hidden;
+}
+#SlideNum_6 {
+
+    visibility: hidden;
+}
+#SlideNum_7 {
+
+    visibility: hidden;
+}
+#SlideNum_9 {
+
+    visibility: hidden;
+}
+#SlideNum_10 {
 
     visibility: hidden;
 }
