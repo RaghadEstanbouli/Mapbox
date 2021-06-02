@@ -3298,7 +3298,8 @@ onChapterEnter: [
     },
     onChapterEnter: [
         {
-    
+        layer: 'stop-13',
+        opacity: 1
         }
 
 ],
@@ -3312,7 +3313,8 @@ onChapterEnter: [
     },
     onChapterEnter: [
         {
-
+        layer: 'stop-13',
+        opacity: 1
         }
 
 ],
@@ -3326,7 +3328,8 @@ onChapterEnter: [
     },
     onChapterEnter: [
         {
-
+            layer: 'stop-13',
+            opacity: 1
         }
 
 ],
@@ -3341,7 +3344,10 @@ onChapterEnter: [
     location: {
     },
     onChapterEnter: [
-
+        {
+            layer: 'stop-13',
+            opacity: 1
+        }
 
 ],
     onChapterExit: []
