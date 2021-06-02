@@ -1856,9 +1856,13 @@ onChapterEnter: [
         bearing: -127.31
     },
     onChapterEnter: [
+        {
+            layer: 'stop-5',
+            opacity: 1
+            },
     {
             layer: 'stop-6',
-            opacity: 1
+            opacity: 0
             },
             {
             layer: 'stop-7',
