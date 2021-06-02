@@ -2546,7 +2546,7 @@ onChapterEnter: [
 },
 //45--------STOP 8----------// 
 {
-    id: '45',
+    id: 'SlideNum_45',
     title: 'Stop 8: Education',
     image: './Images/TestImage2.png',
     description: 'In Mozambique over half the girls in primary school drop out by fifth grade and only 11% of those go on to complete secondary level education.. As part of our programming we are educating on basic things such as health issues; to offer women an opportunity to gain knowledge, then share it with their sphere of influence.',
