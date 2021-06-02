@@ -261,6 +261,7 @@ function handleStepProgress(response) {
     
   
         if (driveSlideNum === 0) {
+            
             map.setLayoutProperty('animatedLine', 'visibility', 'visible');
             stepProgress = Math.round(response.progress*driveSmoothness);
         } else {
