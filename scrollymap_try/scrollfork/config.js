@@ -1990,7 +1990,7 @@ onChapterEnter: [
 },
 //32
 {
-    id: '32',
+    id: 'SlideNum_32',
     hidden: true,
     alignment: 'center',
     location: {
