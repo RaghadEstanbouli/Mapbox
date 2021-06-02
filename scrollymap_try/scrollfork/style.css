@@ -86,4 +86,7 @@ a, a:hover, a:visited {
 }
 
 
+#SlideNum_0 {
 
+    visibility: hidden;
+}

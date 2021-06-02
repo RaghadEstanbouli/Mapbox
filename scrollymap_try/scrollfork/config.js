@@ -1370,7 +1370,7 @@ onChapterEnter: [
 },
 //20
 {
-    id: '20',
+    id: 'SlideNum_20',
     hidden: true,
     alignment: 'center',
     location: { 
@@ -1423,7 +1423,7 @@ onChapterEnter: [
 },
 //21
 {
-    id: '21',
+    id: 'SlideNum_21',
     hidden: true,
     alignment: 'center',
     location: { 
@@ -1476,7 +1476,7 @@ onChapterEnter: [
 },
 //22
 {
-    id: '22',
+    id: 'SlideNum_22',
     hidden: true,
     alignment: 'center',
     location: { 
@@ -1529,7 +1529,7 @@ onChapterEnter: [
 },
 //23
 {
-    id: '23',
+    id: 'SlideNum_23',
     hidden: true,
     alignment: 'center',
     location: { 
@@ -1587,7 +1587,7 @@ onChapterEnter: [
 },
 //24
 {
-    id: '24',
+    id: 'SlideNum_24',
     hidden: true,
     alignment: 'center',
     location: { 
@@ -1640,7 +1640,7 @@ onChapterEnter: [
 },
 //25--------STOP 4----------// 
 {
-    id: '25',
+    id: 'SlideNum_25',
     title: 'Stop 4: Education',
     image: './Images/TestImage2.png',
     description: 'In Mozambique over half the girls in primary school drop out by fifth grade and only 11% of those go on to complete secondary level education.. As part of our programming we are educating on basic things such as health issues; to offer women an opportunity to gain knowledge, then share it with their sphere of influence.',
@@ -1696,7 +1696,7 @@ onChapterEnter: [
 },
 //26
 {
-    id: '26',
+    id: 'SlideNum_26',
     hidden: true,
     alignment: 'center',
     location: {
@@ -1744,7 +1744,7 @@ onChapterEnter: [
 },
 //27
 {
-    id: '27',
+    id: 'SlideNum_27',
     hidden: true,
     alignment: 'center',
     location: {
@@ -1797,7 +1797,7 @@ onChapterEnter: [
 },
 //28
 {
-    id: '28',
+    id: 'SlideNum_28',
     hidden: true,
     alignment: 'center',
     location: {
@@ -1845,7 +1845,7 @@ onChapterEnter: [
 }  ,
 //29--------STOP 5----------// 
 {
-    id: '29',
+    id: 'SlideNum_29',
     title: 'Stop 5: Education',
     image: './Images/TestImage2.png',
     description: 'In Mozambique over half the girls in primary school drop out by fifth grade and only 11% of those go on to complete secondary level education.. As part of our programming we are educating on basic things such as health issues; to offer women an opportunity to gain knowledge, then share it with their sphere of influence.',
@@ -1897,7 +1897,7 @@ onChapterEnter: [
 },
 //30
 {
-    id: '30',
+    id: 'SlideNum_30',
     hidden: true,
     alignment: 'center',
     location: {
@@ -1941,7 +1941,7 @@ onChapterEnter: [
 },
 //31
 {
-    id: '31',
+    id: 'SlideNum_31',
     hidden: true,
     alignment: 'center',
     location: {
@@ -2034,7 +2034,7 @@ onChapterEnter: [
 },
 //33
 {
-    id: '33',
+    id: 'SlideNum_33',
     hidden: true,
     alignment: 'center',
     location: {
@@ -2078,7 +2078,7 @@ onChapterEnter: [
 },
 //34
 {
-    id: '34',
+    id: 'SlideNum_34',
     hidden: true,
     alignment: 'center',
     location: {
@@ -2122,7 +2122,7 @@ onChapterEnter: [
 },
 //35
 {
-    id: '35',
+    id: 'SlideNum_35',
     hidden: true,
     alignment: 'center',
     location: {
@@ -2166,7 +2166,7 @@ onChapterEnter: [
 },
 //36
 {
-    id: '36',
+    id: 'SlideNum_36',
     hidden: true,
     alignment: 'center',
     location: {
@@ -2210,7 +2210,7 @@ onChapterEnter: [
 },
 //37
 {
-    id: '37',
+    id: 'SlideNum_37',
     hidden: true,
     alignment: 'center',
     location: {
@@ -2254,7 +2254,7 @@ onChapterEnter: [
 },
 //38--------STOP 6----------// 
 {
-    id: '38',
+    id: 'SlideNum_38',
     title: 'Stop 6: Education',
     image: './Images/TestImage2.png',
     description: 'In Mozambique over half the girls in primary school drop out by fifth grade and only 11% of those go on to complete secondary level education.. As part of our programming we are educating on basic things such as health issues; to offer women an opportunity to gain knowledge, then share it with their sphere of influence.',
@@ -2303,7 +2303,7 @@ onChapterEnter: [
 },
 //39
 {
-    id: '39',
+    id: 'SlideNum_39',
     hidden: true,
     alignment: 'center',
     location: {
@@ -2345,7 +2345,7 @@ onChapterEnter: [
 },
 //40
 {
-    id: '40',
+    id: 'SlideNum_40',
     hidden: true,
     alignment: 'center',
     location: {
@@ -2387,7 +2387,7 @@ onChapterEnter: [
 },
 //41--------STOP 7----------// 
 {
-    id: '41',
+    id: 'SlideNum_41',
     title: 'Stop 7: Education',
     image: './Images/TestImage2.png',
     description: 'In Mozambique over half the girls in primary school drop out by fifth grade and only 11% of those go on to complete secondary level education.. As part of our programming we are educating on basic things such as health issues; to offer women an opportunity to gain knowledge, then share it with their sphere of influence.',
@@ -2432,7 +2432,7 @@ onChapterEnter: [
 },
 //42    
     {
-        id: '42',
+        id: 'SlideNum_42',
         hidden: true,
         alignment: 'center',
         location: {
@@ -2470,7 +2470,7 @@ onChapterEnter: [
     },
 //43
 {
-    id: '43',
+    id: 'SlideNum_43',
     hidden: true,
     alignment: 'center',
     location: {
@@ -2508,7 +2508,7 @@ onChapterEnter: [
 },
 //44
 {
-    id: '44',
+    id: 'SlideNum_44',
     hidden: true,
     alignment: 'center',
     location: {
@@ -2587,7 +2587,7 @@ onChapterEnter: [
 },
 //46
 {
-    id: '46',
+    id: 'SlideNum_46',
     hidden: true,
     location: {
     },
@@ -2618,7 +2618,7 @@ onChapterEnter: [
 },
 //47
 {
-    id: '47',
+    id: 'SlideNum_47',
     hidden: true,
     location: {
 
@@ -2650,7 +2650,7 @@ onChapterEnter: [
 },
 //48
 {
-    id: '48',
+    id: 'SlideNum_48',
     hidden: true,
     location: {
     },
@@ -2681,7 +2681,7 @@ onChapterEnter: [
 },
 //49
 {
-    id: '49',
+    id: 'SlideNum_49',
     hidden: true,
     location: {
     },
@@ -2712,7 +2712,7 @@ onChapterEnter: [
 },
 //50--------STOP 9----------//
 {
-    id: '50',
+    id: 'SlideNum_50',
     title: 'Stop 9: End Exploitation',
     image: './Images/TestImage2.png',
     description: '95% of women in Mozambique have been sexually abused; and 70% of women suffer from PTSD. This is not okay. Throughout the global shut down for COVID-19 we have seen continual increases of exploitation and trafficking world wide. We are here in Mozambique doing preventative work to empower and educate women to help break the cycles of exploitation and poverty.',
@@ -2745,7 +2745,7 @@ onChapterEnter: [
 },
 //51
 {
-    id: '51',
+    id: 'SlideNum_51',
     hidden: true,
     location: {
     },
@@ -2772,7 +2772,7 @@ onChapterEnter: [
 },
 //52
 {
-    id: '52',
+    id: 'SlideNum_52',
     hidden: true,
     location: {
     },
@@ -2799,7 +2799,7 @@ onChapterEnter: [
 },
 //53
 {
-    id: '53',
+    id: 'SlideNum_53',
     hidden: true,
     location: {
     },
@@ -2826,7 +2826,7 @@ onChapterEnter: [
 },
 //54--------STOP 10----------//
 {
-    id: '54',
+    id: 'SlideNum_54',
     title: 'Stop 10: End Exploitation',
     image: './Images/TestImage2.png',
     description: '95% of women in Mozambique have been sexually abused; and 70% of women suffer from PTSD. This is not okay. Throughout the global shut down for COVID-19 we have seen continual increases of exploitation and trafficking world wide. We are here in Mozambique doing preventative work to empower and educate women to help break the cycles of exploitation and poverty.',
@@ -2878,7 +2878,7 @@ onChapterEnter: [
 },
 //56
 {
-    id: '56',
+    id: 'SlideNum_56',
     hidden: true,
     location: {
     },
@@ -2901,7 +2901,7 @@ onChapterEnter: [
 },
 //57
 {
-    id: '57',
+    id: 'SlideNum_57',
     hidden: true,
     location: {
     },
@@ -2924,7 +2924,7 @@ onChapterEnter: [
 },
 //58
 {
-    id: '58',
+    id: 'SlideNum_58',
     hidden: true,
     location: {
     },
@@ -2947,7 +2947,7 @@ onChapterEnter: [
 },
 //59
 {
-    id: '59',
+    id: 'SlideNum_59',
     hidden: true,
     location: {
     },
@@ -2970,7 +2970,7 @@ onChapterEnter: [
 },
 //60
 {
-    id: '60',
+    id: 'SlideNum_60',
     hidden: true,
     location: {
     },
@@ -2993,7 +2993,7 @@ onChapterEnter: [
 },
 //61
 {
-    id: '61',
+    id: 'SlideNum_61',
     hidden: true,
     location: {
     },
@@ -3016,7 +3016,7 @@ onChapterEnter: [
 },
 //62
 {
-    id: '62',
+    id: 'SlideNum_62',
     hidden: true,
     location: {
     },
@@ -3039,7 +3039,7 @@ onChapterEnter: [
 },
 //63
 {
-    id: '63',
+    id: 'SlideNum_63',
     hidden: true,
     location: {
     },
@@ -3062,7 +3062,7 @@ onChapterEnter: [
 },
 //64--------STOP 11----------//
 {
-    id: '64',
+    id: 'SlideNum_64',
     title: 'Stop 11: End Exploitation',
     image: './Images/TestImage2.png',
     description: '95% of women in Mozambique have been sexually abused; and 70% of women suffer from PTSD. This is not okay. Throughout the global shut down for COVID-19 we have seen continual increases of exploitation and trafficking world wide. We are here in Mozambique doing preventative work to empower and educate women to help break the cycles of exploitation and poverty.',
@@ -3087,7 +3087,7 @@ onChapterEnter: [
 },
 //65
 {
-    id: '65',
+    id: 'SlideNum_65',
     hidden: true,
     location: {
     },
@@ -3106,7 +3106,7 @@ onChapterEnter: [
 },
 //66
 {
-    id: '66',
+    id: 'SlideNum_66',
     hidden: true,
     location: {
     },
@@ -3125,7 +3125,7 @@ onChapterEnter: [
 },
 //67
 {
-    id: '67',
+    id: 'SlideNum_67',
     hidden: true,
     location: {
     },
@@ -3144,7 +3144,7 @@ onChapterEnter: [
 },
 //68--------STOP 12----------//
 {
-    id: '68',
+    id: 'SlideNum_68',
     title: 'Stop 12: End Exploitation',
     image: './Images/TestImage2.png',
     description: '95% of women in Mozambique have been sexually abused; and 70% of women suffer from PTSD. This is not okay. Throughout the global shut down for COVID-19 we have seen continual increases of exploitation and trafficking world wide. We are here in Mozambique doing preventative work to empower and educate women to help break the cycles of exploitation and poverty.',
@@ -3168,7 +3168,7 @@ onChapterEnter: [
 
 //69
 {
-    id: '69',
+    id: 'SlideNum_69',
     hidden: true,
     location: {
     },
@@ -3183,7 +3183,7 @@ onChapterEnter: [
 },
 //70
 {
-    id: '70',
+    id: 'SlideNum_70',
     hidden: true,
     location: {
     },
@@ -3198,7 +3198,7 @@ onChapterEnter: [
 },
 //71
 {
-    id: '71',
+    id: 'SlideNum_71',
     hidden: true,
     location: {
     },
@@ -3213,7 +3213,7 @@ onChapterEnter: [
 },
 //72
 {
-    id: '72',
+    id: 'SlideNum_72',
     hidden: true,
     location: {
     },
@@ -3228,7 +3228,7 @@ onChapterEnter: [
 },
 //73
 {
-    id: '73',
+    id: 'SlideNum_73',
     hidden: true,
     location: {
     },
@@ -3243,7 +3243,7 @@ onChapterEnter: [
 },
 //74
 {
-    id: '74',
+    id: 'SlideNum_74',
     hidden: true,
     location: {
     },
@@ -3258,7 +3258,7 @@ onChapterEnter: [
 },
 //75
 {
-    id: '75',
+    id: 'SlideNum_75',
     hidden: true,
     location: {
     },
@@ -3273,7 +3273,7 @@ onChapterEnter: [
 },
 //76--------STOP 13----------//
 {
-    id: '76',
+    id: 'SlideNum_76',
     title: 'Stop 13: End Exploitation',
     image: './Images/TestImage2.png',
     description: '95% of women in Mozambique have been sexually abused; and 70% of women suffer from PTSD. This is not okay. Throughout the global shut down for COVID-19 we have seen continual increases of exploitation and trafficking world wide. We are here in Mozambique doing preventative work to empower and educate women to help break the cycles of exploitation and poverty.',
@@ -3292,7 +3292,7 @@ onChapterEnter: [
 
 //77
 {
-    id: '77',
+    id: 'SlideNum_77',
     hidden: true,
     location: {
     },
@@ -3306,7 +3306,7 @@ onChapterEnter: [
 },
 //78
 {
-    id: '78',
+    id: 'SlideNum_78',
     hidden: true,
     location: {
     },
@@ -3320,7 +3320,7 @@ onChapterEnter: [
 },
 //79
 {
-    id: '79',
+    id: 'SlideNum_79',
     hidden: true,
     location: {
     },
@@ -3334,7 +3334,7 @@ onChapterEnter: [
 },
 //80--------STOP 14----------//
 {
-    id: '80',
+    id: 'SlideNum_80',
     title: 'Stop 14: End Exploitation',
     image: './Images/TestImage2.png',
     description: '95% of women in Mozambique have been sexually abused; and 70% of women suffer from PTSD. This is not okay. Throughout the global shut down for COVID-19 we have seen continual increases of exploitation and trafficking world wide. We are here in Mozambique doing preventative work to empower and educate women to help break the cycles of exploitation and poverty.',
