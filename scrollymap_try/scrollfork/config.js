@@ -441,8 +441,8 @@ onChapterEnter: [
 //5--------STOP 1----------// 
     {
     id: '5',
-    hidden: true,
-    alignment: 'center',
+    image: './Images/TestImage2.png',
+    description: 'In Mozambique over half the girls in primary school drop out by fifth grade and only 11% of those go on to complete secondary level education.. As part of our programming we are educating on basic things such as health issues; to offer women an opportunity to gain knowledge, then share it with their sphere of influence.',
     location: {
         center: { lon: -84.66245, lat: 47.95360 },
         zoom: 9.59,
@@ -450,6 +450,14 @@ onChapterEnter: [
         bearing: -88.23 
     },
     onChapterEnter: [
+        {
+            layer: 'stop-1',
+            opacity: 1
+        },
+        {
+            layer: 'stop-2',
+            opacity: 0
+        },
         {
             layer: 'stop-3',
             opacity: 0
@@ -1630,7 +1638,7 @@ onChapterEnter: [
     ],
     onChapterExit: []
 },
-//--------STOP 4----------// 
+//25--------STOP 4----------// 
 {
     id: '25',
     title: 'Stop 4: Education',
@@ -1644,8 +1652,12 @@ onChapterEnter: [
     },
     onChapterEnter: [
         {
-            layer: 'stop-5',
+            layer: 'stop-4',
             opacity: 1
+            },
+        {
+            layer: 'stop-5',
+            opacity: 0
             },
             {
             layer: 'stop-6',
@@ -1682,14 +1694,18 @@ onChapterEnter: [
     ],
     onChapterExit: []
 },
-//--------------------------------------------------------------------------
+//26
 {
-    id: '8',
+    id: '26',
     hidden: true,
     alignment: 'center',
     location: {
     },
     onChapterEnter: [
+        {
+            layer: 'stop-5',
+            opacity: 0
+            },
             {
             layer: 'stop-6',
             opacity: 0
@@ -1726,10 +1742,111 @@ onChapterEnter: [
     ],
     onChapterExit: []
 },
-//--------STOP 6----------// 
+//27
 {
-    id: '9',
-    title: 'Stop 6: Education',
+    id: '27',
+    hidden: true,
+    alignment: 'center',
+    location: {
+    },
+    onChapterEnter: [
+        {
+            layer: 'stop-5',
+            opacity: 0
+            },
+            {
+            layer: 'stop-6',
+            opacity: 0
+            },
+            {
+            layer: 'stop-7',
+            opacity: 0
+            },
+            {
+            layer: 'stop-8',
+            opacity: 0
+            },
+            {
+            layer: 'stop-9',
+            opacity: 0
+            },
+            {
+            layer: 'stop-10',
+            opacity: 0
+            },
+            {
+            layer: 'stop-11',
+            opacity: 0
+            },
+            {
+            layer: 'stop-12',
+            opacity: 0
+            },
+            {
+            layer: 'stop-13',
+            opacity: 0
+            }
+
+    ],
+    onChapterExit: [
+        // {
+        //     layer: 'stops',
+        //     opacity: 0
+        // }
+    ]
+},
+//28
+{
+    id: '28',
+    hidden: true,
+    alignment: 'center',
+    location: {
+    },
+    onChapterEnter: [
+        {
+            layer: 'stop-5',
+            opacity: 0
+            },
+            {
+            layer: 'stop-6',
+            opacity: 0
+            },
+            {
+            layer: 'stop-7',
+            opacity: 0
+            },
+            {
+            layer: 'stop-8',
+            opacity: 0
+            },
+            {
+            layer: 'stop-9',
+            opacity: 0
+            },
+            {
+            layer: 'stop-10',
+            opacity: 0
+            },
+            {
+            layer: 'stop-11',
+            opacity: 0
+            },
+            {
+            layer: 'stop-12',
+            opacity: 0
+            },
+            {
+            layer: 'stop-13',
+            opacity: 0
+            }
+
+    ],
+    onChapterExit: []
+}  ,
+//29--------STOP 5----------// 
+{
+    id: '29',
+    title: 'Stop 5: Education',
     image: './Images/TestImage2.png',
     description: 'In Mozambique over half the girls in primary school drop out by fifth grade and only 11% of those go on to complete secondary level education.. As part of our programming we are educating on basic things such as health issues; to offer women an opportunity to gain knowledge, then share it with their sphere of influence.',
     location: {
@@ -1866,70 +1983,7 @@ onChapterEnter: [
 
 
 
-    {
-        id: '30',
-        title: 'Stop 11: Bringing Hope',
-        image: './Images/TestImage2.png',
-        description: 'This ride has been such fun, even though it took a very different turn because of restrictions. Our Founder and Board Chair want to say a big thank you for everyone who donated, participated in the ride and shared our story with their friends & family!  We are excited to continue our journey in Northern Mozambique helping women to empower one another, & see the end of exploitation of women & children in Mozambique (& around the world).',
-        location: {
-            // center: { lon: -81.75867, lat: 46.25789 },
-            // zoom: 12.39,
-            // pitch: 60.00,
-            // bearing: -177.59
-            center: { lon: -80.44140, lat: 45.66449 },
-            zoom: 10.93,
-            pitch: 60.00,
-            bearing: -23.43
-        },
-        onChapterEnter: [ 
-            {
-            layer: 'stop-11',
-            opacity: 1
-            },
-            {
-            layer: 'stop-12',
-            opacity: 0
-            },
-            {
-            layer: 'stop-13',
-            opacity: 0
-            }
-        ],
-        onChapterExit: [
-            // {
-            //     layer: 'stops',
-            //     opacity: 0
-            // }
-        ]
-    },
-    {
-        id: '31',
-        title: 'Stop 12: Moving',
-        image: './Images/TestImage2.png',
-        description: 'WOMEN! Our ladies are wonderful and are the heart of the project. It is our absolute joy to journey with them as they start to experience true freedom when knowing their identity is found in Jesus’ love and purpose for them!   As our ministry shifts to an entirely different area in Northern Mozambique, please pray that we will continue to reach and support more women. We pray that God will provide us with the resources and strength to educate and empower the vulnerable through sharing the Gospel, teaching health and human rights and equipping women with new artisanal skills.',
-        location: {
-            // center: { lon: -81.04895, lat: 46.47691 },
-            // zoom: 11.64,
-            // pitch: 60.00,
-            // bearing: -87.19
-            center: { lon: -79.77637, lat: 45.16116 },
-            zoom: 9.93,
-            pitch: 60.00,
-            bearing: 0.00
-        },
-        
-        onChapterEnter: [
-            {
-            layer: 'stop-12',
-            opacity: 1
-            },
-            {
-            layer: 'stop-13',
-            opacity: 0
-            }
-        ],
-        onChapterExit: []
-    }  ,
+
     
        //--------------------------------------------------------------------------to here
     {
