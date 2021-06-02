@@ -1305,7 +1305,7 @@ onChapterEnter: [
     ],
     onChapterExit: []
 },
-//--------STOP 3----------// 
+//19--------STOP 3----------// 
 {
     id: 'SlideNum_19',
     title: 'Stop 3: What areas are we focusing on?',
