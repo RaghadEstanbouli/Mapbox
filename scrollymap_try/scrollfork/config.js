@@ -3256,9 +3256,24 @@ onChapterEnter: [
 ],
     onChapterExit: []
 },
-//75--------STOP 13----------//
+//75
 {
     id: '75',
+    hidden: true,
+    location: {
+    },
+    onChapterEnter: [
+        {
+        layer: 'stop-13',
+        opacity: 0
+        }
+
+],
+    onChapterExit: []
+},
+//76--------STOP 13----------//
+{
+    id: '76',
     title: 'Stop 13: End Exploitation',
     image: './Images/TestImage2.png',
     description: '95% of women in Mozambique have been sexually abused; and 70% of women suffer from PTSD. This is not okay. Throughout the global shut down for COVID-19 we have seen continual increases of exploitation and trafficking world wide. We are here in Mozambique doing preventative work to empower and educate women to help break the cycles of exploitation and poverty.',
@@ -3274,21 +3289,7 @@ onChapterEnter: [
     onChapterExit: []
 },
 
-//76
-{
-    id: '76',
-    hidden: true,
-    location: {
-    },
-    onChapterEnter: [
-        {
-        layer: 'stop-13',
-        opacity: 0
-        }
 
-],
-    onChapterExit: []
-},
 //77
 {
     id: '77',
@@ -3319,9 +3320,24 @@ onChapterEnter: [
 ],
     onChapterExit: []
 },
-//79--------STOP 14----------//
+//79
 {
     id: '79',
+    hidden: true,
+    location: {
+    },
+    onChapterEnter: [
+        {
+        layer: 'stop-13',
+        opacity: 0
+        }
+
+],
+    onChapterExit: []
+},
+//80--------STOP 14----------//
+{
+    id: '80',
     title: 'Stop 14: End Exploitation',
     image: './Images/TestImage2.png',
     description: '95% of women in Mozambique have been sexually abused; and 70% of women suffer from PTSD. This is not okay. Throughout the global shut down for COVID-19 we have seen continual increases of exploitation and trafficking world wide. We are here in Mozambique doing preventative work to empower and educate women to help break the cycles of exploitation and poverty.',
