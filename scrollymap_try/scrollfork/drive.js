@@ -109,8 +109,8 @@ function changeCenter(index) {
 
           map.flyTo({
             center: [centerX, centerY],
-            zoom: 7,
-            bearing: 0,
+            zoom: 12,
+            bearing: 60,
              
             // These options control the flight curve, making it move
             // slowly and zoom out almost completely before starting
