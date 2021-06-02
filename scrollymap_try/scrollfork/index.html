@@ -254,6 +254,7 @@ function handleStepProgress(response) {
 
 //    if (response.element.id.slice(0,5) === 'drive') {
        // let driveSlideNum = parseInt(response.element.id.slice(-1));
+       try {
        let driveSlideNum = parseInt(response.element.id);
         if (driveSlideNum === 0) {
             map.setLayoutProperty('animatedLine', 'visibility', 'visible');
@@ -263,6 +264,10 @@ function handleStepProgress(response) {
         }
         changeCenter(stepProgress);
     }
+    catch (e) {
+    console.error(e.message, e.name); // pass exception object to err handler
+}
+}
 //}
 
 map.on("load", function() {
