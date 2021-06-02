@@ -3332,9 +3332,9 @@ onChapterEnter: [
 },
 
 
-//74
+//79
 {
-    id: '69',
+    id: '79',
     hidden: true,
     location: {
     },
@@ -3351,9 +3351,9 @@ onChapterEnter: [
 ],
     onChapterExit: []
 },
-//75
+//80
 {
-    id: '67',
+    id: '80',
     hidden: true,
     location: {
     },
@@ -3370,9 +3370,9 @@ onChapterEnter: [
 ],
     onChapterExit: []
 },
-//76
+//81
 {
-    id: '68',
+    id: '81',
     hidden: true,
     location: {
     },
@@ -3389,9 +3389,9 @@ onChapterEnter: [
 ],
     onChapterExit: []
 },
-//78
+//82
 {
-    id: '69',
+    id: '82',
     hidden: true,
     location: {
     },
@@ -3408,9 +3408,9 @@ onChapterEnter: [
 ],
     onChapterExit: []
 },
-//79--------STOP 14----------//
+//83--------STOP 14----------//
 {
-    id: '70',
+    id: '83',
     title: 'Stop 14: End Exploitation',
     image: './Images/TestImage2.png',
     description: '95% of women in Mozambique have been sexually abused; and 70% of women suffer from PTSD. This is not okay. Throughout the global shut down for COVID-19 we have seen continual increases of exploitation and trafficking world wide. We are here in Mozambique doing preventative work to empower and educate women to help break the cycles of exploitation and poverty.',
