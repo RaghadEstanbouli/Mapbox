@@ -375,7 +375,7 @@ var config = {
     },
 //4
     {
-id: '4',
+id: 'SlideNum_4',
 hidden: true,
 alignment: 'center',
 location: { 
