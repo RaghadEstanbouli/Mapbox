@@ -316,7 +316,7 @@ var config = {
     },
 //--------STOP 2----------// 
     {
-        id: '4',
+        id: '3',
         title: 'STOP 2: Why Mozambique?',
         image: './Images/TestImage2.png',
         description:'We believe prevention is key in equipping women and young girls for safe and bright futures free from exploitation. We work in our communities raising awareness and educating on topics such as: human rights and health. This educates and empowers women to make informed choices and look out for others in their local communities.',
