@@ -169,11 +169,11 @@ var scroller = scrollama();
 function handleStepProgress(response) {
     let stepProgress;
 
-  if (response.element.id.slice(0,5) === 'drive') {
+//    if (response.element.id.slice(0,5) === 'drive') {
        // let driveSlideNum = parseInt(response.element.id.slice(-1));
        
        
-       let driveSlideNum = parseInt(response.element.id.split("_")[1]);
+       let driveSlideNum = parseInt(response.element.id);
        if (!isNaN(driveSlideNum)) {
     
   
@@ -187,7 +187,7 @@ function handleStepProgress(response) {
         changeCenter(stepProgress);
     }
 }
-}
+//}
 
 map.on("load", function() {
 

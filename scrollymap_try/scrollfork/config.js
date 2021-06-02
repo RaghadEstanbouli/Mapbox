@@ -115,7 +115,7 @@ var config = {
 //0
     {
         //id: 'drive-slide-0',
-        id: 'slide_0',
+        id: '0',
         hidden: true,
         alignment: 'center',
         location: { 
